@@ -1,0 +1,389 @@
+potions:
+  name: " &8| Potions [%page%/1]"
+  buttons:
+    goBack:
+      slot: 49
+    previousPage:
+      slot: 48
+    nextPage:
+      slot: 50
+  fillItem:
+      material: GRAY_STAINED_GLASS_PANE
+      name: ""
+  items:
+    1:
+      type: item
+      item:
+        name: '&bRegeneration Potion &7(&f1:30&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: REGEN
+          level: 1
+          extended: true
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 300
+      slot: 10
+    2:
+      type: item
+      item:
+        name: '&bSpeed Potion &7(&f8:00&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: SPEED
+          level: 1
+          extended: true
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 350
+      slot: 11
+    3:
+      type: item
+      item:
+        name: '&bStrength Potion &7(&f8:00&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: STRENGTH
+          level: 1
+          extended: true
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 450
+      slot: 12
+    4:
+      type: item
+      item:
+        name: '&bInstant Health Potion'
+        material: POTION
+        quantity: 1
+        potion:
+          type: INSTANT_HEAL
+          level: 1
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 250
+      slot: 13
+    5:
+      type: item
+      item:
+        name: '&bFire Resistance Potion &7(&f3:00&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: FIRE_RESISTANCE
+          level: 1
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 400
+      slot: 14
+    6:
+      type: item
+      item:
+        name: '&bWater Breathing Potion &7(&f3:00&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: WATER_BREATHING
+          level: 1
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 200
+      slot: 15
+    7:
+      type: item
+      item:
+        name: '&bJump Potion &7(&f8:00&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: JUMP
+          level: 1
+          extended: true
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 250
+      slot: 16
+    8:
+      type: item
+      item:
+        name: '&bRegeneration II Potion &7(&f0:22&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: REGEN
+          level: 2
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 400
+      slot: 19
+    9:
+      type: item
+      item:
+        name: '&bSpeed II Potion &7(&f1:30&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: SPEED
+          level: 2
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 500
+      slot: 20
+    10:
+      type: item
+      item:
+        name: '&bStrength II Potion &7(&f1:30&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: STRENGTH
+          level: 2
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 600
+      slot: 21
+    11:
+      type: item
+      item:
+        name: '&bInstant Health II Potion'
+        material: POTION
+        quantity: 1
+        potion:
+          type: INSTANT_HEAL
+          level: 2
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 350
+      slot: 22
+    12:
+      type: item
+      item:
+        name: '&bFire Resistance Potion &7(&f8:00&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: FIRE_RESISTANCE
+          level: 1
+          extended: true
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 500
+      slot: 23
+    13:
+      type: item
+      item:
+        name: '&bWater Breathing Potion &7(&f8:00&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: WATER_BREATHING
+          level: 1
+          extended: true
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 300
+      slot: 24
+    14:
+      type: item
+      item:
+        name: '&bJump II Potion &7(&f1:30&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: JUMP
+          level: 2
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 400
+      slot: 25
+    15:
+      type: item
+      item:
+        name: '&bNight Vision Potion &7(&f3:00&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: NIGHT_VISION
+          level: 1
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 250
+      slot: 28
+    16:
+      type: item
+      item:
+        name: '&bInvisibility Potion &7(&f3:00&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: INVISIBILITY
+          level: 1
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 250
+      slot: 29
+    17:
+      type: item
+      item:
+        name: '&bInstant Damage Potion'
+        material: POTION
+        quantity: 1
+        potion:
+          type: INSTANT_DAMAGE
+          level: 1
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 300
+      slot: 30
+    18:
+      type: item
+      item:
+        name: '&bSlow Falling Potion &7(&f1:30&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: SLOW_FALLING
+          level: 1
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 250
+      slot: 31
+    19:
+      type: item
+      item:
+        name: '&bSlowness Potion &7(&f1:30&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: SLOWNESS
+          level: 1
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 150
+      slot: 33
+    20:
+      type: item
+      item:
+        name: '&bWeakness Potion &7(&f1:30&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: WEAKNESS
+          level: 1
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 150
+      slot: 34
+    21:
+      type: item
+      item:
+        name: '&bPoison Potion &7(&f1:30&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: POISON
+          level: 1
+          extended: true
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 250
+      slot: 32
+    22:
+      type: item
+      item:
+        name: '&bNight Vision Potion &7(&f8:00&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: NIGHT_VISION
+          level: 1
+          extended: true
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 400
+      slot: 37
+    23:
+      type: item
+      item:
+        name: '&bInvisibility Potion &7(&f8:00&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: INVISIBILITY
+          level: 1
+          extended: true
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 400
+      slot: 38
+    24:
+      type: item
+      item:
+        name: '&bInstant Damage II Potion'
+        material: POTION
+        quantity: 1
+        potion:
+          type: INSTANT_DAMAGE
+          level: 2
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 400
+      slot: 39
+    25:
+      type: item
+      item:
+        name: '&bSlow Falling Potion &7(&f4:00&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: SLOW_FALLING
+          level: 1
+          extended: true
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 350
+      slot: 40
+    26:
+      type: item
+      item:
+        name: '&bPoison Potion II &7(&f0:21&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: POISON
+          level: 2
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 400
+      slot: 41
+    27:
+      type: item
+      item:
+        name: '&bSlowness Potion &7(&f4:00&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: SLOWNESS
+          level: 1
+          extended: true
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 250
+      slot: 42
+    28:
+      type: item
+      item:
+        name: '&bWeakness Potion &7(&f4:00&7)'
+        material: POTION
+        quantity: 1
+        potion:
+          type: WEAKNESS
+          level: 1
+          extended: true
+        flags:
+          - HIDE_POTION_EFFECTS
+      buyPrice: 250
+      slot: 43

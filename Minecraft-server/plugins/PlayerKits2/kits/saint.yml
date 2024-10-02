@@ -1,0 +1,301 @@
+cooldown: 864000
+one_time: false
+auto_armor: true
+permission_required: true
+save_original_items: true
+display:
+  default:
+    id: ENDER_CHEST
+    name: '&x&0&0&f&f&f&7&lS&x&4&0&f&f&f&9&la&x&8&0&f&f&f&b&li&x&b&f&f&f&f&d&ln&x&f&f&f&f&f&f&lt
+      &f&lKIT'
+    amount: 1
+    lore:
+    - '&dEste Kit Incluye:'
+    - ''
+    - '&d>> &7x1 Casco de Diamante Encantado'
+    - '&d>> &7x1 Pechera de Diamante Encantado'
+    - '&d>> &7x1 Pantalones de Diamante Encantado'
+    - '&d>> &7x1 Botas de Diamante Encantado'
+    - '&d>> &7x1 Espada de Diamante Encantado'
+    - '&d>> &7x1 Pico de Diamante Encantado'
+    - '&d>> &7x1 Hacha de Diamante Encantado'
+    - '&d>> &7x8 Manzanas Doradas'
+    - '&d>> &7x1 Totem de la Inmortalidad'
+    - '&d>> &7x1 Escudo'
+    - '&d>> &7x1 Proteccion 150x150'
+    - ''
+    - '&7Cooldown: &c12 hours'
+    - ''
+    - '&7(( &fClick Izquierdo &7para reclamar! ))'
+    - '&7(( &fClick Derecho &7para ver! ))'
+    enchants:
+    - MENDING;1
+    item_flags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_DESTROYS
+    - HIDE_PLACED_ON
+    - HIDE_POTION_EFFECTS
+    - HIDE_DYE
+    - HIDE_ARMOR_TRIM
+  no_permission:
+    id: BARRIER
+    name: '&x&0&0&f&f&f&7&lS&x&4&0&f&f&f&9&la&x&8&0&f&f&f&b&li&x&b&f&f&f&f&d&ln&x&f&f&f&f&f&f&lt
+      &f&lKIT'
+    amount: 1
+    lore:
+    - ''
+    - '&7┃ Estatus: &cSin Permisos'
+    - '&7┃ Requieres: &x&0&0&f&f&f&7&lS&x&4&0&f&f&f&9&la&x&8&0&f&f&f&b&li&x&b&f&f&f&f&d&ln&x&f&f&f&f&f&f&lt
+      &f&lRank'
+    - ''
+    - '&8Compra el &x&0&0&f&f&f&7&lS&x&4&0&f&f&f&9&la&x&8&0&f&f&f&b&li&x&b&f&f&f&f&d&ln&x&f&f&f&f&f&f&lt
+      &8rank para reclamar'
+    - ''
+    - '&7(( &fClick derecho &7para ver))'
+  cooldown:
+    id: CLOCK
+    name: '&x&0&0&f&f&f&7&lS&x&4&0&f&f&f&9&la&x&8&0&f&f&f&b&li&x&b&f&f&f&f&d&ln&x&f&f&f&f&f&f&lt
+      &f&lKIT'
+    amount: 1
+    lore:
+    - ''
+    - '&7┃ Estatus: &cCooldown Activo'
+    - '&7┃ Tiempo: &f%time%'
+    - ''
+    - '&7(( &f&oClick-Derecho &7&opara ver &r&7))'
+requirements:
+  one_time_requirements: false
+  extra_requirements: []
+  message:
+  - ''
+  - '&7&l〡 &r&7Estatus: &aActivo'
+  - '&7&l〡 &r&7Rango: &x&0&0&f&f&f&7&lS&x&4&0&f&f&f&9&la&x&8&0&f&f&f&b&li&x&b&f&f&f&f&d&ln&x&f&f&f&f&f&f&lt'
+  - '&7&l〡 &7Precio: &a$30.000'
+  - ''
+  - '&7&l〡 &r&7Estatus: %status_symbol_requirement_1%'
+  actions_on_buy: []
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: CYAN_CANDLE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00FFF7","text":"S"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#40FFF9","text":"a"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#80FFFB","text":"i"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BFFFFD","text":"n"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFFFF","text":"t
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"------------------------"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          | "},{"bold":false,"italic":false,"color":"gray","text":"Usalo en el warp
+          crate"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          | "},{"bold":false,"italic":false,"color":"gray","text":"esta key se puede
+          conseguir"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          | "},{"bold":false,"italic":false,"color":"gray","text":"en los kits o en
+          la tienda"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"------------------------"}],"text":""}'
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: saint
+    offhand: true
+    preview_slot: 2
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: GOLDEN_APPLE
+      amount: 4
+    preview_slot: 3
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          MENDING: 1
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 2
+    preview_slot: 4
+  '4':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: GOLDEN_APPLE
+      amount: 4
+    preview_slot: 5
+  '5':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: CYAN_CANDLE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00FFF7","text":"S"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#40FFF9","text":"a"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#80FFFB","text":"i"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BFFFFD","text":"n"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFFFF","text":"t
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"------------------------"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          | "},{"bold":false,"italic":false,"color":"gray","text":"Usalo en el warp
+          crate"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          | "},{"bold":false,"italic":false,"color":"gray","text":"esta key se puede
+          conseguir"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          | "},{"bold":false,"italic":false,"color":"gray","text":"en los kits o en
+          la tienda"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"------------------------"}],"text":""}'
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: saint
+    offhand: true
+    preview_slot: 6
+  '6':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 2
+          DURABILITY: 3
+    preview_slot: 12
+  '7':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          MENDING: 1
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 2
+    preview_slot: 13
+  '8':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          FIRE_ASPECT: 1
+          LOOT_BONUS_MOBS: 1
+          DAMAGE_ALL: 4
+          DURABILITY: 2
+    preview_slot: 14
+  '9':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: REDSTONE_ORE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"ᴘʀᴏᴛᴇᴄᴄɪᴏɴ
+          150x150"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"text":"​"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Protege
+          tu area​"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"de
+          intrusos y ladrones"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Radio"},{"italic":false,"color":"white","text":":"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"X:
+          150"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Y:
+          -1"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Z:
+          150"}],"text":""}'
+        enchants:
+          LURE: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        PublicBukkitValues:
+          protectionstones:ispsblock: 1b
+    preview_slot: 15
+  '10':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 2
+          DURABILITY: 3
+    preview_slot: 21
+  '11':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          MENDING: 1
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 2
+    preview_slot: 22
+  '12':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 5
+          DURABILITY: 3
+    preview_slot: 23
+  '13':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: SHIELD
+    preview_slot: 30
+  '14':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          MENDING: 1
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 2
+    preview_slot: 31
+  '15':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: TOTEM_OF_UNDYING
+    preview_slot: 32
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

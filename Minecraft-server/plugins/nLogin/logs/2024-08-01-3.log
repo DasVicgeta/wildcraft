@@ -1,0 +1,22 @@
+[2024/08/01 17:41:07]: §9          __             _       
+[2024/08/01 17:41:07]: §9  _ __   / /  ___   __ _(_)_ __  
+[2024/08/01 17:41:07]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2024/08/01 17:41:07]: §9 | | | / /__| (_) | (_| | | | | |
+[2024/08/01 17:41:07]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2024/08/01 17:41:07]: §9                  |___/            
+[2024/08/01 17:41:07]: §9 By: www.nickuc.com - V 10.3.28
+[2024/08/01 17:41:07]: §9 
+[2024/08/01 17:41:08]: §3[nLogin] [DEBUG] All settings were loaded in 186 ms.
+[2024/08/01 17:41:08]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2024/08/01 17:41:08]: §3[nLogin] [DEBUG] All plugin messages were loaded in 132 ms (languageByClient=false).
+[2024/08/01 17:41:08]: §3[nLogin] [DEBUG] All proxy settings were loaded in 2 ms.
+[2024/08/01 17:41:08]: §3[nLogin] [DEBUG] Loading database...
+[2024/08/01 17:41:08]: §3[nLogin] [DEBUG] Starting logger filter...
+[2024/08/01 18:01:23]: §4[nLogin] [ERROR] §cCould not connect to the api - internet unavailable or HTTPS port closed (this likely is a hosting error!)
+[2024/08/01 18:03:09]: [nLogin] Connection re-established with remote server
+[2024/08/01 18:05:29]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'DasVicgeta', `unique_id` = 7e385908e08e3ca0ac2129b5090dec62,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$/pWyCtGjQaYJBxkwhPWpeeptUvzWjU97zM.Ges2F/vyglHsWC3VtO', `last_ip` = '127.0.0.1', `creation_date` = 2024-07-25 07:58:28.36, `last_seen` = 2024-08-01 18:05:29.236, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2024/08/01 18:05:29]: [nLogin] The user DasVicgeta has successfully logged in.
+[2024/08/01 18:07:26]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'DasVicgeta', `unique_id` = 7e385908e08e3ca0ac2129b5090dec62,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$/pWyCtGjQaYJBxkwhPWpeeptUvzWjU97zM.Ges2F/vyglHsWC3VtO', `last_ip` = '127.0.0.1', `creation_date` = 2024-07-25 07:58:28.36, `last_seen` = 2024-08-01 18:07:26.621, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2024/08/01 18:07:31]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'DasVicgeta', `unique_id` = 7e385908e08e3ca0ac2129b5090dec62,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$/pWyCtGjQaYJBxkwhPWpeeptUvzWjU97zM.Ges2F/vyglHsWC3VtO', `last_ip` = '127.0.0.1', `creation_date` = 2024-07-25 07:58:28.36, `last_seen` = 2024-08-01 18:07:31.966, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2024/08/01 18:07:32]: [nLogin] The user DasVicgeta has successfully logged in.
+[2024/08/01 19:01:11]: [nLogin] Successful plugin core shutdown (took 0.02s)

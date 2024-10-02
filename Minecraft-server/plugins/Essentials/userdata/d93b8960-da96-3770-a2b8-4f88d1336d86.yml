@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1726010264412
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1726010364724
+  login: 1726010242043
+money: '1000'
+lastlocation:
+  world: 33c20ce9-2ab2-4130-8336-a42456721a34
+  world-name: world
+  x: -1.5
+  y: 95.0
+  z: -29.5
+  yaw: -177.0057373046875
+  pitch: 3.450049638748169
+last-account-name: agentulgamer07
+logoutlocation:
+  world: 33c20ce9-2ab2-4130-8336-a42456721a34
+  world-name: world
+  x: -0.4975486074445101
+  y: 91.0
+  z: -42.71069043456222
+  yaw: 107.30550384521484
+  pitch: 5.250072002410889

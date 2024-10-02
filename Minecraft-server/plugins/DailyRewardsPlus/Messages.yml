@@ -1,0 +1,34 @@
+NoPermission: "&o&c¡Ups... &r&cNo tienes permiso para usar ese comando!"
+
+RewardReminderMessage: "&aTienes una recompensa disponible &2&n&lCLIC AQUI."
+
+RewardClaim: "&aRecompensa diaria reclamada. ¡Vuelve mañana!"
+
+BonusRewardMessage: "&aHas reclamado tu recompensa diaria y has recibido &6Recompensas Extra&a. \nVuelve mañana para continuar tu racha."
+
+RewardNotReady: "&r&cNo puedes reclamar esa recompensa aún,\n¡Espera <nextRewardTime>!"
+
+
+NotEnoughPlaytime: "&r&cNo tienes suficiente tiempo de juego para reclamar las recompensas diarias,\nEspera <playTimeRemaining>!"
+
+
+NextRewardTime:
+
+  RewardTime: "&7<hours> &aHora(s), &7<minutes> &aMinuto(s), &7<seconds> &aSegundo(s)"
+
+ 
+  RewardTimeCompressed:
+    Format: "&7<time> &c<unit>"
+    Literals:
+     
+      Hour: "Hora(s)"
+      Minute: "Minuto(s)"
+      Second: "Segundo(s)"
+
+  AvailableNow: "Disponible!"
+
+PlayTime:
+  Remaining: "&7<horas> &cHora(s), &7<minutos> &cMinuto(s), &7<segundos> &cSegundo(s)"
+
+
+ChestInUse: "&cEste cofre diario de recompensa está actualmente en uso, ¡intente nuevamente en unos segundos!"

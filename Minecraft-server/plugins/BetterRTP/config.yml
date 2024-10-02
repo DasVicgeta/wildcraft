@@ -1,0 +1,181 @@
+# BetterRTP plugin by SuperRonanCraft! (Join my Public Server at ronanplugins.com) #
+# Need help? go to https://ronanplugins.com/discord! #
+
+DisabledWorlds:
+- Spawn
+- Arena
+- dungeon
+- Drops
+- Minas
+- PvPInventory
+- Koths
+- evento
+Language-File: es.yml
+
+Settings:
+  Respect:
+    # # Respetar las parcelas de MinePlots (https://builtbybit.com/resources/mineplots.21646/)
+    MinePlots: false
+    # # Respetar las áreas de WorldGuard (https://dev.bukkit.org/projects/worldguard)
+    WorldGuard: true
+    # # Respetar el dueloÁreas de prevención (https://www.spigotmc.org/resources/griefprevention.1884/)
+    GriefPrevention: false
+    # # Respetar las zonas urbanas (https://www.spigotmc.org/resources/towny.72694/)
+    Towny: false
+    # #Respetar las áreas RedProtect (https://www.spigotmc.org/resources/redprotect.15841/)
+    RedProtect: false
+    # # Respect FactionsUUID areas (https://www.spigotmc.org/resources/factionsuuid.1035/)
+    FactionsUUID: false
+    # # Respect Lands areas (https://www.spigotmc.org/resources/lands.53313/)
+    Lands: false
+    # # Respect Residence areas (https://www.spigotmc.org/resources/residence.11480/)
+    Residence: false
+    # # Respect KingdomsX areas (https://www.spigotmc.org/resources/kingdomsx.77670/)
+    KingdomsX: false
+    # # Respect hClaims areas (https://www.spigotmc.org/resources/hclaims.90540/)
+    hClaims: false
+    # # Respect GriefDefender areas (https://www.spigotmc.org/resources/griefdefender.68900/)
+    GriefDefender: false
+    # # Respect UltimateClaims areas (https://songoda.com/marketplace/product/ultimateclaims-the-ultimate-claiming-plugin.65)
+    UltimateClaims: false
+    # # Respect Pueblos regions (https://www.spigotmc.org/resources/pueblos.91255/) (My Favorite :D)
+    Pueblos: false
+    # # Respect SaberFactions areas (https://www.spigotmc.org/resources/saberfactions.69771/) (Added in 3.4.5)
+    SaberFactions: false
+    # # Respect HuskTowns areas (https://www.spigotmc.org/resources/husktowns.92672/) (Added in 3.4.5)
+    HuskTowns: false
+    # # Respect FactionsBridge compatible claims (https://www.spigotmc.org/resources/factionsbridge.89716/) (Added in 3.6.9)
+    FactionsBridge: false
+    # # Respect CrashClaim claims (https://www.spigotmc.org/resources/crashclaim-claiming-plugin.94037/) (Added in 3.6.9)
+    CrashClaim: false
+  
+  # # Salida para consola alguna información de depuración.
+  Debugger: false
+  # # Cantidad de fragmentos para precargar en una ubicación segura
+  PreloadRadius: 5
+  # # Cantidad máxima de intentos antes de que BetterRTP se dé por vencido y envíe un NotSafeMessage #
+  MaxAttempts: 32
+  RtpOnFirstJoin: # Se ejecutará como consola para anular retrasos.
+    Enabled: false # Haga que el jugador sea rtp cuando se una al servidor por primera vez
+    World: world # El mundo al primer rtp en
+    SetAsRespawn: false # Guarde este primer rtp como nuevo punto de generación de jugadores
+  Cooldown:
+    Enabled: true # Temporizador de enfriamiento habilitado o deshabilitado
+    LockAfter: 0 # Bloquea al jugador en un tiempo de reutilización infinito después de # rtp (0 para desactivar)
+    Time: 300 # en segundos
+    PerWorld: false # ¿Enfriamientos manejados para cada mundo? Si está desactivado, el jugador no puede realizar rtp en otro mundo hasta que haya pasado el tiempo de reutilización original.
+  # # Tiempo entre el comando y el rtp'ing, el tiempo es en SEGUNDOS. Establezca en "0" para desactivar el temporizador de retraso.
+  Delay:
+    Enabled: true
+    Time: 2
+    CancelOnMove: true
+  Queue:
+    Enabled: true # Permite que Betterrtp ponga en cola automáticamente ubicaciones rtp seguras antes de que los jugadores ejecuten `/rtp`
+  DisableUpdater: false
+  Logger:
+    Enabled: true # Registre todo lo relacionado con rtp con el archivo log.log
+    LogToConsole: false
+    Format: yyyy-MM-dd HH:mm:ss
+
+Default:
+  RTPOnDeath: false
+  UseWorldBorder: false
+  # # "Biomes: []" means all biomes are allowed! #
+  # # Biomes are optional, more biomes at https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/block/Biome.html #
+  Biomes: []
+  MaxRadius: 400
+  MinRadius: 100
+  # # If "UseWorldBorder" is set to true above, Center X and Z will be ignored! #
+  CenterX: 0
+  CenterZ: 0
+  Shape: square
+  MaxY: 320
+  MinY: 0
+
+# # Blocks BetterRTP will NOT teleport onto. More Blocks at: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html #
+BlacklistedBlocks:
+- stationary_water
+- stationary_lava
+- water
+- flowing_water
+- lava
+- flowing_lava
+- cactus
+- leaves
+- leaves_2
+- air
+- void_air
+- bedrock
+- oak_leaves
+- jungle_leaves
+- kelp
+
+
+# # Mundos en los que quieres tener un centro de generación y mínimo personalizado#
+# # [MaxRadius] and [MinRadius] MUST be positive! These cannot be equal to each other!
+CustomWorlds:
+- custom_world_1:
+    UseWorldBorder: false
+    MaxRadius: 400
+    MinRadius: 100
+    CenterX: 0
+    CenterZ: 0
+    Price: 50
+    Shape: square
+    MaxY: 320
+    MinY: 0
+    Cooldown: 60
+- other_custom_world:
+    MaxRadius: 400
+    MinRadius: 150
+    CenterX: 123
+    CenterZ: -123
+    Price: 0
+    Biomes:
+    - desert
+    - forest
+    Shape: circle
+
+# # Anula un mundo y envía un rtp a un jugador que ejecuta el comando en un mundo a otro
+Overrides:
+- Spawn: world
+- Arena: world
+- Koth: world
+- dungeon: world
+- evento: world
+- Drops: world
+- Minas: world
+- world_the_end: world_the_end
+- world_nether: world_nether
+
+WorldType: # Available types are NORMAL, NETHER
+  - world: NORMAL
+  - world_nether: NETHER
+  - world_the_end: NORMAL
+
+PermissionGroup: # Player requires "betterrtp.group.<world_name>" to trigger these configs
+  Enabled: false
+  Groups:
+  - vip:
+    - Build_World:
+        Priority: 0
+        MaxRadius: 1000
+        MinRadius: 400
+        Price: 100
+        Cooldown: 500
+    - Survival_World:
+        Priority: 10
+        UseWorldBorder: false
+        MaxRadius: 400
+        MinRadius: 100
+        CenterX: 10
+        CenterZ: 10
+        Price: 10
+        MaxY: 320
+        MinY: 0
+  - vip2:
+    - Build_World:
+        MaxRadius: 400
+        MinRadius: 100
+        Price: 15
+        Cooldown: 1500

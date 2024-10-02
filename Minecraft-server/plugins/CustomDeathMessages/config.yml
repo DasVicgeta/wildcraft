@@ -1,0 +1,311 @@
+# Enable Update Messages: enables update messages
+enable-update-messages: true
+
+# To use hex colors: &#hex
+# PvP Messages: sends a message to the killer and victim when a player is killed by another player.
+# Placeholders for pvp messages: %victim%, %victim-nick%, %killer%, %killer-nick%, %killer-x%, %killer-y%, %killer-z%, %victim-x%, %victim-y%, %victim-z%
+enable-pvp-messages: false
+killer-message: '&8(&e&lSURVIVAL&8) &eHas matado a &c%victim%'
+victim-message: '&8(&e&lSURVIVAL&8) &eTe a matado &c%killer%'
+
+# Lightning: lightning strike effect at the location of the death.
+enable-lightning: true
+
+# Drop head percentage: chance to drop head, should be a number between 0 and 1: (0 = 0%, 0.5 = 50%, 1 = 100%)
+# Head name: name of the head whenever dropped from a player.
+drop-head-percentage: 0
+head-name: '&c%victim%''s Head'
+
+# Message cooldown: cooldown in seconds between death messages for a specific player. 0 to disable.
+message-cooldown: 0
+
+# Enable Global Messages: enables global death messages
+enable-global-messages: true
+
+# Original on Hover: show the original death message when hovering over the custom message.
+enable-original-on-hover: false
+
+# Item on Hover: show the item used to kill the player when hovering over the item name.
+enable-item-on-hover: true
+
+# You can add, edit, or remove any of the messages below.
+# Placeholders for melee messages: %kill-weapon%, %victim%, %victim-nick%, %killer%, %killer-nick%, %killer-x%, %killer-y%, %killer-z%, %victim-x%, %victim-y%, %victim-z%
+global-pvp-death-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &eha sido asesinado por &c%killer% &eusando &7[&b%kill-weapon%&7]'
+
+# Placeholders for melee messages: %victim%, %victim-nick%, %killer%, %killer-nick%, %killer-x%, %killer-y%, %killer-z%, %victim-x%, %victim-y%, %victim-z%
+melee-death-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue abofeteado por &c%killer%'
+- '&8(&4&lMUERTE&8) &c%victim% &equedo K.O por &c%killer%'
+- '&8(&4&lMUERTE&8) &c%victim% &efue sacudido por &c%killer%'
+
+# Messages for entities with custom names: will override their mob group message and display these instead, if enabled.
+# Placeholders: %victim%, %victim-nick%, %entity-name%, %victim-x%, %victim-y%, %victim-z%
+enable-custom-name-entity-messages: false
+custom-name-entity-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &egot rocked by %entity-name%'
+- '&8(&4&lMUERTE&8) &c%victim% &ewas put to sleep by %entity-name%'
+- '&8(&4&lMUERTE&8) &c%entity-name% &eate &c%victim%''s &esoul'
+- '&8(&4&lMUERTE&8) &c%victim% &ewishes they didn''t fight %entity-name%'
+
+# Placeholders for ALL below messages: %victim%, %victim-nick%, %entity-name%, %victim-x%, %victim-y%, %victim-z%
+fall-damage-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &epensó que podia volar'
+
+drowning-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &edescubrío por las malas que no tienen branquias.'
+- '&8(&4&lMUERTE&8) &c%victim% &epensó que podia respirar debajo del agua'
+
+suffocation-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &eSe quedó sin respirar por sofocamiento'
+- '&8(&4&lMUERTE&8) &c%victim% &eMetió la cabeza en un bloque y murio asfixiado'
+
+cramming-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &eQuedó aplastado y no podía respirar.'
+- '&8(&4&lMUERTE&8) &ePobre &c%victim%&e, pensó que podía vivir en un espacio de 1x1.'
+
+
+lava-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &ese quemo en un pozo de lava'
+- '&8(&4&lMUERTE&8) &c%victim% &ecayó en un charco de lava... dile adiós a sus objetos'
+
+magma-block-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue eliminado por un &6&lBLOQUE DE MAGMA &ecaliente...'
+- '&8(&4&lMUERTE&8) &elos pies de &c%victim% &ese convirtierón en tocino mediante un bloque de &6&lMAGMA.'
+
+elytra-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &e¿Voló contra una pared y murió...?'
+- '&8(&4&lMUERTE&8) &c%victim% &ese estrelló contra una pared por sus elitras'
+
+wither-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &emarchitado a la cuarta dimensión'
+
+suicide-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &ese suicido'
+- '&8(&4&lMUERTE&8) &cElDuendePa &epensó que suicidandose se podria librar de la suegra'
+- '&8(&4&lMUERTE&8) &c%victim% &etuvo un colapso mental y murió'
+
+fire-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &ese paró en la fotaga'
+- '&8(&4&lMUERTE&8) &c%victim% &ejugó con fuego'
+
+fire-tick-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &eolvidé parar, caer y rodar'
+
+starvation-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &eme olvidé de comer'
+- '&8(&4&lMUERTE&8) &c%victim% &emamá dijo que tenemos comida en casa'
+
+cactus-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue apuñalado de muerte'
+- '&8(&4&lMUERTE&8) &c%victim% &eprobó la acupuntura, pero murió'
+
+potion-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &emurió de magia negra'
+- '&8(&4&lMUERTE&8) &c%victim% &emurió de coronavirus'
+
+
+lightning-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue herido por los dioses'
+- '&8(&4&lMUERTE&8) &c%victim% &efue derribado por los dioses'
+
+falling-block-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue aplastado por un bloque que caía'
+
+freeze-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &emuerto congelado. &b&lBrrrrr!'
+- '&8(&4&lMUERTE&8) &c%victim% &eolvidó su chaqueta de invierno'
+
+firework-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &eencendió la mecha de un fuego artificial demasiado pronto.'
+- '&8(&4&lMUERTE&8) &c%victim% &esalió con una explosión'
+- '&8(&4&lMUERTE&8) &c%victim% &edespegado al espacio'
+
+slime-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue aplastado por un &a&lSLIME GIGANTE'
+
+zombie-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue devorado vivo por un &a&lZombie'
+- '&8(&4&lMUERTE&8) &c%victim% &epensé que un &a&lZombie &eera amigable'
+
+pigman-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &eagredió a los &d&lPigman &ey se lo comieron vivos.'
+
+skeleton-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue atacado por un &f&lEsqueleto'
+- '&8(&4&lMUERTE&8) &c%victim% &erecibió un disparo de un &f&lEsqueleto'
+
+magmacube-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue aplastado por un &c&lMAGMA GIGANTE'
+
+spider-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &eprobó suerte contra su peor miedo... &c&lLA ¡ARAÑA!'
+
+cavespider-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue mordido hasta la muerte por una &c&lARAÑA DE CUEVA'
+
+witherskeleton-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &egot destroyed by a &f&lWither Skeleton &ewith a stone sword'
+
+witherboss-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &eun Wither le voló la cabeza'
+
+
+dragon-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &eel &d&lEnder Dragon le arrancó las tripas'
+- '&8(&4&lMUERTE&8) &c%victim% &eel &d&lEnder Dragon le arrancó la cabeza'
+- '&8(&4&lMUERTE&8) &cc%victim% &eencontré una pantalla de reaparición, no el portal del end.'
+
+dragon-breath-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &ese bañó en el aliento del &d&lEnder Dragon'
+
+elderguardian-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &eintenté limpiar un monumento oceánico pero el &7&lElder Guardian &edijo que no'
+
+tnt-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &c&lTNT &ele voló la cabeza'
+- '&8(&4&lMUERTE&8) &c%victim% &efue volado por &c&lTNT'
+- '&8(&4&lMUERTE&8) &e&lBOOM! &c%victim% &edescubrió los explosivos por las malas'
+
+end-crystal-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &edue reconstruido por un &d&lEnd Crystal'
+- '&8(&4&lMUERTE&8) &c%victim% &efue volado por un &d&lEnd Crystal'
+
+creeper-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue volado por un &a&lCreeper'
+
+ghast-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue lanzado como una bola de fuego por un &f&lGhast'
+
+enderman-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &emiró al &d&lEnderman &ea los ojos'
+
+silverfish-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue comido por un &7&lSilverfish'
+
+witch-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &emurio por una &d&lBruja &ellamada Scarlett'
+
+shulker-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &emurio por un &d&lShulker'
+- '&8(&4&lMUERTE&8) &c%victim% &erecibió un disparo de un &d&lShulker'
+- '&8(&4&lMUERTE&8) &eLeviooosa! &c%victim% &efue arruinado por un &d&lShulker'
+
+guardian-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue asesinado por un &7&lGuardian... &ede alguna manera?'
+
+golem-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &ehizo enojar a un &f&lIron Golem'
+
+zombievillager-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue preparado para la cena por un &a&lAldeano Zombie'
+
+endermite-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &elo mató un &d&lEndemite.. &eque triste lo tuyo'
+
+phantom-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue secuestrado por un &3&lPhantom'
+
+drowned-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue a nadar y un &b&lZombie Ahogado &ese lo comió'
+
+pillager-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &erecibió un disparo de un &7&lPillager'
+
+ravager-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue embestido por un &7&lRavager'
+
+illusioner-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue enviado al mundo de la ilusión por un ilusionista'
+- '&8(&4&lMUERTE&8) &c%victim% &efue engañado por un &7&lIlusionista'
+- '&8(&4&lMUERTE&8) &c%victim% &eFue asesinado por un &7&lIlusionista'
+
+bee-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue picado por una &lABEJA'
+
+wolf-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue picado por una &lABEJA'
+- '&8(&4&lMUERTE&8) &c%victim% &eProvocó a un &f&lLobo'
+
+llama-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue escupido a muerte por una llama'
+- '&8(&4&lMUERTE&8) &c%victim% &eno podía soportar que una llama le escupiera'
+
+blaze-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue carbonizado por un &6&lBlaze'
+- '&8(&4&lMUERTE&8) &c%victim% &efue convertido en carbón por un &6&lBlaze'
+
+vex-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue devorado por un diminuto volador (y molesto) &f&lVex'
+- '&8(&4&lMUERTE&8) &c%victim% &eme molesté por un &f&lVex'
+
+vindicator-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue perseguido por un &f&lVindicator'
+- '&8(&4&lMUERTE&8) &c%victim% &eencontré a Johnny... un &f&lVindicator'
+
+evoker-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue convocado a la muerte por un &f&lEvoker'
+- '&8(&4&lMUERTE&8) &c%victim% &eProbó la ira de un &f&lEvoker'
+
+pufferfish-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &emurió por un pez globo...'
+
+polar-bear-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue asesinado por un simpático oso polar...'
+- '&8(&4&lMUERTE&8) &c%victim% &eun &f&lOso Polar &elo convirtió en nieve'
+
+dolphin-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &eprovocó a un delfín... y perdió?'
+- '&8(&4&lMUERTE&8) &c%victim% &egolpeó a un delfín y ellos se vengaron'
+
+panda-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &ese convirtió en una cena de Pandas'
+
+piglin-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &ese encontró con su creador contra los nuevos Piglins'
+- '&8(&4&lMUERTE&8) &c%victim% &eenojó a los Piglin. Quiero decir, te lo advertimos, no les robes...'
+
+hoglin-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue acusado por un Hoglin, un poco grosero?'
+- '&8(&4&lMUERTE&8) &c%victim% &eno leí las notas del parche sobre Hoglins'
+
+zoglin-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &ecomí un cuerno de Zoglins para cenar'
+- '&8(&4&lMUERTE&8) &c%victim% &efue embestido por un Zoglin'
+
+goat-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &euna Cabra le dio un cabezazo'
+- '&8(&4&lMUERTE&8) &c%victim% &efue empalado por un cuerno de Cabra'
+
+zombified-piglin-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &ellevó un Piglin al mundo y fue asesinado por su nueva mascota, no tan amigable'
+- '&8(&4&lMUERTE&8) &c%victim% &emurió por un Piglin... quiero decir, Pigman... quiero decir, Piglin zombificado'
+
+fox-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue masticado por un Zorro'
+
+warden-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue asesinado por un Warden... Quiero decir, ¿qué esperabas?'
+
+warden-sonic-boom-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue lanzado un trueno sónico por un Warden'
+- '&8(&4&lMUERTE&8) &c%victim% &eLe volaron las orejas por el estallido sónico de un Warden'
+
+# This is for any messages that haven't been added, so if you die to a cause which doesn't have any messages,
+# one of these messages will display instead. (Please report any missing messages in my spigot discussion)
+unknown-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &emurió por causas desconocidas'
+- '&8(&4&lMUERTE&8) &c%victim% &emurió'
+- '&8(&4&lMUERTE&8) &c%victim% &efue asesinado'
+
+fireball-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &efue lanzado con bolas de fuego hasta que murieron quemados.'
+
+arrow-messages:
+- '&8(&4&lMUERTE&8) &c%victim% &eparecía un puercoespín después de ser asesinado a tiros.'
+
+# Only here to help me debug my plugin, not suggested you enable.
+developer-mode: false
+
+# Config version, do not change this.
+config-version: 2

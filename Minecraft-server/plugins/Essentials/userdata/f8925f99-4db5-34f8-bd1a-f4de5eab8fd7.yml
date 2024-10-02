@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1727730949978
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1727731015441
+  login: 1727725807765
+money: '6263.8679999999999702'
+last-account-name: Tinaa97
+lastlocation:
+  world: d5faa8ea-a405-4370-a41e-399ab3c3851e
+  world-name: spawn
+  x: -42.24192070088155
+  y: 88.0
+  z: -22.69999998807907
+  yaw: -36.56224060058594
+  pitch: 15.608036041259766
+homes:
+  home:
+    world: 33c20ce9-2ab2-4130-8336-a42456721a34
+    world-name: world
+    x: -704.7842580522798
+    y: 118.0
+    z: 89.21715310308232
+    yaw: 128.02587890625
+    pitch: 39.30572509765625
+logoutlocation:
+  world: 33c20ce9-2ab2-4130-8336-a42456721a34
+  world-name: world
+  x: -705.8557267198778
+  y: 118.0
+  z: 88.12860081849404
+  yaw: 49.833465576171875
+  pitch: 13.380047798156738

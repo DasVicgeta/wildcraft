@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1727892545887
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1727898967105
+  login: 1727889919737
+money: '10387.86999999999998902'
+last-account-name: DasVicgeta
+lastlocation:
+  world: 8dc4b7d1-c5f3-4242-9564-7d8e897a337c
+  world-name: world
+  x: 255.77092692041148
+  y: 124.0
+  z: 255.38681810991
+  yaw: -165.5999755859375
+  pitch: 11.699999809265137
+logoutlocation:
+  world: 8dc4b7d1-c5f3-4242-9564-7d8e897a337c
+  world-name: world
+  x: 0.906628953016147
+  y: 97.0
+  z: 0.22485719808234136
+  yaw: -65.95904541015625
+  pitch: 46.35001754760742

@@ -1,0 +1,21 @@
+common:
+  Name: '&x&C&9&E&4&D&E&lC&x&A&C&C&0&B&C&lo&x&8&F&9&D&9&A&lm&x&7&2&7&9&7&7&lu&x&5&5&5&5&5&5&ln'
+  Chance: 50.0
+
+uncommon:
+  Name: '&x&5&C&F&C&6&7&lP&x&5&2&E&B&6&5&lo&x&4&9&D&9&6&4&lc&x&3&F&C&8&6&2&lo &x&2&C&A&5&5&F&lC&x&2&2&9&3&5&D&lo&x&1&8&8&2&5&B&lm&x&0&F&7&0&5&A&lu&x&0&5&5&F&5&8&ln'
+  Chance: 30.0
+
+rare:
+  Name: '&x&5&C&F&C&D&5&lR&x&3&F&C&8&A&B&la&x&2&2&9&3&8&2&lr&x&0&5&5&F&5&8&lo'
+  Chance: 15.0
+
+legendary:
+  Name: '&x&F&C&D&0&5&C&lL&x&E&E&C&3&5&3&le&x&E&0&B&5&4&A&lg&x&D&3&A&8&4&1&le&x&C&5&9&A&3&8&ln&x&B&7&8&D&2&F&ld&x&A&9&7&F&2&6&la&x&9&C&7&2&1&D&lr&x&8&E&6&4&1&4&li&x&8&0&5&7&0&B&lo'
+  Chance: 5.0
+
+mystic:
+  Name: '&x&F&B&0&8&0&8&lM&x&F&B&2&9&2&9&ly&x&F&C&4&A&4&A&ls&x&F&C&6&B&6&B&lt&x&F&D&8&C&8&C&li&x&F&D&A&D&A&D&lc'
+  Chance: 0.1
+
+

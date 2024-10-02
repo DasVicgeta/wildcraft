@@ -1,0 +1,77 @@
+# NUNCA ELIMINES UNA %variable%
+# Los mensajes soportan códigos de colores HEX.
+
+player_help: |-
+  &a&nComandos de jugador:
+  &e/quests me &a: ver tus propias misiones
+  &e/quests show <global/easy/medium/hard> &a: ver las misiones de una categoría
+admin_help: |-
+  &c&nComandos de administrador:
+  &e/qadmin complete <player> <index> &a: completar una misión de un jugador
+  &e/qadmin reset <quests/total> <player> &a: asignar nuevas misiones a un jugador o restablecer su número total de misiones completadas.
+  &e/qadmin show <player> &a: ver las misiones de un jugador
+no_permission: '&7[&6Daily Quests&7] &fNo tienes permiso.'
+no_permission_category: '&7[&6Daily Quests&7] &fNo tienes permiso para ver esta categoría.'
+player_only: '&7[&6Daily Quests&7] &fSolo los jugadores pueden ejecutar este comando.'
+invalid_category: '&7[&6Daily Quests&7] &fCategoría de misión no válida.'
+invalid_player: '&7[&6Daily Quests&7] &fEste jugador no existe o está desconectado.'
+invalid_quest_id: '&7[&6Daily Quests&7] &fDebes especificar una ID de misión válida.'
+invalid_quest_index: '&7[&6Daily Quests&7] &fEl índice especificado es inválido.'
+categorized_enabled: '&7[&6Daily Quests&7] &fLas misiones categorizadas están habilitadas,
+  el menú global no está disponible.'
+categorized_disabled: '&7[&6Daily Quests&7] &fLas misiones categorizadas están deshabilitadas,
+  solo el menú global está disponible.'
+global_disabled: '&7[&6Daily Quests&7] &fLas misiones globales están deshabilitadas,
+  solo los menús categorizados están disponibles.'
+already_achieved: '&7[&6Daily Quests&7] &fEsta misión ya ha sido completada.'
+hologram_categorized_enabled: '&7[&6Daily Quests&7] &fLas misiones categorizadas están
+  habilitadas, imposible crear el holograma global.'
+hologram_categorized_disabled: '&7[&6Daily Quests&7] &fLas misiones categorizadas
+  están deshabilitadas, imposible crear los hologramas categorizados.'
+hologram_deleted: '&7[&6Daily Quests&7] &fHolograma eliminado con éxito.'
+hologram_invalid_index: '&7[&6Daily Quests&7] &fÍndice no válido para el holograma.'
+quests_in_progress: '&7[&6Daily Quests&7] &f¡Aún tienes misiones diarias por &acompletar&f!'
+all_quests_achieved_connect: '&7[&6Daily Quests&7] &f¡Ya has &acompletado &ftodas
+  tus &emisiones&f!'
+quests_renewed: '&7[&6Daily Quests&7] &f¡Tienes &6nuevas &fmisiones diarias para &acompletar&f!'
+quests_renewed_admin: '&7[&6Daily Quests&7] &f¡Has restablecido las misiones de %target%.'
+quest_achieved: '&7[&6Daily Quests&7] &f¡Has &acompletado la misión &e%questName%&f!'
+all_quests_achieved: '&7[&6Daily Quests&7] &f¡Has &acompletado &ftodas tus &emisiones
+  &fy has sido recompensado con &6100 monedas&f!'
+not_enough_items: '&7[&6Daily Quests&7] &fNo tienes la cantidad &crequerida &fpara
+  completar esta &emisión.'
+total_amount_reset: '&7[&6Daily Quests&7] &fTu número total de &emisiones completadas
+  &fha sido restablecido por un administrador.'
+total_amount_reset_admin: '&7[&6Daily Quests&7] &eEl número total de misiones completadas
+  de %target% ha sido restablecido por un administrador.'
+reward_command: '&7[&6Daily Quests&7] &f¡Has sido recompensado adecuadamente!'
+reward_exp_levels: '&7[&6Daily Quests&7] &fRecibes &e%rewardAmount% &bniveles &ade
+  EXP.'
+reward_exp_points: '&7[&6Daily Quests&7] &fRecibes &e%rewardAmount% &bpuntos &ade
+  EXP.'
+reward_money: '&7[&6Daily Quests&7] &fRecibes &e%rewardAmount% &b$&a.'
+reward_points: '&7[&6Daily Quests&7] &fRecibes &e%rewardAmount% &bpuntos&a.'
+new_day: '&6¡Es un nuevo día!'
+reward_money_fail: '&7[&6Daily Quests&7] &fOcurrió un error. Imposible darte la recompensa.
+  Por favor, contacta a un administrador.'
+too_far: '&7[&6Daily Quests&7] &fEstás demasiado lejos de la ubicación requerida.'
+bad_world: '&7[&6Daily Quests&7] &fEstás en el mundo equivocado.'
+placeholder_api_not_enabled: '&7[&6Daily Quests&7] &fEl plugin PlaceholderAPI no está
+  habilitado. Por favor, informa a un administrador.'
+placeholder_not_number: '&7[&6Daily Quests&7] &fEl marcador de posición %placeholder%
+  no es un número. Por favor, informa a un administrador.'
+invalid_amount: '&cLa cantidad especificada no es válida.'
+quest_rerolled: '&a¡Has re-rolado tu misión número %index%!'
+quest_rerolled_admin: '&e¡Has re-rolado la misión número %index% de %target%.'
+add_total_admin: '&eHas añadido %amount% al número total de misiones completadas de
+  %target%.'
+add_total_target: '&eUn administrador ha añadido %amount% a tu número total de misiones
+  completadas.'
+easy_reward: '&a¡Has completado todas tus misiones fáciles!'
+medium_reward: '&a¡Has completado todas tus misiones medianas!'
+hard_reward: '&a¡Has completado todas tus misiones difíciles!'
+world_disabled: '&cNo puedes completar misiones en este mundo.'
+not_required_world: '&cNo puedes completar esta misión en este mundo.'
+reward_coins_engine: '&aRecibes &e%rewardAmount% &b%currencyName%&a.'
+cannot_complete_quest_with_off_hand: '&cTodos los elementos requeridos deben estar
+  en tu inventario, no en tu mano secundaria.'

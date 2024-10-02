@@ -1,0 +1,222 @@
+quests:
+  1:
+    name: "&eAsesino de Zombis"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Conviértete en un temible asesino de zombis y protege"
+      - "&8el reino de la amenaza no muerta."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#FBEEAC▪ #75C2F6Matar #F4D16020 #75C2F6zombis."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D160300 #75C2F6XPs"
+      - "#FBEEAC▪ #F4D160100 #75C2F6Dinero"
+      - ""
+    quest_type: KILL
+    required_entity: ZOMBIE
+    required_amount: 20
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 300 %player_name% -s"
+        - "eco give %player_name% 100"
+  2:
+    name: "&eNo Batman"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Abraza la noche y demuestra que no"
+      - "&8tienes miedo de estas criaturas aladas"
+      - "&8cazando murciélagos."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#FBEEAC▪ #75C2F6Matar #F4D1605 #75C2F6murciélagos."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D160600 #75C2F6Dinero"
+      - ""
+    quest_type: KILL
+    required_entity: BAT
+    required_amount: 5
+    reward:
+      reward_type: MONEY
+      amount: 600
+  3:
+    name: "&eCena de Pollo"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Desata tu cazador interior y disfruta"
+      - "&8de una deliciosa cena de pollo después"
+      - "&8de una cacería exitosa de pollos."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#FBEEAC▪ #75C2F6Matar #F4D16010 #75C2F6pollos."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D160500 #75C2F6Dinero"
+      - ""
+    quest_type: KILL
+    required_entity: CHICKEN
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 500
+  4:
+    name: "&eCena de Cordero"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Reúne a las criaturas lanudas y saborea una"
+      - "&8sustanciosa cena de cordero como recompensa"
+      - "&8por cazar ovejas."
+      - ""
+      - "#FBEEAC▪ #75C2F6Matar #F4D1605 #75C2F6ovejas."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D160500 #75C2F6Dinero"
+      - ""
+    quest_type: KILL
+    required_entity: SHEEP
+    required_amount: 5
+    reward:
+      reward_type: MONEY
+      amount: 500
+  5:
+    name: "&eCena de Bistec"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Domina el arte de la caza de vacas y disfruta"
+      - "&8de una deliciosa cena de bistec como"
+      - "&8recompensa por cazar vacas."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#FBEEAC▪ #75C2F6Matar #F4D1605 #75C2F6vacas."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D160500 #75C2F6Dinero"
+      - ""
+    quest_type: KILL
+    required_entity: COW
+    required_amount: 5
+    reward:
+      reward_type: MONEY
+      amount: 500
+  6:
+    name: "&eGulu Gulu Gulu"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Sumérgete en las profundidades y elimina"
+      - "&8zombis ahogados que acechan en cuerpos de agua"
+      - "&8para mantener la tierra segura."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#FBEEAC▪ #75C2F6Matar #F4D16010 #75C2F6zombis ahogados."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D1601000 #75C2F6Dinero"
+      - ""
+    quest_type: KILL
+    required_entity: DROWNED
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 1000
+  7:
+    name: "&eCena de Tocino"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Emprende una misión para cazar cerdos y disfruta"
+      - "&8de una deliciosa cena de tocino como"
+      - "&8recompensa bien merecida."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#FBEEAC▪ #75C2F6Matar #F4D1605 #75C2F6cerdos."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D160500 #75C2F6Dinero"
+      - ""
+    quest_type: KILL
+    required_entity: PIG
+    required_amount: 5
+    reward:
+      reward_type: MONEY
+      amount: 500
+  8:
+    name: "&eInsomne"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Abraza la oscuridad de la noche"
+      - "&8y caza fantasmas, demostrando"
+      - "&8tus habilidades como cazador."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#FBEEAC▪ #75C2F6Matar #F4D1603 #75C2F6fantasmas."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D1601000 #75C2F6Dinero"
+      - ""
+    quest_type: KILL
+    required_entity: PHANTOM
+    required_amount: 3
+    reward:
+      reward_type: MONEY
+      amount: 1000
+  9:
+    name: "&ePeligro Desconocido"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Protege el reino de los saqueadores"
+      - "&8eliminando a estos peligrosos enemigos y asegurando"
+      - "&8la seguridad de tus compañeros aldeanos."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#FBEEAC▪ #75C2F6Matar #F4D1603 #75C2F6saqueadores."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D1601500 #75C2F6Dinero"
+      - ""
+    quest_type: KILL
+    required_entity: PILLAGER
+    required_amount: 3
+    reward:
+      reward_type: MONEY
+      amount: 1500
+  10:
+    name: "&eMejor Amigo"
+    menu_item: LEAD
+    description:
+      - "&8Muestra tu compasión por los animales"
+      - "&8domando a un lobo leal y gana un"
+      - "&8compañero fiel en tus aventuras."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#FBEEAC▪ #75C2F6Domar #F4D1601 #75C2F6lobo."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D160200 #75C2F6XPs"
+      - ""
+    quest_type: TAME
+    required_entity: WOLF
+    required_amount: 1
+    reward:
+      reward_type: EXP_POINTS
+      amount: 200
+  11:
+    name: "&eMás de 206 Huesos"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Enfréntate a las fuerzas esqueléticas"
+      - "&8que atormentan la tierra, demostrando"
+      - "&8tu fuerza y valentía."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#FBEEAC▪ #75C2F6Matar #F4D16010 #75C2F6esqueletos."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D160500 #75C2F6Dinero"
+      - ""
+    quest_type: KILL
+    required_entity: SKELETON
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 500

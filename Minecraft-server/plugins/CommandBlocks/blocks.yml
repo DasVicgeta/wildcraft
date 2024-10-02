@@ -1,0 +1,14 @@
+#  _______                                  _ ______  _             _          
+# (_______)                                | (____  \| |           | |  v1.3.2
+#  _       ___  ____  ____  _____ ____   __| |____)  ) | ___   ____| |  _  ___ 
+# | |     / _ \|    \|    \(____ |  _ \ / _  |  __  (| |/ _ \ / ___) |_/ )/___)
+# | |____| |_| | | | | | | / ___ | | | ( (_| | |__)  ) | |_| ( (___|  _ (|___ |
+#  \______)___/|_|_|_|_|_|_\_____|_| |_|\____|______/ \_)___/ \____)_| \_|___/ 
+#
+# Executing your commands since 2018! By Geitenijs
+# Information & Support: https://www.spigotmc.org/resources/62720
+#
+# block:
+#   location: The location of the CommandBlock. Don't change this unless you know what you're doing!
+
+{}

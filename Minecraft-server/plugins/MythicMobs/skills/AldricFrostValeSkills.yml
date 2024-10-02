@@ -1,0 +1,328 @@
+### Phase 1 ###
+DaggerThrow:
+  Cooldown: 10
+  Conditions:
+  - offgcd true
+  - playerwithin{d=5} false
+  Skills:
+  - gcd{ticks=40}
+  - lunge{velocity=1;velocityY=1} @Forward{f=3;rot=180}
+  - delay 10
+  - playanimation{a=0;audience=World} @Self
+  - delay 2
+  - effect:sound{s=item.trident.throw;v=2;p=0.5} @self
+  - projectile{bulletType=MOB;mob=DaggerThrow;oH=DaggerThrow-Hit;v=16;i=1;hR=1;vR=1;hnp=true;md=100;sso=-0.5;syo=1;sE=false;EndSideOffset=0} @target
+  - projectile{bulletType=MOB;mob=DaggerThrow;oH=DaggerThrow-Hit;v=16;i=1;hR=1;vR=1;hnp=true;md=100;sso=-0.5;syo=1;sE=false;EndSideOffset=-3} @target
+  - projectile{bulletType=MOB;mob=DaggerThrow;oH=DaggerThrow-Hit;v=16;i=1;hR=1;vR=1;hnp=true;md=100;sso=-0.5;syo=1;sE=false;EndSideOffset=3} @target
+DaggerThrow-Hit:
+  Skills:
+  - damage{a=10}
+  - effect:particles{p=crit;amount=20;speed=0.2;hS=0.2;vS=0.5;zs=0.5} @origin
+AldricAttack1:
+  Cooldown: 10
+  Skills:
+  - lunge{velocity=1;velocityY=1} @Forward{f=3;rot=180}
+AldricAttack2:
+  Cooldown: 10
+  Skills:
+  - playanimation{a=0;audience=World} @Self
+  - throw{velocity=1;velocityY=2} @target
+AldricAttack3:
+  Cooldown: 10
+  Skills:
+  - effect:spin{duration=22;velocity=16} @self
+  - playanimation{a=0;audience=World} @Self
+  - playanimation{a=3;audience=World;delay=10} @Self
+  - sound{s=entity.player.attack.sweep;v=2;p=0.5} @self
+  - delay 10
+  - effect:particlering{particle=sweep_attack;radius=1;points=8;amount=1;hS=1;vS=0;y=0.5} @self
+  - damage{amount=10} @PlayersInRadius{r=2}
+  - throw{velocity=15;velocityY=5} @PlayersInRadius{r=2}
+  - sound{s=entity.zombie.attack_iron_door;v=2;p=0.5} @self
+AldricAttackMain:
+  Skills:
+  - playanimation{a=0;audience=World} @Self
+  - damage{amount=8} @target
+  - delay 10
+  - playanimation{a=3;audience=World} @Self
+  - damage{amount=8} @target
+CircleSlash:
+  Cooldown: 10
+  Conditions:
+  - playerwithin{d=5} true
+  - offgcd true
+  Skills:
+  - gcd{ticks=20}
+  - playanimation{a=0;audience=World;repeat=4;repeatinterval=5} @Self
+  - jump{velocity=1}
+  - orbital{onTick=CircleSlash-Tick;onHit=CircleSlash-Hit;points=30;interval=1;duration=22;charges=1;oy=1;r=4;vy=6;rx=4} @self
+  - sound{s=entity.experience_orb.pickup} @self
+  - damage{a=10} @EIR{r=5}
+  - throw{velocity=15;velocityY=5} @PlayersInRadius{r=4}
+  - delay 10
+  - damage{a=10} @EIR{r=4}
+  - throw{velocity=15;velocityY=5} @PlayersInRadius{r=4}
+CircleSlash-Tick:
+  Skills:
+  - effect:particles{p=sweep_attack;amount=5;speed=0;hS=0.2;vS=0.2} @origin
+  - effect:particles{p=enchanted_hit;amount=20;speed=0;hS=0.5;vS=0.5} @origin
+  - sound{s=entity.player.attack.sweep;cd=0.1} @self 0.5
+CircleSlash-Hit:
+  Skills:
+  - damage{a=10}
+TridentThrow:
+  Cooldown: 10
+  Conditions:
+  - playerwithin{d=5} true
+  - offgcd true
+  Skills:
+  - gcd{ticks=120}
+  - setspeed{speed=0;type=walking} @self
+  - effect:sound{s=item.trident.throw;v=2;p=0.5} @self
+  - equip{item=AIR HAND}
+  - projectile{bulletType=ARROW;arrowType=TRIDENT;oH=DaggerThrow-Hit;oE=TridentGoBack;v=16;i=1;hR=1;vR=1;hnp=true;md=100;syo=1;sE=false;sB=false;EndSideOffset=0} @target
+  - delay 100
+  - equip{item=trident HAND}
+  - setspeed{speed=1.5;type=walking} @self
+TridentGoBack:
+  Skills:
+  - projectile{bulletType=ARROW;arrowType=TRIDENT;oH=DaggerThrow-Hit;v=16;i=1;hR=1;vR=1;hnp=true;md=100;syo=1;sE=true;sB=false;EndSideOffset=0;fromorigin=true} @self
+### Phase 2 ###
+AldricSpell1:
+  Cooldown: 10
+  Conditions:
+  - offgcd true
+  - playerwithin{d=2} false
+  - incombat true
+  Skills:
+  - gcd{ticks=30}
+  - lunge{velocity=1;velocityY=1} @Forward{f=3;rot=180}
+  - delay 10
+  - sound{s=entity.ghast.shoot;v=2;p=0.5} @Self
+  - playanimation{a=0;audience=World} @Self
+  - projectile{oT=AldricSpell-Tick;oH=AldricSpell-Hit;v=16;i=1;hR=1;vR=1;hnp=true;md=100;sso=2;syo=1;sE=false;EndSideOffset=0} @targetlocation
+  - delay 10
+  - playanimation{a=3;audience=World} @Self
+  - projectile{oT=AldricSpell-Tick;oH=AldricSpell-Hit;v=16;i=1;hR=1;vR=1;hnp=true;md=100;sso=-2;syo=1;sE=false;EndSideOffset=0} @targetlocation
+AldricSpell-Tick:
+  Skills:
+  - effect:particles{p=firework;amount=5;speed=0;hS=0.1;vS=0.1} @origin
+  - effect:particles{p=poof;amount=20;speed=0;hS=0.1;vS=0.1} @origin
+AldricSpell-Hit:
+  Skills:
+  - damage{a=10}
+AldricSpell2:
+  Cooldown: 10
+  Conditions:
+  - offgcd true
+  - playerwithin{d=8} true
+  - incombat true
+  Skills:
+  - gcd{ticks=80}
+  - throw{velocity=10;velocityY=0} @PIR{r=2}
+  - sound{s=entity.wither.spawn;v=2;p=0.5} @Self
+  - projectile{onTick=AldricSpell2-Tick;onHit=AldricSpell2-Hit;onEnd=AldricSpell2-Hit;v=20;i=1;hR=1;vR=1;md=20;sE=false} @Sphere{r=6;points=50}
+AldricSpell2-Tick:
+  Skills:
+  - effect:blockmask{m=ice;r=0.5;d=60;oa=true;na=false;s=sphere;n=1} @origin
+AldricSpell2-Hit:
+  Skills:
+  - damage{a=10}
+  - throw{velocity=30;velocityY=2}
+AldricSpell3:
+  Cooldown: 10
+  Conditions:
+  - offgcd true
+  - playerwithin{d=2} false
+  - incombat true
+  Skills:
+  - gcd{ticks=50}
+  - sound{s=entity.ghast.shoot;v=2;p=0.5} @Self
+  - missile{onTick=AldricSpell3-Tick;oH=AldricSpell3-Hit;v=10;i=1;hR=1;vR=1;hnp=true;syo=3;sfo=-1;in=5;sb=false;d=100;sE=false} @target
+AldricSpell3-Tick:
+  Skills:
+  - effect:blockmask{m=ice;r=0;oa=true;na=false;d=10;s=cube} @origin
+AldricSpell3-Hit:
+  Skills:
+  - damage{a=4}
+  - potion{type=SLOW;duration=100;lvl=2}
+  - throw{velocity=2;velocityY=2}
+AldricSpell4:
+  Cooldown: 10
+  Conditions:
+  - offgcd true
+  - playerwithin{d=2} false
+  - incombat true
+  Skills:
+  - gcd{ticks=150}
+  - sound{s=entity.evoker.prepare_attack;v=2;p=0.5} @Self
+  - potion{type=JUMP;level=4;d=350;force=true;p=false} @Self
+  - effect:particles{particle=poof;amount=20;hS=0.1;vS=0.1;speed=0.1;repeat=140;repeatInterval=1;y=0} @self
+  - lunge{velocity=0.50;velocityY=0.2;repeat=30;repeatInterval=1} @Forward
+  - lunge{velocity=1;velocityY=-0.1;repeat=20;repeatInterval=1;delay=20} @Target
+  - lunge{velocity=0.50;velocityY=0.1;repeat=30;repeatInterval=1;delay=40} @Forward
+  - lunge{velocity=0.50;velocityY=0.1;repeat=20;repeatInterval=1;delay=60} @Target
+  - lunge{velocity=0.50;velocityY=0.1;repeat=40;repeatInterval=1;delay=80} @Forward
+AldricSpell5:
+  Cooldown: 30
+  Conditions:
+  - offgcd true
+  - playerwithin{d=5} true
+  - incombat true
+  Skills:
+  - gcd{ticks=220}
+  - equip{item=AIR HAND}
+  - sound{s=entity.ghast.shoot;v=2;p=0.5} @Self
+  - orbital{bulletType=ITEM;material=nether_star;onHit=AldricSpell3-Hit;oE=;v=16;i=1;hR=1;vR=1;hnp=true;oy=1;r=2;rx=2.3} @self
+  - delay 5
+  - sound{s=entity.ghast.shoot;v=2;p=0.5} @Self
+  - orbital{bulletType=ITEM;material=nether_star;onHit=AldricSpell3-Hit;oE=;v=16;i=1;hR=1;vR=1;hnp=true;oy=1;r=2;rx=2.3} @self
+  - delay 5
+  - sound{s=entity.ghast.shoot;v=2;p=0.5} @Self
+  - orbital{bulletType=ITEM;material=nether_star;onHit=AldricSpell3-Hit;oE=;v=16;i=1;hR=1;vR=1;hnp=true;oy=1;r=2;rx=2.3} @self
+  - delay 5
+  - sound{s=entity.ghast.shoot;v=2;p=0.5} @Self
+  - orbital{bulletType=ITEM;material=nether_star;onHit=AldricSpell3-Hit;oE=;v=16;i=1;hR=1;vR=1;hnp=true;oy=1;r=2;rx=2.3} @self
+  - delay 5
+  - sound{s=entity.ghast.shoot;v=2;p=0.5} @Self
+  - orbital{bulletType=ITEM;material=nether_star;onHit=AldricSpell3-Hit;oE=;v=16;i=1;hR=1;vR=1;hnp=true;oy=1;r=2;rx=2.3} @self
+  - delay 5
+  - sound{s=entity.ghast.shoot;v=2;p=0.5} @Self
+  - orbital{bulletType=ITEM;material=nether_star;onHit=AldricSpell3-Hit;oE=;v=16;i=1;hR=1;vR=1;hnp=true;oy=1;r=2;rx=2.3} @self
+  - sound{s=entity.ghast.shoot;v=2;p=0.5} @Self
+  - orbital{bulletType=ITEM;material=nether_star;onHit=AldricSpell3-Hit;oE=;v=16;i=1;hR=1;vR=1;hnp=true;oy=1;r=2;rx=4} @self
+  - delay 5
+  - sound{s=entity.ghast.shoot;v=2;p=0.5} @Self
+  - orbital{bulletType=ITEM;material=nether_star;onHit=AldricSpell3-Hit;oE=;v=16;i=1;hR=1;vR=1;hnp=true;oy=1;r=2;rx=4} @self
+  - delay 5
+  - sound{s=entity.ghast.shoot;v=2;p=0.5} @Self
+  - orbital{bulletType=ITEM;material=nether_star;onHit=AldricSpell3-Hit;oE=;v=16;i=1;hR=1;vR=1;hnp=true;oy=1;r=2;rx=4} @self
+  - delay 5
+  - sound{s=entity.ghast.shoot;v=2;p=0.5} @Self
+  - orbital{bulletType=ITEM;material=nether_star;onHit=AldricSpell3-Hit;oE=;v=16;i=1;hR=1;vR=1;hnp=true;oy=1;r=2;rx=4} @self
+  - delay 5
+  - orbital{bulletType=ITEM;material=nether_star;onHit=AldricSpell3-Hit;oE=;v=16;i=1;hR=1;vR=1;hnp=true;oy=1;r=2;rx=4} @self
+  - delay 5
+  - sound{s=entity.ghast.shoot;v=2;p=0.5} @Self
+  - orbital{bulletType=ITEM;material=nether_star;onHit=AldricSpell3-Hit;oE=;v=16;i=1;hR=1;vR=1;hnp=true;oy=1;r=2;rx=4} @self
+  - delay 240
+  - equip{item=nether_star HAND}
+AldricSpell6:
+  Cooldown: 10
+  Conditions:
+  - offgcd true
+  - playerwithin{d=2} false
+  - incombat true
+  Skills:
+  - gcd{ticks=50}
+  - sound{s=entity.evoker.cast_spell;v=2;p=0.5} @Self
+  - effect:particlesphere{particle=poof;amount=40;radius=2} @target
+  - velocity{m=set;x=0;y=1;z=-1} @target
+  - delay 10
+  - sound{s=entity.evoker.cast_spell;v=2;p=0.5} @Self
+  - effect:particlesphere{particle=poof;amount=40;radius=2} @target
+  - velocity{m=set;x=1;y=0;z=0} @target
+  - delay 10
+  - sound{s=entity.evoker.cast_spell;v=2;p=0.5} @Self
+  - effect:particlesphere{particle=poof;amount=40;radius=2} @target
+  - velocity{m=set;x=-1;y=1;z=0} @target
+  - delay 10
+  - sound{s=entity.evoker.cast_spell;v=2;p=0.5} @Self
+  - effect:particlesphere{particle=poof;amount=40;radius=2} @target
+  - velocity{m=set;x=0;y=0;z=1} @target
+AldricSpellAttack:
+  Skills:
+  - playanimation{a=0;audience=World} @Self
+  - effect:particles{particle=block;m=nether_wart_block;amount=20;hS=0.2;vS=1;y=1} @target
+  - throw{velocity=2;velocityY=3} @target
+  - damage{a=4} @target
+### Animations ###
+AldricSpawn:
+  Skills:
+  - sound{s=entity.wither.death;v=2;p=0.5;repeat=10;repeatinerval=20} @Self
+  - effect:particlesphere{particle=largeexplosion;amount=6;radius=2} @self
+  - summon{type=AldricSpawnAnimation;amount=1;radius=0} @self
+  - throw{velocity=2;velocityY=3} @PIR{r=3}
+  - effect:blockunmask{r=30} @self ~onSpawn
+  - remove @self
+AldricSpawn2:
+  Skills:
+  - message{m="&l&1⥽Aldric⥼ &bWhat did you do!!"} @PlayersInRadius{r=30}
+  - delay 140    
+  - message{m="&l&1⥽Aldric⥼ &bThat crystal was worth a fortune!!!"} @PlayersInRadius{r=30}
+  - delay 140
+  - message{m="&l&1⥽Aldric⥼ &bI have protected these mountains for years"} @PlayersInRadius{r=30}
+  - delay 140
+  - message{m="&l&1⥽Aldric⥼ &bIf you think you can come in and destroy MY property"} @PlayersInRadius{r=30}
+  - delay 140
+  - message{m="&l&1⥽Aldric⥼ &bThen i have bad news for you"} @PlayersInRadius{r=30}
+  - summon{type=AldricSpawnAnimation2;amount=1;radius=0} @self
+  - sound{s=entity.evoker.prepare_summon;v=2;p=0.5;repeat=10;repeatinerval=20} @Self
+  - polygon{db=0.25;y=0.1;mpd=false;scale=6;d=80;
+    oE=[ - effect:particles{p=poof} ];
+    oP=[ - effect:particles{p=firework;a=1;repeat=20;repeati=1} ];
+    oS=[ - effect:particles{p=redstone;color=#edf5f5} ];
+    oH=[ - throw{velocity=5;velocityY=5} ]
+    ;p=10;skip=6;duration=20;repeat=10;repeatinterval=20} @self
+  - polygon{db=0.25;y=0.1;mpd=false;scale=3;d=80;
+    oE=[ - effect:particles{p=poof} ];
+    oP=[ - effect:particles{p=firework;a=1;repeat=20;repeati=1} ];
+    oS=[ - effect:particles{p=redstone;color=#edf5f5} ];
+    oH=[ - throw{velocity=5;velocityY=5} ]
+    ;p=8;skip=6;duration=20;repeat=10;repeatinterval=20;y=20} @self
+  - delay 140
+  - message{m="&l&1⥽Aldric⥼ &bNow face me in combat you cowardly thief"} @PlayersInRadius{r=30}
+  - delay 20
+  - skill{s=AldricSpawn3} @self ~onSpawn
+AldricSpawn3:
+  Skills:
+  - projectile{bulletType=MOB;mob=AldricSpawnAnimation3;oE=AldricSpawn4;sB=false;TargetYOffset=2;md=55;byo=0;true;sE=false;i=1;bmd=true;syo=-4;v=2} @self
+AldricSpawn4:
+  Skills:
+  - summon{type=AldricFrostValeWarrior;amount=1;radius=0} @self
+WintersAura-Tick:
+  Skills:
+  - effect:particles{particle=reddust;color=#58fcfa;amount=50;radius=0.3;speed=1} @origin
+AldricPhase2First:
+  Skills:
+  - summon{type=AldricPhase2Animation;amount=1;radius=0} @self
+  - remove @self
+AldricPhase2Second:
+  Skills:
+  - barCreate{
+    name="AldricBossBar";
+    display="&1&l――――――⥼ &b&lAldric Frostvale [Warrior Of Ice] &1&l⥽――――――";
+    value=0.5;color=BLUE;
+    style=SEGMENTED_12
+    } @self
+  - message{m="&l&1⥽Aldric⥼ &bYou are strong I see that"} @PlayersInRadius{r=30}
+  - delay 140
+  - message{m="&l&1⥽Aldric⥼ &bHowever dont think i have run out of tricks just yet"} @PlayersInRadius{r=30}
+  - delay 140
+  - message{m="<hover:show_text:'&l&1⥽Aldric⥼ &bMay the power of the mountains give me strength'>&l&1⥽Aldric⥼ &bהי רצון שכוח הקרח ייתן לי כוח</hover>"} @PlayersInRadius{r=30}
+  - potion{type=LEVITATION;duration=110;level=0;p=false;i=false} @Self
+  - delay 40
+  - sound{s=entity.warden.sonic_charge;v=2;p=0.5;repeat=10;repeatinerval=20} @Self
+  - projectile{oT=WintersAura-Tick;v=4;i=1;sE=false;md=10;hR=2;vR=2;hnp=false;sso=<random.-3to3>;sfo=<random.-3to3>;syo=<random.0to4>;repeat=35;repeatInterval=2;HitSelf=true;dd=40} @self
+  - delay 65
+  - effect:sound{s=entity.generic.explode;v=2;p=0.5} @Self
+  - effect:particlesphere{particle=largeexplosion;amount=6;radius=2} @self
+  - delay 5
+  - summon{type=AldricFrostValeMage;amount=1;radius=0} @self
+  - remove @self
+AldricDeath:
+  Skills:
+  - summon{type=AldricDeath;amount=1;radius=0} @self
+  - remove @self
+AldricDeath2:
+  Skills:
+  - message{m="&l&1⥽Aldric⥼ &bI failed..."} @PlayersInRadius{r=30}
+  - delay 140
+  - message{m="&l&1⥽Aldric⥼ &bForgive me"} @PlayersInRadius{r=30}
+  - potion{type=LEVITATION;duration=100;level=0;p=false;i=false} @Self
+  - delay 45
+  - message{m="&l&1⥽Aldric⥼ &band for you <target.name> this is not over... my friends will take care of you"} @PlayersInRadius{r=30}
+  - delay 50
+  - projectile{oT=WintersAura-Tick;v=4;i=1;sE=false;md=40;hR=2;vR=2;hnp=false} @Sphere{r=6;points=50}
+  - delay 10
+  - remove @self

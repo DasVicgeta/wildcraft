@@ -1,0 +1,195 @@
+quests:
+  1:
+      name: "#90d8d8Alta Presión"
+      menu_item: DEEPSLATE_DIAMOND_ORE
+      description:
+        - "&8Adéntrate en las profundidades y mina 10 menas de diamante de deepslate"
+        - "&8para demostrar tu habilidad."
+        - ""
+        - "#F4D160&lObjetivos:"
+        - "#FBEEAC▪ #75C2F6Minar #F4D16010 #75C2F6menas de diamante de deepslate."
+        - ""
+        - "#F4D160&lRecompensas:"
+        - "#FBEEAC▪ #F4D160888 #75C2F6XPs"
+        - "#FBEEAC▪ #F4D1602500 #75C2F6Dinero"
+        - ""
+      quest_type: BREAK
+      required_item: DEEPSLATE_DIAMOND_ORE
+      required_amount: 10
+      reward:
+        reward_type: COMMAND
+        commands:
+          - "xp add 888 %player_name% -s"
+          - "eco give %player_name% 2500"
+  2:
+      name: "#90d8d8Demasiado Carbón para Ti"
+      menu_item: COAL_BLOCK
+      description:
+        - "&8Demuestra tu pericia fabricando 20 bloques de carbón,"
+        - "&8mostrando tu dominio sobre este recurso valioso."
+        - ""
+        - "#F4D160&lObjetivos:"
+        - "#FBEEAC▪ #75C2F6Fabricar #F4D16020 #75C2F6bloques de carbón."
+        - ""
+        - "#F4D160&lRecompensas:"
+        - "#FBEEAC▪ #F4D160600 #75C2F6XPs"
+        - "#FBEEAC▪ #F4D1601000 #75C2F6Dinero"
+        - ""
+      quest_type: CRAFT
+      required_item: COAL_BLOCK
+      required_amount: 20
+      reward:
+        reward_type: COMMAND
+        commands:
+          - "xp add 600 %player_name% -s"
+          - "eco give %player_name% 1000"
+  3:
+      name: "#90d8d8Slender Man"
+      menu_item: DIAMOND_SWORD
+      description:
+        - "&8Caza y elimina 5 Endermans para demostrar"
+        - "&8tu valentía y ganar una formidable recompensa."
+        - ""
+        - "#F4D160&lObjetivos:"
+        - "#FBEEAC▪ #75C2F6Matar #F4D1605 #75C2F6Endermans."
+        - ""
+        - "#F4D160&lRecompensas:"
+        - "#FBEEAC▪ #F4D160666 #75C2F6XPs"
+        - "#FBEEAC▪ #F4D1602500 #75C2F6Dinero"
+        - ""
+      quest_type: KILL
+      required_entity: ENDERMAN
+      required_amount: 5
+      reward:
+        reward_type: COMMAND
+        commands:
+          - "xp add 666 %player_name% -s"
+          - "eco give %player_name% 2500"
+  4:
+      name: "#90d8d8¿Qué es el Sueño?"
+      menu_item: DIAMOND_SWORD
+      description:
+        - "&8Supera los terrores de la noche venciendo a 10 Phantoms"
+        - "&8y demuestra que dormir es para los débiles."
+        - ""
+        - "#F4D160&lObjetivos:"
+        - "#FBEEAC▪ #75C2F6Matar #F4D16010 #75C2F6Phantoms."
+        - ""
+        - "#F4D160&lRecompensas:"
+        - "#FBEEAC▪ #F4D160666 #75C2F6XPs"
+        - "#FBEEAC▪ #F4D1605000 #75C2F6Dinero"
+        - ""
+      quest_type: KILL
+      required_entity: PHANTOM
+      required_amount: 10
+      reward:
+        reward_type: COMMAND
+        commands:
+          - "xp add 666 %player_name% -s"
+          - "eco give %player_name% 5000"
+  5:
+      name: "#90d8d8¿No Somos Amigos?"
+      menu_item: DIAMOND_SWORD
+      description:
+        - "&8Enfréntate a un Gólem de Hierro y sal"
+        - "&8victorioso para demostrar tu fuerza."
+        - ""
+        - "#F4D160&lObjetivos:"
+        - "#FBEEAC▪ #75C2F6Matar #F4D1601 #75C2F6Gólem de Hierro."
+        - ""
+        - "#F4D160&lRecompensas:"
+        - "#FBEEAC▪ #F4D160826 #75C2F6XPs"
+        - "#FBEEAC▪ #F4D1601000 #75C2F6Dinero"
+        - ""
+      quest_type: KILL
+      required_entity: IRON_GOLEM
+      required_amount: 1
+      reward:
+        reward_type: COMMAND
+        commands:
+          - "xp add 826 %player_name% -s"
+          - "eco give %player_name% 1000"
+  6:
+      name: "#90d8d8¡Kaboom!"
+      menu_item: DIAMOND_SWORD
+      description:
+        - "&8Enfréntate a encuentros explosivos y elimina 5 Creepers"
+        - "&8para mostrar tu destreza y ganar una recompensa satisfactoria."
+        - ""
+        - "#F4D160&lObjetivos:"
+        - "#FBEEAC▪ #75C2F6Matar #F4D1605 #75C2F6Creepers."
+        - ""
+        - "#F4D160&lRecompensas:"
+        - "#FBEEAC▪ #F4D160666 #75C2F6XPs"
+        - ""
+      quest_type: KILL
+      required_entity: CREEPER
+      required_amount: 5
+      reward:
+        reward_type: EXP_POINTS
+        amount: 666
+  7:
+      name: "#90d8d8Lindo Pero Mortal"
+      menu_item: DIAMOND_SWORD
+      description:
+        - "&8Derrota a un aparentemente inofensivo conejo,"
+        - "&8revelando su ferocidad oculta."
+        - ""
+        - "#F4D160&lObjetivos:"
+        - "#FBEEAC▪ #75C2F6Matar #F4D1601 #75C2F6Conejo."
+        - ""
+        - "#F4D160&lRecompensas:"
+        - "#FBEEAC▪ #F4D160500 #75C2F6XPs"
+        - ""
+      quest_type: KILL
+      required_entity: RABBIT
+      required_amount: 1
+      reward:
+        reward_type: COMMAND
+        commands:
+          - "xp add 500 %player_name% -s"
+          - "execute as %player_name% run summon minecraft:rabbit ~ ~1 ~ {RabbitType:99}"
+  8:
+      name: "#90d8d8Buscador de Oro"
+      menu_item: BLAST_FURNACE
+      description:
+        - "&8Mejora tus habilidades mineras fundiendo 50 lingotes de oro,"
+        - "&8desbloqueando los tesoros dentro."
+        - ""
+        - "#F4D160&lObjetivos:"
+        - "#FBEEAC▪ #75C2F6Fundir #F4D16050 #75C2F6Lingotes de Oro en un horno."
+        - ""
+        - "#F4D160&lRecompensas:"
+        - "#FBEEAC▪ #F4D160500 #75C2F6XPs"
+        - "#FBEEAC▪ #F4D1605000 #75C2F6Dinero"
+        - ""
+      quest_type: COOK
+      required_item: GOLD_INGOT
+      required_amount: 50
+      reward:
+        reward_type: COMMAND
+        commands:
+          - "xp add 500 %player_name% -s"
+          - "eco give %player_name% 5000"
+  9:
+      name: "#90d8d8Oh La Ironía"
+      menu_item: BLAST_FURNACE
+      description:
+        - "&8Pon a prueba tus habilidades de herrero fundiendo"
+        - "&850 lingotes de hierro y cosecha las recompensas de tu artesanía."
+        - ""
+        - "#F4D160&lObjetivos:"
+        - "#FBEEAC▪ #75C2F6Fundir #F4D16050 #75C2F6Lingotes de Hierro en un horno."
+        - ""
+        - "#F4D160&lRecompensas:"
+        - "#FBEEAC▪ #F4D160826 #75C2F6XPs"
+        - "#FBEEAC▪ #F4D1602500 #75C2F6Dinero"
+        - ""
+      quest_type: COOK
+      required_item: IRON_INGOT
+      required_amount: 50
+      reward:
+        reward_type: COMMAND
+        commands:
+          - "xp add 826 %player_name% -s"
+          - "eco give %player_name% 2500"

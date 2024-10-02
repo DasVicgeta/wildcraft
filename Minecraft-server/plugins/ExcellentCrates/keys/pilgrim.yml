@@ -1,0 +1,23 @@
+Name: '#ff9100&lP#ff9a0d&li#ffa319&ll#ffac26&lg#ffb532&lr#ffbe3f&li#ffc74b&lm &f&lKey'
+Virtual: false
+Item:
+  Material: ORANGE_CANDLE
+  Name: '#ff9100&lP#ff9a0d&li#ffa319&ll#ffac26&lg#ffb532&lr#ffbe3f&li#ffc74b&lm &f&lKey'
+  Lore:
+  - '&7&l&m------------------------'
+  - '&7&l | &r&7Usalo en el warp crate'
+  - '&7&l | &r&7esta key se puede conseguir'
+  - '&7&l | &r&7en los kits o en la tienda'
+  - '&7&l&m------------------------'
+  Enchants:
+    aqua_affinity: 1
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  - HIDE_DESTROYS
+  - HIDE_PLACED_ON
+  - HIDE_POTION_EFFECTS
+  - HIDE_DYE
+  - HIDE_ARMOR_TRIM
+

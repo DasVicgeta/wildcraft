@@ -1,0 +1,17 @@
+[2024/10/02 12:06:05]: §9          __             _       
+[2024/10/02 12:06:05]: §9  _ __   / /  ___   __ _(_)_ __  
+[2024/10/02 12:06:05]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2024/10/02 12:06:05]: §9 | | | / /__| (_) | (_| | | | | |
+[2024/10/02 12:06:05]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2024/10/02 12:06:05]: §9                  |___/            
+[2024/10/02 12:06:05]: §9 By: www.nickuc.com - V 10.3.28
+[2024/10/02 12:06:05]: §9 
+[2024/10/02 12:06:06]: §3[nLogin] [DEBUG] All settings were loaded in 135 ms.
+[2024/10/02 12:06:06]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2024/10/02 12:06:06]: §3[nLogin] [DEBUG] All plugin messages were loaded in 64 ms (languageByClient=false).
+[2024/10/02 12:06:06]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[2024/10/02 12:06:06]: §3[nLogin] [DEBUG] Loading database...
+[2024/10/02 12:06:06]: §3[nLogin] [DEBUG] Starting logger filter...
+[2024/10/02 12:07:06]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'DasVicgeta', `unique_id` = 7e385908e08e3ca0ac2129b5090dec62,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$/pWyCtGjQaYJBxkwhPWpeeptUvzWjU97zM.Ges2F/vyglHsWC3VtO', `last_ip` = '127.0.0.1', `creation_date` = 2024-07-25 11:58:28.36, `last_seen` = 2024-10-02 12:07:06.838, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2024/10/02 12:07:06]: [nLogin] The user DasVicgeta has successfully logged in.
+[2024/10/02 12:38:09]: [nLogin] Successful plugin core shutdown (took 0.00s)

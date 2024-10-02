@@ -1,0 +1,22 @@
+Name: '&x&0&8&4&C&F&BT&x&3&F&8&4&F&CA&x&7&6&B&B&F&CG&x&A&D&F&3&F&DS &f&lKey'
+Virtual: false
+Item:
+  Material: WHITE_CANDLE
+  Name: '&x&0&8&4&C&F&BT&x&3&F&8&4&F&CA&x&7&6&B&B&F&CG&x&A&D&F&3&F&DS &f&lKey'
+  Lore:
+  - '&7&l&m------------------------'
+  - '&7&l | &r&7Usalo en el warp crate'
+  - '&7&l | &r&7esta key se puede conseguir'
+  - '&7&l | &r&7en los kits o en la tienda'
+  - '&7&l&m------------------------'
+  Enchants:
+    aqua_affinity: 1
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  - HIDE_DESTROYS
+  - HIDE_PLACED_ON
+  - HIDE_POTION_EFFECTS
+  - HIDE_DYE
+  - HIDE_ARMOR_TRIM

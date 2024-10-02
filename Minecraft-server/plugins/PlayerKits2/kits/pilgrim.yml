@@ -1,0 +1,233 @@
+cooldown: 864000
+one_time: false
+auto_armor: true
+permission_required: true
+save_original_items: true
+display:
+  default:
+    id: ENDER_CHEST
+    name: '&x&f&f&9&1&0&0&lP&x&f&f&9&a&0&d&li&x&f&f&a&3&1&9&ll&x&f&f&a&c&2&6&lg&x&f&f&b&5&3&2&lr&x&f&f&b&e&3&f&li&x&f&f&c&7&4&b&lm
+      &f&lKIT'
+    amount: 1
+    lore:
+    - '&dEste Kit Incluye:'
+    - ''
+    - '&d>> &7x1 Casco de Diamante'
+    - '&d>> &7x1 Pechera de Diamante'
+    - '&d>> &7x1 Pantalones de Diamante'
+    - '&d>> &7x1 Botas de Diamante'
+    - '&d>> &7x1 Espada de Diamante'
+    - '&d>> &7x1 Pico de Diamante'
+    - '&d>> &7x1 Hacha de Diamante'
+    - '&d>> &7x64 Filetes Asados'
+    - '&d>> &7x1 Totem de la Inmortalidad'
+    - '&d>> &7x1 Escudo'
+    - '&d>> &7x1 Proteccion 100x100'
+    - ''
+    - '&7Cooldown: &c12 hours'
+    - ''
+    - '&7(( &fClick Izquierdo &7para reclamar! ))'
+    - '&7(( &fClick Derecho &7para ver! ))'
+    enchants:
+    - MENDING;1
+    item_flags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_DESTROYS
+    - HIDE_PLACED_ON
+    - HIDE_POTION_EFFECTS
+    - HIDE_DYE
+    - HIDE_ARMOR_TRIM
+  no_permission:
+    id: BARRIER
+    name: '&x&f&f&9&1&0&0&lP&x&f&f&9&a&0&d&li&x&f&f&a&3&1&9&ll&x&f&f&a&c&2&6&lg&x&f&f&b&5&3&2&lr&x&f&f&b&e&3&f&li&x&f&f&c&7&4&b&lm
+      &f&lKIT'
+    amount: 1
+    lore:
+    - ''
+    - '&7┃ Estatus: &cSin Permisos'
+    - '&7┃ Requieres: &x&f&f&9&1&0&0&lP&x&f&f&9&a&0&d&li&x&f&f&a&3&1&9&ll&x&f&f&a&c&2&6&lg&x&f&f&b&5&3&2&lr&x&f&f&b&e&3&f&li&x&f&f&c&7&4&b&lm
+      &f&lRank'
+    - ''
+    - '&8Compra el &x&f&f&9&1&0&0&lP&x&f&f&9&a&0&d&li&x&f&f&a&3&1&9&ll&x&f&f&a&c&2&6&lg&x&f&f&b&5&3&2&lr&x&f&f&b&e&3&f&li&x&f&f&c&7&4&b&lm
+      &8rank para reclamar'
+    - ''
+    - '&7(( &fClick derecho &7para ver))'
+  cooldown:
+    id: CLOCK
+    name: '&x&f&f&9&1&0&0&lP&x&f&f&9&a&0&d&li&x&f&f&a&3&1&9&ll&x&f&f&a&c&2&6&lg&x&f&f&b&5&3&2&lr&x&f&f&b&e&3&f&li&x&f&f&c&7&4&b&lm
+      &f&lKIT'
+    amount: 1
+    lore:
+    - ''
+    - '&7┃ Estatus: &cCooldown Activo'
+    - '&7┃ Tiempo: &f%time%'
+    - ''
+    - '&7(( &f&oClick-Derecho &7&opara ver &r&7))'
+requirements:
+  one_time_requirements: false
+  extra_requirements: []
+  message:
+  - ''
+  - '&7&l〡 &r&7Estatus: &aActivo'
+  - '&7&l〡 &r&7Rango: &x&f&f&9&1&0&0&lP&x&f&f&9&a&0&d&li&x&f&f&a&3&1&9&ll&x&f&f&a&c&2&6&lg&x&f&f&b&5&3&2&lr&x&f&f&b&e&3&f&li&x&f&f&c&7&4&b&lm'
+  - '&7&l〡 &7Precio: &a$15.000'
+  - ''
+  - '&7&l〡 &r&7Estatus: %status_symbol_requirement_1%'
+  actions_on_buy: []
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: ORANGE_CANDLE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF9100","text":"P"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF9A0D","text":"i"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFA319","text":"l"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFAC26","text":"g"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFB532","text":"r"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFBE3F","text":"i"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC74B","text":"m
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"------------------------"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          | "},{"italic":false,"color":"gray","text":"Usalo en el warp crate"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          | "},{"italic":false,"color":"gray","text":"esta key se puede conseguir"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          | "},{"italic":false,"color":"gray","text":"en los kits o en la tienda"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"------------------------"}],"text":""}'
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: pilgrim
+    preview_slot: 2
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: TOTEM_OF_UNDYING
+    preview_slot: 3
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND_HELMET
+    preview_slot: 4
+  '4':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: SHIELD
+    preview_slot: 5
+  '5':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: ORANGE_CANDLE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF9100","text":"P"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF9A0D","text":"i"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFA319","text":"l"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFAC26","text":"g"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFB532","text":"r"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFBE3F","text":"i"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC74B","text":"m
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"------------------------"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          | "},{"italic":false,"color":"gray","text":"Usalo en el warp crate"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          | "},{"italic":false,"color":"gray","text":"esta key se puede conseguir"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          | "},{"italic":false,"color":"gray","text":"en los kits o en la tienda"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"------------------------"}],"text":""}'
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: pilgrim
+    preview_slot: 6
+  '6':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND_SWORD
+    preview_slot: 12
+  '7':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND_CHESTPLATE
+    preview_slot: 13
+  '8':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND_AXE
+    preview_slot: 14
+  '9':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND_PICKAXE
+    preview_slot: 21
+  '10':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND_LEGGINGS
+    preview_slot: 22
+  '11':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: GOLD_ORE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"ᴘʀᴏᴛᴇᴄᴄɪᴏɴ
+          100x100"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"text":"​"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Protege
+          tu area​"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"de
+          intrusos y ladrones"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Radio"},{"italic":false,"color":"white","text":":"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"X:
+          100"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Y:
+          -1"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Z:
+          100"}],"text":""}'
+        enchants:
+          LURE: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        PublicBukkitValues:
+          protectionstones:ispsblock: 1b
+    preview_slot: 23
+  '12':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: COOKED_BEEF
+      amount: 32
+    preview_slot: 30
+  '13':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND_BOOTS
+    preview_slot: 31
+  '14':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: COOKED_BEEF
+      amount: 32
+    preview_slot: 32
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

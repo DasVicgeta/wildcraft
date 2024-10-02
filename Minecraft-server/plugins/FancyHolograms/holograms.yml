@@ -1,0 +1,131 @@
+version: 2 # DO NOT CHANGE
+holograms:
+  discord:
+    type: TEXT
+    location:
+      world: spawn
+      x: 2.4711737632751465
+      y: 91.12000274658203
+      z: -11.469131469726562
+      yaw: -0.42578125
+      pitch: -0.75001836
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    linkedNpc: discord
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&5&lDISCORD'
+    - '&fClick para Abrir'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  survival:
+    type: TEXT
+    location:
+      world: spawn
+      x: -5.491588592529297
+      y: 91.12000274658203
+      z: 12.453989028930664
+      yaw: 179.82935
+      pitch: -2.2500057
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    linkedNpc: Survival
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&a&lSURVIVAL'
+    - '&fHay &b%server_online_world% &fjugadores'
+    - '&8[&a◼◼◼◼◼◼◼◼◼◼◼&8]'
+    - '&aClick para ir'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  ranking:
+    type: TEXT
+    location:
+      world: spawn
+      x: -5.511192321777344
+      y: 91.12000274658203
+      z: -11.536768913269043
+      yaw: 0.28051758
+      pitch: 1.1999807
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    linkedNpc: Ranking
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&b&lRANKING'
+    - '&fLearboard: &b2'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  crate:
+    type: TEXT
+    location:
+      world: spawn
+      x: 2.5170600414276123
+      y: 91.12000274658203
+      z: 12.490818977355957
+      yaw: -179.41895
+      pitch: -0.4500292
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    linkedNpc: Crate
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&e&lCRATES'
+    - '&fCrates Activa: &b7'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  rtp:
+    type: TEXT
+    location:
+      world: world
+      x: 2.4638059459586907
+      y: 99.12000000476837
+      z: 0.4997684039981546
+      yaw: 91.200134
+      pitch: 19.949965
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    linkedNpc: Rtp
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&c&lRTP'
+    - '&fUsalo para viajar'
+    - '&fa una ubicacion ramdon'
+    - '&aClick para usar'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1

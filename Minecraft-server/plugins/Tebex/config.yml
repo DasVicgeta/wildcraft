@@ -1,0 +1,75 @@
+# Tebex v2.0.5 - https://tebex.io
+# Check out https://tebex.io/docs if you need help.
+
+# Buy Command
+# This is the command that players will use to open the Tebex GUI.
+buy-command:
+  enabled: true
+  name: buy
+
+# Whether to check for updates or not.
+check-for-updates: true
+
+# Automatic reporting of exceptions to Tebex
+auto-report-enabled: true
+
+# Debug Mode
+verbose: false
+
+# GUI Settings
+gui:
+  menu:
+    home:
+      title: '            ꜱᴇʀᴠᴇʀ ꜱʜᴏᴘ'
+      rows: 1
+    category:
+      title: Viendo %category%
+      rows: 3
+    sub-category:
+      title: Viendo %sub_category% (%category%)
+      rows: 1
+  item:
+    back:
+      name: '&cSalir'
+      material: COMPASS
+      lore: []
+    category:
+      name: '&b%category%'
+      material: CHEST
+      lore:
+      - '&7Click to view packages!'
+    package-sale:
+      name: '&b%package_name%'
+      material: PAPER
+      lore:
+      - '&7'
+      - '&7&l| &r&7Precio&8: &a%package_currency%%package_sale_price% &7(&m%package_currency%%package_price%&r&7)'
+      - '&7&l| &r&7Objetivo: &fCon la compra ayudas al server'
+      - '&7&l| &r&fa avanzar y mejorar.'
+      - '&7'
+      - '&7(( &f&o¡Click para comprar! &r&7))'
+    package:
+      name: '&b%package_name%'
+      material: PAPER
+      lore:
+      - '&7'
+      - '&7&l| &r&7Precio&8: &a%package_currency%%package_price%'
+      - '&7&l| &r&7Objetivo&8: &fCon la compra ayudas al server'
+      - '&7&l| &r&fa avanzar y mejorar.'
+      - '&7'
+      - '&7(( &f&o¡Click para comprar! &r&7))'
+
+# These settings are exclusive to this server.
+# Do not share these credentials with anyone.
+server:
+  # Proxy Mode
+  # If you are using BungeeCord/Velocity, set this to true.
+  proxy: false
+  
+  # Secret Key
+  # This is used to identify your server.
+  secret-key: e690929eed8cc9ff97291a9f7d73e24749b13796
+
+# Configuration Version
+# !! Do not change this value !!
+config-version: 2

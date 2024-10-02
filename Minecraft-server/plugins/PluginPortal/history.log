@@ -1,0 +1,115 @@
+[28/07/24 17:07:06] DasVicgeta INITIATED_UPDATE PluginPortal from MODRINTH with ID 5qkQnnWO
+[28/07/24 17:07:06] DasVicgeta INITIATED_INSTALL PluginPortal from MODRINTH with ID 667c45a7e4fff17899284030
+[28/07/24 17:07:09] DasVicgeta INSTALL PluginPortal from MODRINTH with ID 667c45a7e4fff17899284030
+[28/07/24 17:07:10] DasVicgeta UPDATE PluginPortal from MODRINTH with ID 5qkQnnWO
+[30/07/24 15:54:07] SYSTEM LOAD_PLUGINS Loaded 1 plugins from local cache
+[30/07/24 16:04:50] DasVicgeta INITIATED_INSTALL ChatImage - Send images in Minecraft! from SPIGOTMC with ID 667f7db70a78af037b3b08dd
+[30/07/24 16:04:54] DasVicgeta INSTALL ChatImage - Send images in Minecraft! from SPIGOTMC with ID 667f7db70a78af037b3b08dd
+[30/07/24 19:06:25] SYSTEM LOAD_PLUGINS Loaded 2 plugins from local cache
+[31/07/24 08:43:45] SYSTEM LOAD_PLUGINS Loaded 2 plugins from local cache
+[31/07/24 08:46:10] CONSOLE INITIATED_INSTALL ExcellentEnchants 75+ Vanilla-like Enchantments from SPIGOTMC with ID 667c327664b550bf31f1b681
+[31/07/24 08:46:11] CONSOLE INSTALL ExcellentEnchants 75+ Vanilla-like Enchantments from SPIGOTMC with ID 667c327664b550bf31f1b681
+[31/07/24 08:48:32] SYSTEM LOAD_PLUGINS Loaded 3 plugins from local cache
+[31/07/24 08:51:21] DasVicgeta DELETE ExcellentEnchants 75+ Vanilla-like Enchantments from SPIGOTMC with ID 61693
+[31/07/24 09:28:32] DasVicgeta INITIATED_INSTALL Staff+ | The Ultimate Moderation Plugin | from SPIGOTMC with ID 667c327364b550bf31f1b67b
+[31/07/24 11:04:55] DasVicgeta INITIATED_INSTALL Jobs Reborn from SPIGOTMC with ID 667c320264b550bf31f1b480
+[31/07/24 11:04:55] DasVicgeta INSTALL Jobs Reborn from SPIGOTMC with ID 667c320264b550bf31f1b480
+[31/07/24 14:45:56] SYSTEM LOAD_PLUGINS Loaded 3 plugins from local cache
+[31/07/24 14:49:00] DasVicgeta INITIATED_INSTALL CMILib from SPIGOTMC with ID 667c32aa64b550bf31f1b6e4
+[31/07/24 14:49:00] DasVicgeta INSTALL CMILib from SPIGOTMC with ID 667c32aa64b550bf31f1b6e4
+[31/07/24 14:58:33] SYSTEM LOAD_PLUGINS Loaded 4 plugins from local cache
+[31/07/24 15:05:03] DasVicgeta INITIATED_INSTALL SkinsRestorer from SPIGOTMC with ID 667c31c364b550bf31f1b225
+[31/07/24 15:05:29] DasVicgeta INSTALL SkinsRestorer from SPIGOTMC with ID 667c31c364b550bf31f1b225
+[31/07/24 16:06:11] SYSTEM LOAD_PLUGINS Loaded 5 plugins from local cache
+[31/07/24 16:13:28] SYSTEM LOAD_PLUGINS Loaded 5 plugins from local cache
+[31/07/24 16:19:40] SYSTEM LOAD_PLUGINS Loaded 5 plugins from local cache
+[31/07/24 16:26:48] SYSTEM LOAD_PLUGINS Loaded 5 plugins from local cache
+[01/08/24 16:11:31] SYSTEM LOAD_PLUGINS Loaded 5 plugins from local cache
+[01/08/24 16:51:26] SYSTEM LOAD_PLUGINS Loaded 5 plugins from local cache
+[01/08/24 16:52:20] DasVicgeta INITIATED_INSTALL ViaVersion from SPIGOTMC with ID 667c31c464b550bf31f1b22e
+[01/08/24 16:52:22] DasVicgeta INSTALL ViaVersion from SPIGOTMC with ID 667c31c464b550bf31f1b22e
+[01/08/24 17:41:17] SYSTEM LOAD_PLUGINS Loaded 6 plugins from local cache
+[02/08/24 13:46:04] SYSTEM LOAD_PLUGINS Loaded 6 plugins from local cache
+[02/08/24 13:48:19] DasVicgeta INITIATED_INSTALL AuraSkills from SPIGOTMC with ID 667c321464b550bf31f1b4dd
+[02/08/24 13:48:20] DasVicgeta INSTALL AuraSkills from SPIGOTMC with ID 667c321464b550bf31f1b4dd
+[02/08/24 13:50:32] SYSTEM LOAD_PLUGINS Loaded 7 plugins from local cache
+[02/08/24 13:58:22] SYSTEM LOAD_PLUGINS Loaded 7 plugins from local cache
+[02/08/24 14:02:40] SYSTEM LOAD_PLUGINS Loaded 7 plugins from local cache
+[02/08/24 14:10:32] SYSTEM LOAD_PLUGINS Loaded 7 plugins from local cache
+[03/08/24 16:55:14] SYSTEM LOAD_PLUGINS Loaded 7 plugins from local cache
+[03/08/24 17:17:55] SYSTEM LOAD_PLUGINS Loaded 7 plugins from local cache
+[03/08/24 17:21:37] SYSTEM LOAD_PLUGINS Loaded 7 plugins from local cache
+[03/08/24 17:25:19] SYSTEM LOAD_PLUGINS Loaded 7 plugins from local cache
+[04/08/24 13:57:44] SYSTEM LOAD_PLUGINS Loaded 7 plugins from local cache
+[04/08/24 13:59:33] SYSTEM LOAD_PLUGINS Loaded 7 plugins from local cache
+[04/08/24 14:02:42] SYSTEM LOAD_PLUGINS Loaded 7 plugins from local cache
+[04/08/24 14:05:22] SYSTEM LOAD_PLUGINS Loaded 7 plugins from local cache
+[04/08/24 14:08:22] DasVicgeta INITIATED_INSTALL VoidGen from SPIGOTMC with ID 667c329664b550bf31f1b6bd
+[04/08/24 14:08:23] DasVicgeta INSTALL VoidGen from SPIGOTMC with ID 667c329664b550bf31f1b6bd
+[04/08/24 14:09:36] SYSTEM LOAD_PLUGINS Loaded 8 plugins from local cache
+[04/08/24 16:51:24] SYSTEM LOAD_PLUGINS Loaded 8 plugins from local cache
+[04/08/24 16:53:48] SYSTEM LOAD_PLUGINS Loaded 8 plugins from local cache
+[04/08/24 17:59:53] SYSTEM LOAD_PLUGINS Loaded 8 plugins from local cache
+[09/08/24 18:25:17] SYSTEM LOAD_PLUGINS Loaded 8 plugins from local cache
+[21/08/24 17:00:58] SYSTEM LOAD_PLUGINS Loaded 8 plugins from local cache
+[29/08/24 18:22:17] SYSTEM LOAD_PLUGINS Loaded 8 plugins from local cache
+[02/09/24 15:34:08] SYSTEM LOAD_PLUGINS Loaded 8 plugins from local cache
+[02/09/24 20:46:21] SYSTEM LOAD_PLUGINS Loaded 8 plugins from local cache
+[03/09/24 18:24:33] SYSTEM LOAD_PLUGINS Loaded 8 plugins from local cache
+[10/09/24 22:34:02] SYSTEM LOAD_PLUGINS Loaded 8 plugins from local cache
+[10/09/24 23:10:04] DasVicgeta INITIATED_INSTALL NoCheatPlus from SPIGOTMC with ID 667c325564b550bf31f1b62a
+[10/09/24 23:10:05] DasVicgeta INSTALL NoCheatPlus from SPIGOTMC with ID 667c325564b550bf31f1b62a
+[10/09/24 23:11:57] DasVicgeta INITIATED_INSTALL Dupe Fixes / Illegal Stack Remover from SPIGOTMC with ID 667c346664b550bf31f1b9f9
+[10/09/24 23:11:57] DasVicgeta INSTALL Dupe Fixes / Illegal Stack Remover from SPIGOTMC with ID 667c346664b550bf31f1b9f9
+[10/09/24 23:17:07] SYSTEM LOAD_PLUGINS Loaded 10 plugins from local cache
+[14/09/24 18:26:02] SYSTEM LOAD_PLUGINS Loaded 10 plugins from local cache
+[14/09/24 19:32:45] SYSTEM LOAD_PLUGINS Loaded 10 plugins from local cache
+[14/09/24 19:36:41] DasVicgeta INITIATED_INSTALL CustomCrafting from MODRINTH with ID 667c31d564b550bf31f1b2ac
+[14/09/24 19:36:41] DasVicgeta INSTALL CustomCrafting from MODRINTH with ID 667c31d564b550bf31f1b2ac
+[14/09/24 19:38:39] SYSTEM LOAD_PLUGINS Loaded 11 plugins from local cache
+[14/09/24 19:39:10] DasVicgeta INITIATED_UPDATE AuraSkills from SPIGOTMC with ID 81069
+[14/09/24 19:39:12] DasVicgeta INITIATED_INSTALL AuraSkills from SPIGOTMC with ID 667c321464b550bf31f1b4dd
+[14/09/24 19:39:12] DasVicgeta INSTALL AuraSkills from SPIGOTMC with ID 667c321464b550bf31f1b4dd
+[14/09/24 19:39:12] DasVicgeta UPDATE AuraSkills from SPIGOTMC with ID 81069
+[14/09/24 19:39:21] DasVicgeta INITIATED_UPDATE ViaVersion from SPIGOTMC with ID 19254
+[14/09/24 19:39:21] DasVicgeta INITIATED_INSTALL ViaVersion from SPIGOTMC with ID 667c31c464b550bf31f1b22e
+[14/09/24 19:39:21] DasVicgeta INSTALL ViaVersion from SPIGOTMC with ID 667c31c464b550bf31f1b22e
+[14/09/24 19:39:21] DasVicgeta UPDATE ViaVersion from SPIGOTMC with ID 19254
+[14/09/24 19:40:23] DasVicgeta INITIATED_INSTALL WolfyUtils from MODRINTH with ID 667c31d964b550bf31f1b2d3
+[14/09/24 19:40:23] DasVicgeta INSTALL WolfyUtils from MODRINTH with ID 667c31d964b550bf31f1b2d3
+[14/09/24 19:44:21] SYSTEM LOAD_PLUGINS Loaded 12 plugins from local cache
+[28/09/24 00:06:36] SYSTEM LOAD_PLUGINS Loaded 11 plugins from local cache
+[28/09/24 21:18:47] SYSTEM LOAD_PLUGINS Loaded 11 plugins from local cache
+[28/09/24 21:21:30] DasVicgeta INITIATED_INSTALL MOTD from SPIGOTMC with ID 667c325b64b550bf31f1b64b
+[28/09/24 21:21:30] DasVicgeta INSTALL MOTD from SPIGOTMC with ID 667c325b64b550bf31f1b64b
+[28/09/24 21:35:15] SYSTEM LOAD_PLUGINS Loaded 11 plugins from local cache
+[29/09/24 15:22:47] SYSTEM LOAD_PLUGINS Loaded 11 plugins from local cache
+[29/09/24 17:08:24] DasVicgeta INITIATED_INSTALL Yamipa from SPIGOTMC with ID 667f797e8709848fb40c948c
+[29/09/24 17:08:25] DasVicgeta INSTALL Yamipa from SPIGOTMC with ID 667f797e8709848fb40c948c
+[29/09/24 18:47:57] SYSTEM LOAD_PLUGINS Loaded 12 plugins from local cache
+[29/09/24 19:15:53] DasVicgeta INITIATED_INSTALL Sit from MODRINTH with ID 667c31e164b550bf31f1b32d
+[29/09/24 19:15:53] DasVicgeta INSTALL Sit from MODRINTH with ID 667c31e164b550bf31f1b32d
+[29/09/24 19:53:04] SYSTEM LOAD_PLUGINS Loaded 13 plugins from local cache
+[29/09/24 20:10:24] SYSTEM LOAD_PLUGINS Loaded 12 plugins from local cache
+[29/09/24 21:09:25] DasVicgeta INITIATED_INSTALL SilkSpawners || Ready to rock! - supported from SPIGOTMC with ID 667c339564b550bf31f1b867
+[29/09/24 21:09:25] DasVicgeta INSTALL SilkSpawners || Ready to rock! - supported from SPIGOTMC with ID 667c339564b550bf31f1b867
+[30/09/24 17:53:10] SYSTEM LOAD_PLUGINS Loaded 13 plugins from local cache
+[30/09/24 19:49:17] SYSTEM LOAD_PLUGINS Loaded 13 plugins from local cache
+[30/09/24 22:00:48] DasVicgeta INITIATED_INSTALL AnswerAndWin | Answer Questions, Win Coins, Buy Rewards! from SPIGOTMC with ID 667f4cc04f23a910c9c085a0
+[30/09/24 22:00:49] DasVicgeta INSTALL AnswerAndWin | Answer Questions, Win Coins, Buy Rewards! from SPIGOTMC with ID 667f4cc04f23a910c9c085a0
+[30/09/24 22:15:29] SYSTEM LOAD_PLUGINS Loaded 12 plugins from local cache
+[30/09/24 22:21:44] SYSTEM LOAD_PLUGINS Loaded 12 plugins from local cache
+[30/09/24 22:22:31] DasVicgeta INITIATED_UPDATE Jobs Reborn from SPIGOTMC with ID 4216
+[30/09/24 22:22:32] DasVicgeta INITIATED_INSTALL Jobs Reborn from SPIGOTMC with ID 667c320264b550bf31f1b480
+[30/09/24 22:22:32] DasVicgeta INSTALL Jobs Reborn from SPIGOTMC with ID 667c320264b550bf31f1b480
+[30/09/24 22:22:33] DasVicgeta UPDATE Jobs Reborn from SPIGOTMC with ID 4216
+[01/10/24 17:18:37] SYSTEM LOAD_PLUGINS Loaded 12 plugins from local cache
+[01/10/24 21:20:16] SYSTEM LOAD_PLUGINS Loaded 12 plugins from local cache
+[01/10/24 21:50:40] SYSTEM LOAD_PLUGINS Loaded 12 plugins from local cache
+[01/10/24 21:55:03] SYSTEM LOAD_PLUGINS Loaded 12 plugins from local cache
+[01/10/24 22:00:59] SYSTEM LOAD_PLUGINS Loaded 12 plugins from local cache
+[02/10/24 12:06:39] SYSTEM LOAD_PLUGINS Loaded 12 plugins from local cache
+[02/10/24 12:52:04] SYSTEM LOAD_PLUGINS Loaded 12 plugins from local cache
+[02/10/24 17:24:46] SYSTEM LOAD_PLUGINS Loaded 12 plugins from local cache
+[02/10/24 18:06:11] DasVicgeta INITIATED_INSTALL ExcellentEnchants 75+ Vanilla-like Enchantments from SPIGOTMC with ID 667c327664b550bf31f1b681
+[02/10/24 18:06:11] DasVicgeta INSTALL ExcellentEnchants 75+ Vanilla-like Enchantments from SPIGOTMC with ID 667c327664b550bf31f1b681

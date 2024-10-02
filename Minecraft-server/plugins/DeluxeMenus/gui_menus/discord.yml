@@ -1,0 +1,40 @@
+menu_title: '&7| DISCORD'
+open_command: discord
+size: 45
+items:
+  '0':
+    material: MAGENTA_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 9
+      - 36
+      - 27
+      - 37
+      - 43
+      - 44
+      - 35
+      - 17
+      - 8
+      - 7
+  '20':
+    material: BOOK
+    display_name: '&5&lDISCORD'
+    lore:
+    - ''
+    - '&7| &fEn este menu veras los servidores'
+    - '&7| &faliados a nosotros'
+    - ''
+    - '&f Si queires  unirte a un servidor'
+    - '&f Da Click derecho'
+    slots:
+      - 20
+  '24':
+    material: BOOK
+    slot: 24
+    display_name: '&5&lCRAFTINGMODS'
+    lore:
+    - ''
+    - '&7| &fServidor Survival con Mods'
+    - '&7| &fVersion: &a1.20.1'
+    - ''

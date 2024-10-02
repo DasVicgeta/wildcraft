@@ -1,0 +1,153 @@
+npcs:
+  9adbbe69-b657-40b5-a183-4f2361b62fb3:
+    name: Crate
+    creator: 7e385908-e08e-3ca0-ac21-29b5090dec62
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: spawn
+      x: 2.5170599376596985
+      y: 89.0
+      z: 12.490818715771182
+      yaw: -179.41895
+      pitch: -0.4500292
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages: []
+    playerCommands:
+    - warp crate
+    serverCommands: []
+    sendMessagesRandomly: false
+    interactionCooldown: 0.0
+    scale: 1.0
+    mirrorSkin: false
+    skin:
+      identifier: 5b727d36-0297-40f0-9dda-3d2b5241b968
+      value: ewogICJ0aW1lc3RhbXAiIDogMTcyMTg2MTEyMDE5MywKICAicHJvZmlsZUlkIiA6ICI1YjcyN2QzNjAyOTc0MGYwOWRkYTNkMmI1MjQxYjk2OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZG9uZ25lIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MxYWVmZWM0MzcyMzQ3ZTU3NGZjZDg2ZTE5NzdmYmFhNWE2ZDAxZTBkODBiY2E4ZjgzN2Q0MTM0NDcxNDdlMDAiCiAgICB9CiAgfQp9
+      signature: hdU+muWiNiqg7+Apq+6vCpiXUPSt1PcSsYkEmqaUnSRCNsLnGxOOqkw76eVMxk0bltg9QnjOxAURZ4M9jd2vB2owP8BHAjDiFDId9Ef9A8zrBsWYg3Bvh3fihfFDJlubb94qUxGIModHciAl1pxaJPVc/cc+J3v8sb6aImlaxoP1ywbIp9vPD6jvYLk6/raO83g1+WJRttF9WL5Ove+Jo7WN39edSR1dtoDocXYteufZGxcHl+fc9YcTRjk5EjxII4wxUJNxqKC805G/nJr0QfAwgNRnIXAby6VA7SNpf0udlnLuI6SrusAaC9drRSCuCZ999QpgKazRecBdA3AMukSmHGf66VXKd7zXDfGmk5Yi6xDrMQmLcgUywLr/9qMVjgLJGy6WSVeZGWNmYetQGWkkThKrg+CeHk/2tTJ7AgrNeySXJJ/9WiSrRGshNeELb4ONV3n0mNZ2X+3K8wH8A9BF1jRf9snMMp3MqUUIQVdXE6TlcsYjLoLSmZVOH1lndLmLpzdwDVPsGPaEKS1aQ75y9qUy6rBxXdCi1BMXPFE1p7K5IPMQxqz6CUMQOpVGrkksDyVsDn17t+S/uJEHCImkz8eJVJndI+dLxxY1pcnawM1RAdMZgiRCDaUtpBYGnZJfkRrgpPn4WYvkcVhskG/YWNTefYejy3mllYiqcyk=
+    attributes:
+      pose: standing
+  6c058c44-fc82-4569-81a6-b6ff138b4a5f:
+    name: Survival
+    creator: 7e385908-e08e-3ca0-ac21-29b5090dec62
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: spawn
+      x: -5.491588372595776
+      y: 89.0
+      z: 12.45398942617565
+      yaw: 179.82935
+      pitch: -2.2500057
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages: []
+    playerCommands:
+    - warp survival
+    serverCommands: []
+    sendMessagesRandomly: false
+    interactionCooldown: 0.0
+    scale: 1.0
+    mirrorSkin: false
+    skin:
+      identifier: a42266ab-208e-4b19-8027-e8bb3d567a5e
+      value: ewogICJ0aW1lc3RhbXAiIDogMTcyMTg2MTA4MTUyNCwKICAicHJvZmlsZUlkIiA6ICJhNDIyNjZhYjIwOGU0YjE5ODAyN2U4YmIzZDU2N2E1ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEcXZpbE1vb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzAzZTY4ZDYyNDA4ZDIyZDU3YjM3ZjcxYzhkYTRkMTgxMGYzZWFmMDViNTg5ZTlkZjBjYmViYTlmYTM4NjM3NSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+      signature: Dnv1XI/Nrqm62Q+auxCGpHQ9N6AfNCfAxFVMGmFqs9qojfxNV7V/8aZYH2x3pGUyhfKP8brRl+ilCgrnZGYzB1dYHdXcJHotumOqy5C5fbWXuAJ6zIkZTC5KF/V8vXNuSpoVXHPBNLpcI2CWr37t7vK+KUlss9TAdezl2OvjkKjQ87QlQBtlsDCF++1DjDyMEPtt44paaUrji/l3TLnPl0xlezv209sFUd+V7gC180jOhyGsxVmCWGWOy+e0a0vOVkzpz88Gn2uZSU571LrhDF1NO5tl6xLHAe2sNaoWn4/4QSqtFSpRTRhcjYLokSZ4rTvDQghx4K1cFNb9yvP6LyPENtDWdw/G+9uk1o+GzkAkCx2lqmdkyv7IZ9mPPHwzZXfxe7d8Sngl/iUJQ3jn00VX5SXajHzM6X5QGO7eZ1kQEtt35C+rHQmSIWiri03PZLcPecv5zadb5WqljSGBvw8vyiIRw4RWV1zwGstesAumQX6DdIbuayCj4ZKkLCzrQOCa9vkpR5a2VaoWmSpWn5Q6XCCkPjMrGEK+qKf1rLi+lVnIAUsw+HsEBrGt3YaG5zrkIbHGcX+QxVdcCwafwgWpwIkuM9a6R4z9cd/6FgFcoH/95234bwgZGAAlP1Hj0/f/4uqRS8X5oi3sIsFE3vFrpiPrUsIvc3wCoPTP8k0=
+  5a4adfe7-4104-4fae-8478-65f2c99128f9:
+    name: Rtp
+    creator: 7e385908-e08e-3ca0-ac21-29b5090dec62
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: 2.4638059459586907
+      y: 97.0
+      z: 0.4997684039981546
+      yaw: 91.200134
+      pitch: 19.949965
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages: []
+    playerCommands:
+    - betterrtp
+    serverCommands: []
+    sendMessagesRandomly: false
+    interactionCooldown: 0.0
+    scale: 1.0
+    mirrorSkin: false
+    skin:
+      identifier: 80c95930-45ca-4993-a610-5cb932c95f95
+      value: ewogICJ0aW1lc3RhbXAiIDogMTcyMTg2MTkwNDI2OCwKICAicHJvZmlsZUlkIiA6ICI4MGM5NTkzMDQ1Y2E0OTkzYTYxMDVjYjkzMmM5NWY5NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzbG9vcGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mNjRjNzNkZjE3MmYyNTA1N2VmNTg1OGQ4NjUzZGYzOWJkM2E0MTg1OGE4YTZkMTFkYzJmY2ZmYmQ4YjllMTQzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      signature: tmn577I1EB2Q9wkfwp0XrZZhcAwKsYqZ3XJ52mxBFY+xo9Qoje/8zHDjfPY13IIOk277TtZPkdUDceie5OIyG4r023lJcVQiuPwx8gO6/4eZZtbiQWGxtj/oGFc07XuySvZYaNL7SHgIC5n4mEVDr4/CnQONWHpebowfZHx+vqjefsO8RahT8E8Q3gpGDSaVuWko1CGMPJEuJK3rnKJvtwwooEoUuXZAAZjYUYD7bEnhjtTVmaoUTDSeEahmc16/JAJDoqh57eKA81izeZ9r9gFqFf6L1/gqRFoTxFccqEpoyC4CERNiZQoduKIbqUTRRb2FJiWJ3euy2D0vXu6C78MG1Qn+nDuPixhxbcXu9lm+jHZUc/e9ytaq6B05wS7gYDAW28H3OFyhIu18ncY+4fCxSvU/F4cQG8NGGKOF30l45odHJOMMZs/ion6DOpy7+6FWdo7XYwnedsnbUVkQxIaH7u/hmyR3k7IimSIqj9LZ8C2Vc4ZN5uxPC+KI79eyh3OjMUEqBp6sSJ5UQDYqyOqAZ9XwzRsYqAswnqa0MaJjwOZnowXxUKkPGo1D7636jrnTIQlULPEiZX/gzbkrWUNapN9woxDuu3O+RwoHx1qDiXcEHnXWqVpsdQoa3P3awPuk5G9eeCm/fzCtv7wS2FMdSL8v+oDJUGdG4b/MS2c=
+  e5acfa42-09be-497d-ba3b-81b47c6afb1d:
+    name: Ranking
+    creator: 7e385908-e08e-3ca0-ac21-29b5090dec62
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: spawn
+      x: -5.511192494611689
+      y: 89.0
+      z: -11.536768843783522
+      yaw: 0.28051758
+      pitch: 1.1999807
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages: []
+    playerCommands:
+    - warp ranking
+    serverCommands: []
+    sendMessagesRandomly: false
+    interactionCooldown: 0.0
+    scale: 1.0
+    mirrorSkin: false
+    skin:
+      identifier: 456f958a-ac4a-474f-8d1f-a8e0232ca153
+      value: ewogICJ0aW1lc3RhbXAiIDogMTcyMjU1MDE0NzE1NSwKICAicHJvZmlsZUlkIiA6ICI0NTZmOTU4YWFjNGE0NzRmOGQxZmE4ZTAyMzJjYTE1MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZWx0YV9URiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMWJiZWFmNjRjZTAwN2M0MjdiYzg1ZmMxYjMxYjU0ZDg0OTJjMTI0MmE5MmZjY2FmODgxNTMyY2I5NmViOTU1IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjlhNzY1Mzc2NDc5ODlmOWEwYjZkMDAxZTMyMGRhYzU5MWMzNTllOWU2MWEzMWY0Y2UxMWM4OGYyMDdmMGFkNCIKICAgIH0KICB9Cn0=
+      signature: FsMZnwRguSAW+Gm9BpNmhDl/MMhf/CZwv4j+gBsD5YQBApABTI/0bTGdqapzMrUnvVYW4P3K8QyziExdNNi5+zQm9O1GrNBukIDS/mAXdbVexW7VjhraLGrsAa61gG8qkr0UCeQgnlVrdmFAl5RUYjdf9/twFw4dxfpcd41YCiRWgXgNPteXnNkWMoymBzh013Ob0yNc1k7u87tt4IWgf1c6CpXV+R/qJ0N2Gl+AKS9zMh9KDdrF7T2CrRQ4nbQ6vdVuJjTyI/Mql3dSLzQWaIb5U0CknUBtU52+U6Y6qZjQ+mLqGYmlPyoXFgngm9qYBY25rHcVB/IeZKK6EDfaFboTAR5gql5YfxcsMXKGqVJIF63bxJfLKnY2UUVuAsenmL9y8/jacSK7W8eliUyv/oiRRqKTrB7jRsQIqRSycZobkN6ZfDrS5SuCBr45+9r2Ieq0N/U0k5I5AtmAGA/l0I6TwIY8FGODQhmiJ/pKY8r6G5zRA7xHXG/qOUMgpO7vEnpgVXyLS+zt5akiN3e1ABeKQvWEnAigPlb5opf9CBRsf4ECZVu0BMoeEcWT6KqZJOeGmtzQDlO9JmqHxmo6/GbqBNoFtPnO0Z8YwN/gHzoD1PbNl/561XE5LhKtTG92bipJen3H+2MlNr0TMgYFXPMEBU4sG6fxDZJ+L48w9d8=
+  83a7883a-caa8-4758-b677-95b2a0644aed:
+    name: discord
+    creator: 7e385908-e08e-3ca0-ac21-29b5090dec62
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: spawn
+      x: 2.4711738349209504
+      y: 89.0
+      z: -11.469131127309517
+      yaw: -0.42578125
+      pitch: -0.75001836
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    messages: []
+    playerCommands:
+    - discord
+    serverCommands: []
+    sendMessagesRandomly: false
+    interactionCooldown: 0.0
+    scale: 1.0
+    mirrorSkin: false
+    skin:
+      identifier: 9563ec6a-44cd-43a3-97a2-09a42362bc16
+      value: ewogICJ0aW1lc3RhbXAiIDogMTcyNjM0MDA4MjU3MCwKICAicHJvZmlsZUlkIiA6ICI5NTYzZWM2YTQ0Y2Q0M2EzOTdhMjA5YTQyMzYyYmMxNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDb25zdGlDcmFmdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMjI0NmVhMmRmNTA5OTc5Yzk3ODNmOTU5MzBjOGJlOThkYmI2OTM1YWY1YWJiZGU0Yzk0ZmI1NTgzODYxNzM5IgogICAgfQogIH0KfQ==
+      signature: HYfRY5WSPxD0bqloIl0kzLhAMhvMkhwviKnEWEpVseLHd19ya3czd6Jbd6u+4YRAbIvbrYUpJEmS8xPg1b8ymr2QKLE1D4z4AOqNyifPsYD5b/FBt1Rb96u9XVQWTEe8b+/jIIp5QfJAcnzR3QQOCQZrbBsKBQN7k7uzTgllqcWBbJeqzLNiqeR2LhTXAmPSwOM/xSYTy7wxfiVpdVhGgpSybx9ui/NEAbZixLmw5leJ3MuQoO4wk87VZpwj1xPIpurKTYeUd74fPu86GEr7tpbRo+q5sE34BM1yQ7v6LqfoJm5SmHGWB4Gs0LOg1GxWox1g9bAUSGNmsSnlUm4uTsI5CZ1C9nTCIoA0wwa+0KFlT8Z0E9Jdfg+fpJ/nj3ZBFcfWua+dAMN6DATomK12XEpNRLP1WP872FBW7x8z10UiQOXQinOl599O17lFnJ/aU45UhPsmMcSL9zLfWfYp2OlVIbGAGv8l2TcLAOe6uxnAqKoLXQ0Z3NYwe9/R4g+wVreAr03s3eOIKbCjO9CkT3mA+so9XSzuRhMgy/G5FoVsaKHHCtwzkMOd8okOBdgGZxG46W2H2iE9lZQ3XhhBzYjuuX0Cporkx2t6XHaIUbs+tN4UDr9FtiZXm+eObWXrRBTbsbnQEtPgUDFWMFpsCYaZ80aBvsp4oDsVRQUK0d8=

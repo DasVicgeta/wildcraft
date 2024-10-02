@@ -1,0 +1,43 @@
+playername: karlito101
+lang: en_US
+minerate-full-mined: 161
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 10
+cheats:
+  fastladder: 0
+  autoclick: 0
+  critical: 0
+  regen: 0
+  forcefield: 11
+  xray: 0
+  noslowdown: 0
+  speed: 5
+  timer: 0
+  pingspoof: 0
+  antipotion: 0
+  airplace: 0
+  airjump: 0
+  sneak: 0
+  faststairs: 0
+  autosteal: 0
+  phase: 0
+  nopitchlimit: 0
+  fastbow: 0
+  fasteat: 0
+  noweb: 0
+  inventorymove: 0
+  fly: 0
+  jesus: 0
+  scaffold: 0
+  nuker: 0
+  chat: 0
+  fastplace: 0
+  step: 0
+  spider: 1
+  nofall: 0
+creation-time: 1727734544236

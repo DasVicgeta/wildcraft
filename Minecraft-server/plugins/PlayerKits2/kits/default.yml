@@ -1,0 +1,235 @@
+cooldown: 72000
+one_time: false
+auto_armor: true
+permission_required: false
+save_original_items: true
+display:
+  default:
+    id: LIGHT_GRAY_CANDLE
+    name: '&x&b&9&b&9&b&9&lD&x&a&1&a&1&a&1&le&x&8&9&8&9&8&9&lf&x&7&2&7&2&7&2&la&x&5&a&5&a&5&a&lu&x&4&2&4&2&4&2&ll&x&2&a&2&a&2&a&lt
+      &f&lKIT'
+    amount: 1
+    lore:
+    - '&dEste Kit Incluye:'
+    - ''
+    - '&d>> &7x1 Espada de Piedra'
+    - '&d>> &7x1 Pico de Piedra'
+    - '&d>> &7x1 Hacha de Piedra'
+    - '&d>> &7x1 Casco de Cuero'
+    - '&d>> &7x1 Pechera de Cuero'
+    - '&d>> &7x1 Pantalones de Cuero'
+    - '&d>> &7x1 Botas de Cuero'
+    - '&d>> &7x1 Escudo'
+    - '&d>> &7x32 Filetes Asados'
+    - '&d>> &7x1 Proteccion de 25x25'
+    - ''
+    - '&7Cooldown: &c1 hours'
+    - ''
+    - '&7(( &fClick Izquierdo &7para reclamar! ))'
+    - '&7(( &fClick Derecho &7para ver! ))'
+    item_flags:
+    - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&x&b&9&b&9&b&9&lD&x&a&1&a&1&a&1&le&x&8&9&8&9&8&9&lf&x&7&2&7&2&7&2&la&x&5&a&5&a&5&a&lu&x&4&2&4&2&4&2&ll&x&2&a&2&a&2&a&lt
+      &f&lKIT'
+    amount: 1
+    lore:
+    - ''
+    - '&7┃ Estatus: &cSin Permisos'
+    - '&7┃ Requieres: [] &f&lRank'
+    - ''
+    - '&8Compra el [] &8rank para reclamar'
+    - ''
+    - '&7(( &fClick derecho &7para ver))'
+  cooldown:
+    id: CLOCK
+    name: '&x&b&9&b&9&b&9&lD&x&a&1&a&1&a&1&le&x&8&9&8&9&8&9&lf&x&7&2&7&2&7&2&la&x&5&a&5&a&5&a&lu&x&4&2&4&2&4&2&ll&x&2&a&2&a&2&a&lt
+      &f&lKIT'
+    amount: 1
+    lore:
+    - ''
+    - '&7┃ Estatus: &cCooldown Activo'
+    - '&7┃ Tiempo: &f%time%'
+    - ''
+    - '&7(( &f&oClick-Derecho &7&opara ver &r&7))'
+    item_flags:
+    - HIDE_ATTRIBUTES
+requirements:
+  one_time_requirements: false
+  extra_requirements: []
+  message:
+  - '&6You need $5000 to get this kit.'
+  - '&8Status: &7$%vault_eco_balance% &8- %status_symbol_price%'
+  actions_on_buy: []
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: COOKED_BEEF
+      amount: 16
+    preview_slot: 3
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Casco
+          "},{"italic":false,"color":"white","text":"| "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B9B9B9","text":"D"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A1A1A1","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#898989","text":"f"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#727272","text":"a"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5A5A5A","text":"u"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#424242","text":"l"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#2A2A2A","text":"t"}],"text":""}'
+        meta-type: COLORABLE_ARMOR
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 244
+          BLUE: 244
+          GREEN: 244
+    preview_slot: 4
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: COOKED_BEEF
+      amount: 16
+    preview_slot: 5
+  '4':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: STONE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Espada
+          "},{"italic":false,"color":"white","text":"| "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B9B9B9","text":"D"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A1A1A1","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#898989","text":"f"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#727272","text":"a"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5A5A5A","text":"u"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#424242","text":"l"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#2A2A2A","text":"t"}],"text":""}'
+    preview_slot: 12
+  '5':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pechera
+          "},{"italic":false,"color":"white","text":"| "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B9B9B9","text":"D"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A1A1A1","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#898989","text":"f"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#727272","text":"a"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5A5A5A","text":"u"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#424242","text":"l"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#2A2A2A","text":"t"}],"text":""}'
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 244
+          BLUE: 244
+          GREEN: 244
+    preview_slot: 13
+  '6':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: STONE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Hacha
+          "},{"italic":false,"color":"white","text":"| "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B9B9B9","text":"D"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A1A1A1","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#898989","text":"f"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#727272","text":"a"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5A5A5A","text":"u"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#424242","text":"l"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#2A2A2A","text":"t"}],"text":""}'
+    preview_slot: 14
+  '7':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: STONE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pico
+          "},{"italic":false,"color":"white","text":"| "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B9B9B9","text":"D"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A1A1A1","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#898989","text":"f"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#727272","text":"a"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5A5A5A","text":"u"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#424242","text":"l"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#2A2A2A","text":"t"}],"text":""}'
+
+    preview_slot: 21
+  '8':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pantalones
+          "},{"italic":false,"color":"white","text":"| "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B9B9B9","text":"D"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A1A1A1","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#898989","text":"f"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#727272","text":"a"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5A5A5A","text":"u"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#424242","text":"l"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#2A2A2A","text":"t"}],"text":""}'
+        meta-type: COLORABLE_ARMOR
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 244
+          BLUE: 244
+          GREEN: 244
+    preview_slot: 22
+  '9':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: SHIELD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Escudo
+          "},{"italic":false,"color":"white","text":"| "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B9B9B9","text":"D"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A1A1A1","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#898989","text":"f"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#727272","text":"a"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5A5A5A","text":"u"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#424242","text":"l"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#2A2A2A","text":"t"}],"text":""}'
+
+    preview_slot: 23
+  '10':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Botas
+          "},{"italic":false,"color":"white","text":"| "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B9B9B9","text":"D"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A1A1A1","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#898989","text":"f"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#727272","text":"a"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5A5A5A","text":"u"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#424242","text":"l"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#2A2A2A","text":"t"}],"text":""}'
+        meta-type: COLORABLE_ARMOR
+        color:
+          ==: Color
+          ALPHA: 255
+          RED: 244
+          BLUE: 244
+          GREEN: 244
+    preview_slot: 31
+  '11':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: COPPER_ORE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"ᴘʀᴏᴛᴇᴄᴄɪᴏɴ
+          25x25"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Protege
+          tu area"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"de
+          intrusos y ladrones"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Radio"},{"italic":false,"color":"white","text":":"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"X:
+          25"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Y:
+          -1"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Z:
+          25"}],"text":""}'
+        enchants:
+          LURE: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        PublicBukkitValues:
+          protectionstones:ispsblock: 1b
+    preview_slot: 32
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

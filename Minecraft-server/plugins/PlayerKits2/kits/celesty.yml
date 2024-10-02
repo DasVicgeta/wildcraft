@@ -1,0 +1,332 @@
+cooldown: 864000
+one_time: false
+auto_armor: true
+permission_required: true
+save_original_items: true
+display:
+  default:
+    id: ENDER_CHEST
+    name: '&x&0&8&D&D&F&B&lC&x&2&3&E&0&F&9&le&x&3&E&E&2&F&8&ll&x&5&8&E&5&F&6&le&x&7&3&E&7&F&5&ls&x&8&E&E&A&F&3&lt&x&A&5&E&E&F&5&ly&x&B&B&F&2&F&8&l
+      &x&D&2&F&7&F&A&lK&x&E&8&F&B&F&D&lI&x&F&F&F&F&F&F&lT'
+    amount: 1
+    lore:
+    - '&dEste Kit Incluye:'
+    - ''
+    - '&d>> &7x1 Espada de Netherithe'
+    - '&d>> &7x1 Arco Encantado'
+    - '&d>> &7x1 Pico de Netherithe'
+    - '&d>> &7x1 Hacha de Netherithe Encantado'
+    - '&d>> &7x1 Pala de Netherithe Encantado'
+    - '&d>> &7x1 Casco de Netherithe Encantado'
+    - '&d>> &7x1 Pechera de Netherithe Encantado'
+    - '&d>> &7x1 Pantalones de Netherithe Encantado'
+    - '&d>> &7x1 Botas de Netherithe Encantado'
+    - '&d>> &7x2 Totems de la inmortalidad'
+    - '&d>> &7x32 Manzanas doradas encantada'
+    - '&d>> &7x32 Esneraldas'
+    - '&d>> &7x48 Diamantes'
+    - '&d>> &7x4 Lingotes de Netherite'
+    - '&d>> &7x1 Proteccion de 350x350'
+    - ''
+    - '&7Cooldown: &c12 hours'
+    - ''
+    - '&7(( &fClick Izquierdo &7para reclamar! ))'
+    - '&7(( &fClick Derecho &7para ver! ))'
+    enchants:
+    - MENDING;1
+    item_flags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_DESTROYS
+    - HIDE_PLACED_ON
+    - HIDE_POTION_EFFECTS
+    - HIDE_DYE
+    - HIDE_ARMOR_TRIM
+  no_permission:
+    id: BARRIER
+    name: '&x&0&8&D&D&F&B&lC&x&2&3&E&0&F&9&le&x&3&E&E&2&F&8&ll&x&5&8&E&5&F&6&le&x&7&3&E&7&F&5&ls&x&8&E&E&A&F&3&lt&x&A&5&E&E&F&5&ly&x&B&B&F&2&F&8&l
+      &x&D&2&F&7&F&A&lK&x&E&8&F&B&F&D&lI&x&F&F&F&F&F&F&lT'
+    amount: 1
+    lore:
+    - ''
+    - '&7&l〡 &r&7Estatus: &cSin Permiso'
+    - '&7&l〡 &r&7Requieres: #08ddfb&lC#35e1f8&le#61e6f6&ll#8eeaf3&le#b4f1f7&ls#d9f8fb&lt#ffffff&ly
+      &7&lRank'
+    - ''
+    - '&8Compra el #08ddfb&lC#35e1f8&le#61e6f6&ll#8eeaf3&le#b4f1f7&ls#d9f8fb&lt#ffffff&ly
+      &8rank para reclamar'
+    - ''
+    - '&7(( &fClick derecho &7para ver))'
+  cooldown:
+    id: CLOCK
+    name: '&x&0&8&D&D&F&B&lC&x&2&3&E&0&F&9&le&x&3&E&E&2&F&8&ll&x&5&8&E&5&F&6&le&x&7&3&E&7&F&5&ls&x&8&E&E&A&F&3&lt&x&A&5&E&E&F&5&ly&x&B&B&F&2&F&8&l
+      &x&D&2&F&7&F&A&lK&x&E&8&F&B&F&D&lI&x&F&F&F&F&F&F&lT'
+    amount: 1
+    lore:
+    - ''
+    - '&7┃ Estatus: &cCooldown Activo'
+    - '&7┃ Tiempo: &f%time%'
+    - ''
+    - '&7(( &f&oClick-Derecho &7&opara ver &r&7))'
+    item_flags:
+    - HIDE_ATTRIBUTES
+requirements:
+  one_time_requirements: false
+  extra_requirements: []
+  message:
+  - ''
+  - '&7&l〡 &r&7Estatus: &aActivo'
+  - '&7&l〡 &r&7Rango: &x&F&A&0&2&0&2&lI&x&E&2&0&2&0&2&lN&x&C&A&0&1&0&1&lF&x&B&1&0&1&0&1&lE&x&9&9&0&0&0&0&lR&x&8&7&0&2&0&2&lN&x&7&4&0&3&0&3&lU&x&6&2&0&5&0&5&lS'
+  - ''
+  - '&7&l〡 &r&7Estatus: %status_symbol_requirement_1%'
+  actions_on_buy: []
+  price: 0.0
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND
+      amount: 24
+    preview_slot: 2
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: TOTEM_OF_UNDYING
+    preview_slot: 3
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 10
+          DURABILITY: 10
+    preview_slot: 4
+  '4':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: GOLDEN_CARROT
+      amount: 64
+    preview_slot: 5
+  '5':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND
+      amount: 24
+    preview_slot: 6
+  '6':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          ARROW_FIRE: 5
+          ARROW_DAMAGE: 10
+          ARROW_KNOCKBACK: 10
+    preview_slot: 11
+  '7':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ARTHROPODS: 10
+          FIRE_ASPECT: 10
+          LOOT_BONUS_MOBS: 5
+          DAMAGE_ALL: 10
+          DURABILITY: 5
+    preview_slot: 12
+  '8':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 15
+          THORNS: 10
+          DURABILITY: 10
+    preview_slot: 13
+  '9':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 10
+          LOOT_BONUS_BLOCKS: 10
+          DURABILITY: 5
+    preview_slot: 14
+  '10':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: GOLDEN_CARROT
+      amount: 64
+    preview_slot: 15
+  '11':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: DIAMOND_ORE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"ᴘʀᴏᴛᴇᴄᴄɪᴏɴ
+          350x350"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"text":"​"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Protege
+          tu area​"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"de
+          intrusos y ladrones"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Radio"},{"italic":false,"color":"white","text":":"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"X:
+          350"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Y:
+          -1"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Z:
+          350"}],"text":""}'
+        enchants:
+          LURE: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        PublicBukkitValues:
+          protectionstones:ispsblock: 1b
+    preview_slot: 16
+  '12':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: EMERALD
+      amount: 16
+    preview_slot: 20
+  '13':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: TOTEM_OF_UNDYING
+    preview_slot: 21
+  '14':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          MENDING: 1
+          PROTECTION_ENVIRONMENTAL: 10
+          SWIFT_SNEAK: 5
+          DURABILITY: 10
+    preview_slot: 22
+  '15':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: ENCHANTED_GOLDEN_APPLE
+      amount: 32
+    preview_slot: 23
+  '16':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: EMERALD
+      amount: 16
+    preview_slot: 24
+  '17':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_INGOT
+      amount: 2
+    preview_slot: 29
+  '18':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 10
+          SILK_TOUCH: 1
+          DURABILITY: 10
+        PublicBukkitValues:
+          itemtag:enchantable: 0i
+    preview_slot: 30
+  '19':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          DEPTH_STRIDER: 5
+          MENDING: 1
+          PROTECTION_ENVIRONMENTAL: 10
+          SOUL_SPEED: 3
+          DURABILITY: 10
+    preview_slot: 31
+  '20':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 10
+          ARROW_KNOCKBACK: 5
+          SILK_TOUCH: 1
+          DURABILITY: 10
+        PublicBukkitValues:
+          itemtag:enchantable: 0i
+    preview_slot: 32
+  '21':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_INGOT
+      amount: 2
+    preview_slot: 33
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+    '2':
+      action: 'firework: colors:BLACK,WHITE type:BURST power:1'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

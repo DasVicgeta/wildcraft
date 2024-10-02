@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1727818878123
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1727823173625
+  login: 1727822042766
+money: '5100'
+last-account-name: ffassola87s1s4s
+lastlocation:
+  world: 33c20ce9-2ab2-4130-8336-a42456721a34
+  world-name: world
+  x: 270.69999998807907
+  y: 66.0
+  z: -81.30000001192093
+  yaw: 144.01809692382812
+  pitch: 90.0
+logoutlocation:
+  world: 33c20ce9-2ab2-4130-8336-a42456721a34
+  world-name: world
+  x: -201.63001451894579
+  y: 98.0
+  z: 452.3140225951287
+  yaw: -178.8310089111328
+  pitch: 44.3050537109375

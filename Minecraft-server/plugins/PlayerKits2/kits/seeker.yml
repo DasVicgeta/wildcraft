@@ -1,0 +1,295 @@
+cooldown: 864000
+one_time: false
+auto_armor: true
+permission_required: true
+save_original_items: true
+display:
+  default:
+    id: ENDER_CHEST
+    name: '&x&0&0&4&0&f&f&lS&x&3&3&6&6&f&f&le&x&6&6&8&c&f&f&le&x&9&9&b&3&f&f&lk&x&c&c&d&9&f&f&le&x&f&f&f&f&f&f&lr
+      &f&lKIT'
+    amount: 1
+    lore:
+    - '&dEste Kit Incluye:'
+    - ''
+    - '&d>> &7x1 Casco de Netherithe Encantado'
+    - '&d>> &7x1 Pechera de Netherithe Encantado'
+    - '&d>> &7x1 Pantalones de Netherithe Encantado'
+    - '&d>> &7x1 Botas de Netherithe Encantado'
+    - '&d>> &7x1 Espada de Netherithe Encantado'
+    - '&d>> &7x1 Pico de Netherithe Encantado'
+    - '&d>> &7x1 Hacha de Netherithe Encantado'
+    - '&d>> &7x1 Tridente Encantado'
+    - '&d>> &7x64 Manzanas Doradas Encantadas'
+    - '&d>> &7x2 Totem de la Inmortalidad'
+    - '&d>> &7x16 End Crystals'
+    - '&d>> &7x1 Proteccion 200x200'
+    - '&d>> &7x2 Seerker Keys'
+    - ''
+    - '&7Cooldown: &c12 hours'
+    - ''
+    - '&7(( &fClick Izquierdo &7para reclamar! ))'
+    - '&7(( &fClick Derecho &7para ver! ))'
+    item_flags:
+    - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&x&0&0&4&0&f&f&lS&x&3&3&6&6&f&f&le&x&6&6&8&c&f&f&le&x&9&9&b&3&f&f&lk&x&c&c&d&9&f&f&le&x&f&f&f&f&f&f&lr
+      &f&lKIT'
+    amount: 1
+    lore:
+    - ''
+    - '&7┃ Estatus: &cSin Permisos'
+    - '&7┃ Requieres: &x&0&0&4&0&f&f&lS&x&3&3&6&6&f&f&le&x&6&6&8&c&f&f&le&x&9&9&b&3&f&f&lk&x&c&c&d&9&f&f&le&x&f&f&f&f&f&f&lr
+      &f&lRank'
+    - ''
+    - '&8Compra el &x&0&0&4&0&f&f&lS&x&3&3&6&6&f&f&le&x&6&6&8&c&f&f&le&x&9&9&b&3&f&f&lk&x&c&c&d&9&f&f&le&x&f&f&f&f&f&f&lr
+      &8rank para reclamar'
+    - ''
+    - '&7(( &fClick derecho &7para ver))'
+  cooldown:
+    id: CLOCK
+    name: '&x&0&0&4&0&f&f&lS&x&3&3&6&6&f&f&le&x&6&6&8&c&f&f&le&x&9&9&b&3&f&f&lk&x&c&c&d&9&f&f&le&x&f&f&f&f&f&f&lr
+      &f&lKIT'
+    amount: 1
+    lore:
+    - ''
+    - '&7┃ Estatus: &cCooldown Activo'
+    - '&7┃ Tiempo: &f%time%'
+    - ''
+    - '&7(( &f&oClick-Derecho &7&opara ver &r&7))'
+    item_flags:
+    - HIDE_ATTRIBUTES
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: BLUE_CANDLE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0040FF","text":"S"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3366FF","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#668CFF","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#99B3FF","text":"k"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#CCD9FF","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFFFF","text":"r
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"------------------------"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          | "},{"italic":false,"color":"gray","text":"Usalo en el warp crate"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          | "},{"italic":false,"color":"gray","text":"esta key se puede conseguir"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          | "},{"italic":false,"color":"gray","text":"en los kits o en la tienda"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"------------------------"}],"text":""}'
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: seeker
+    preview_slot: 2
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: ENCHANTED_GOLDEN_APPLE
+      amount: 32
+    preview_slot: 3
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 6
+          OXYGEN: 1
+          DURABILITY: 5
+    preview_slot: 4
+  '4':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: ENCHANTED_GOLDEN_APPLE
+      amount: 32
+    preview_slot: 5
+  '5':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: BLUE_CANDLE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0040FF","text":"S"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3366FF","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#668CFF","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#99B3FF","text":"k"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#CCD9FF","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFFFF","text":"r
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Key"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"------------------------"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          | "},{"italic":false,"color":"gray","text":"Usalo en el warp crate"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          | "},{"italic":false,"color":"gray","text":"esta key se puede conseguir"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"
+          | "},{"italic":false,"color":"gray","text":"en los kits o en la tienda"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"------------------------"}],"text":""}'
+        PublicBukkitValues:
+          excellentcrates:crate_key.id: seeker
+    preview_slot: 6
+  '6':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: END_CRYSTAL
+      amount: 8
+    preview_slot: 11
+  '7':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ARTHROPODS: 3
+          FIRE_ASPECT: 4
+          KNOCKBACK: 1
+          LOOT_BONUS_MOBS: 4
+          DAMAGE_ALL: 7
+    preview_slot: 12
+  '8':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 6
+          DURABILITY: 5
+    preview_slot: 13
+  '9':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 6
+          LOOT_BONUS_BLOCKS: 5
+          DURABILITY: 2
+    preview_slot: 14
+  '10':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: END_CRYSTAL
+      amount: 8
+    preview_slot: 15
+  '11':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 6
+          DAMAGE_ALL: 7
+          DURABILITY: 2
+    preview_slot: 21
+  '12':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          WATER_WORKER: 1
+          PROTECTION_ENVIRONMENTAL: 6
+          DURABILITY: 5
+    preview_slot: 22
+  '13':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: TRIDENT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          CHANNELING: 1
+          LOYALTY: 5
+          RIPTIDE: 3
+          DAMAGE_ALL: 5
+    preview_slot: 23
+  '14':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: EMERALD_ORE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"ᴘʀᴏᴛᴇᴄᴄɪᴏɴ
+          200x200"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"text":"​"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Protege
+          tu area​"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"de
+          intrusos y ladrones"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Radio"},{"italic":false,"color":"white","text":":"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"X:
+          200"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Y:
+          -1"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Z:
+          200"}],"text":""}'
+        enchants:
+          LURE: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        PublicBukkitValues:
+          protectionstones:ispsblock: 1b
+    preview_slot: 24
+  '15':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: TOTEM_OF_UNDYING
+    preview_slot: 30
+  '16':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          PROTECTION_FALL: 1
+          PROTECTION_ENVIRONMENTAL: 6
+          DURABILITY: 5
+    preview_slot: 31
+  '17':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: TOTEM_OF_UNDYING
+    preview_slot: 32
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

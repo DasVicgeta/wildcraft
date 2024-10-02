@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1727629007219
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1727630407438
+  login: 1727628751146
+money: '1000'
+last-account-name: Darivera
+lastlocation:
+  world: d5faa8ea-a405-4370-a41e-399ab3c3851e
+  world-name: spawn
+  x: -5.438576393768663
+  y: 89.0
+  z: -10.304784591694894
+  yaw: -178.17864990234375
+  pitch: 8.171976089477539
+logoutlocation:
+  world: d5faa8ea-a405-4370-a41e-399ab3c3851e
+  world-name: spawn
+  x: -4.592840291300568
+  y: 88.0
+  z: -4.707832352030599
+  yaw: -105.48062133789062
+  pitch: 30.29975128173828

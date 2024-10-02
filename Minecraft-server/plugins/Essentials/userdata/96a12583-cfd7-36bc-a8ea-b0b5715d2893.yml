@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1726008903437
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1726010133757
+  login: 1726009863401
+money: '2248.8250000000000030'
+last-account-name: 777eljuan777
+lastlocation:
+  world: d5faa8ea-a405-4370-a41e-399ab3c3851e
+  world-name: spawn
+  x: -14.409383533321282
+  y: 88.0
+  z: -29.584596974094392
+  yaw: -46.538787841796875
+  pitch: 24.899993896484375
+logoutlocation:
+  world: 33c20ce9-2ab2-4130-8336-a42456721a34
+  world-name: world
+  x: -174.3623872061917
+  y: -45.0
+  z: -48.040575596188276
+  yaw: -34.504676818847656
+  pitch: 4.049871444702148

@@ -1,0 +1,397 @@
+Name: '#08ddfb&lC#35e1f8&le#61e6f6&ll#8eeaf3&le#b4f1f7&ls#d9f8fb&lt#ffffff&ly &f&lBox'
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+Key:
+  Ids:
+  - celesty
+Block:
+  Locations:
+  - -41.0,89.0,-13.0,0.0,0.0,spawn
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: BUBBLE_POP
+Rewards:
+  List:
+    nether_axe:
+      Name: Netherite Axe
+      Chance: 10.0
+      Rarity: legendary
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005rdd5n6aoric5j78ejeclq6gpbid5q6anr1f1igk003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec5000000k4000j9cg01orb9dpim6sj1cpq3koj1dpilurr6btgn4t38e9nn0rr4ec1000rcepm0020010004qb400amqqbeclhn4ob6egt6cqbiclfm2srgclhn80g00dm7cr001000g002d5i004rdd5n6aoric5j78ejjd1gn4s3eclpn60g00dm7cr001000g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005rdd5n6aoric5j78ejeclq6gpbid5q6anr1f1igk003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec5000000k4000j9cg01orb9dpim6sj1cpq3koj1dpilurr6btgn4t38e9nn0rr4ec1000rcepm0020010004qb400amqqbeclhn4ob6egt6cqbiclfm2srgclhn80g00dm7cr001000g002d5i004rdd5n6aoric5j78ejjd1gn4s3eclpn60g00dm7cr001000g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      Ignored_For_Permissions: []
+    nether_boots:
+      Name: Netherite Boots
+      Chance: 10.0
+      Rarity: legendary
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01irb9dpim6sj1cpq3krj5ehk6asj9ehiluojfdtq762g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00g0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm0020010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr001000g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01irb9dpim6sj1cpq3krj5ehk6asj9ehiluojfdtq762g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00g0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm0020010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr001000g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      Ignored_For_Permissions: []
+    nether_chestplate:
+      Name: Netherite Chestplate
+      Chance: 10.0
+      Rarity: legendary
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01srb9dpim6sj1cpq3krj5ehk6asj9ehiluor8clpn8s3cc5q6a2g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00g0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm0020010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr001000g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01srb9dpim6sj1cpq3krj5ehk6asj9ehiluor8clpn8s3cc5q6a2g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00g0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm0020010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr001000g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      Ignored_For_Permissions: []
+    nether_helmet:
+      Name: Netherite Helmet
+      Chance: 10.0
+      Rarity: legendary
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400d6qqbeclhn4ob6egt6spbkd1in4qbkclfmgpbcdlin82g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00g0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm0020010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr001000g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400d6qqbeclhn4ob6egt6spbkd1in4qbkclfmgpbcdlin82g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00g0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm0020010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr001000g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      Ignored_For_Permissions: []
+    nether_leggings:
+      Name: Netherite Leggings
+      Chance: 10.0
+      Rarity: legendary
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800sdlkmspb3e9gmct1qdpin8q35e9kn8pavdhimepr9dpjn62g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00g0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm0020010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr001000g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800sdlkmspb3e9gmct1qdpin8q35e9kn8pavdhimepr9dpjn62g00dq62po300348obdc5jma0000000i00c8ln66q31dpq6qpbeehpgk000002gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg00g0080016ip0035mmirj5cdp62pjk79j6isj5bto74rrkclhn8qbfdo1000rcepm0020010004qb400fmqqbeclhn4ob6egt70sjfd9im6t39dhilus3idtq6aorkd5nms0g00dm7cr001000g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      Ignored_For_Permissions: []
+    nether_pickaxe:
+      Name: Netherite Pickaxe
+      Chance: 10.0
+      Rarity: legendary
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3krj5ehk6asj9ehilus39cdlm2u3518006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0020010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3krj5ehk6asj9ehilus39cdlm2u3518006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0020010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      Ignored_For_Permissions: []
+    nether_shovel:
+      Name: Netherite Shovel
+      Chance: 10.0
+      Rarity: legendary
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejeclq6gpbid5q6anrjd1nncpbc18006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0020010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejeclq6gpbid5q6anrjd1nncpbc18006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0020010004qb4008mqqbeclhn4ob6egt6crriehqmsp82001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      Ignored_For_Permissions: []
+    nether_sword:
+      Name: Netherite Sword
+      Chance: 3.0
+      Rarity: legendary
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400cmqqbeclhn4ob6egt6spbkd1in4qbkclfn6trfe9i0k003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec5000000k4000j9cg01orb9dpim6sj1cpq3koj1dpilurr6btgn4t38e9nn0rr4ec1000rcepm0020010004qb400amqqbeclhn4ob6egt6cqbiclfm2srgclhn80g00dm7cr001000g002d5i004rdd5n6aoric5j78ejjd1gn4s3eclpn60g00dm7cr001000g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400cmqqbeclhn4ob6egt6spbkd1in4qbkclfn6trfe9i0k003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec5000000k4000j9cg01orb9dpim6sj1cpq3koj1dpilurr6btgn4t38e9nn0rr4ec1000rcepm0020010004qb400amqqbeclhn4ob6egt6cqbiclfm2srgclhn80g00dm7cr001000g002d5i004rdd5n6aoric5j78ejjd1gn4s3eclpn60g00dm7cr001000g002d5i003rdd5n6aoric5j78ejjdlkn8p82001motjc0040020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00g0000400agrfeln78080
+      Ignored_For_Permissions: []
+    100k:
+      Name: '&a&l100K$'
+      Chance: 10.5
+      Rarity: mystic
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800jdlkmspb3e9gmct1qedqmspjcdtrmasga001n8ob71800ep39edo6oobp10008jj1dlig13br49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jn4pb5doh2o8jkcls788hq48oj0c2b4gh7qn9c49q6au3k48t248jt005004igelh6oqb389qmmqr9ehb62r3lclpgg00fd5q6arbkc5jjkob3ehkmurjj01nn6pbiepin4orfdlmm2rj44kijk9955lo6irhg6cp34chl70qjid9l6go64eb475j3coho6pij6d1n6csj8cb1cks3ce1k64qjeeb360q38cb1ccs3epb268r38cho64rm8e9m64s36835cdni0pr9epii09bgdhgnipbi4kg32c1g60o300000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800jdlkmspb3e9gmct1qedqmspjcdtrmasga001n8ob71800ep39edo6oobp10008jj1dlig13br49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jn4pb5doh2o8jkcls788hq48oj0c2b4gh7qn9c49q6au3k48t248jt005004igelh6oqb389qmmqr9ehb62r3lclpgg00fd5q6arbkc5jjkob3ehkmurjj01nn6pbiepin4orfdlmm2rj44kijk9955lo6irhg6cp34chl70qjid9l6go64eb475j3coho6pij6d1n6csj8cb1cks3ce1k64qjeeb360q38cb1ccs3epb268r38cho64rm8e9m64s36835cdni0pr9epii09bgdhgnipbi4kg32c1g60o300000400agrfeln78080
+      Ignored_For_Permissions: []
+    150k:
+      Name: '&a&l150K$'
+      Chance: 10.5
+      Rarity: mystic
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800jdlkmspb3e9gmct1qedqmspjcdtrmasga001n8ob71800ep39edo6oobp10008jj1dlig13br49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jn4pb5doh2o8jkcls788hq48ojac2b4gh7qn9c49q6au3k48t248jt005004igelh6oqb389qmmqr9ehb62r3lclpgg00fd5q6arbkc5jjkob3ehkmurjj01nn6pbiepin4orfdlmm2rj44kijk9955lo6irhhcpi3gob6coqm8dpg6hgjid1hchi6ccj2copmcohm6lh62e1i68sm2eb674p6cpho6co62dj26gqjipb470rjior36or30pb66ti38835cdni0pr9epii09bgdhgnipbi4kg32d9g60o300000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800jdlkmspb3e9gmct1qedqmspjcdtrmasga001n8ob71800ep39edo6oobp10008jj1dlig13br49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jn4pb5doh2o8jkcls788hq48ojac2b4gh7qn9c49q6au3k48t248jt005004igelh6oqb389qmmqr9ehb62r3lclpgg00fd5q6arbkc5jjkob3ehkmurjj01nn6pbiepin4orfdlmm2rj44kijk9955lo6irhhcpi3gob6coqm8dpg6hgjid1hchi6ccj2copmcohm6lh62e1i68sm2eb674p6cpho6co62dj26gqjipb470rjior36or30pb66ti38835cdni0pr9epii09bgdhgnipbi4kg32d9g60o300000400agrfeln78080
+      Ignored_For_Permissions: []
+    200k:
+      Name: '&a&l200K$'
+      Chance: 10.5
+      Rarity: mystic
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800jdlkmspb3e9gmct1qedqmspjcdtrmasga001n8ob71800ep39edo6oobp10008jj1dlig13br49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jn4pb5doh2o8jkcls788hq48p30c2b4gh7qn9c49q6au3k48t248jt005004igelh6oqb389qmmqr9ehb62r3lclpgg00fd5q6arbkc5jjkob3ehkmurjj01nn6pbiepin4orfdlmm2rj44kijk9955lo6irj368p32cpiccp64c1m64smcopn6gpjcphk6gom6p9p6dh38phl65im2e9jcgo3gp1p6os34c356osjipj66kq62dr46hi32p1j6gsj2835cdni0pr9epii09bgdhgnipbi4kg34c1g60o300000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800jdlkmspb3e9gmct1qedqmspjcdtrmasga001n8ob71800ep39edo6oobp10008jj1dlig13br49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jn4pb5doh2o8jkcls788hq48p30c2b4gh7qn9c49q6au3k48t248jt005004igelh6oqb389qmmqr9ehb62r3lclpgg00fd5q6arbkc5jjkob3ehkmurjj01nn6pbiepin4orfdlmm2rj44kijk9955lo6irj368p32cpiccp64c1m64smcopn6gpjcphk6gom6p9p6dh38phl65im2e9jcgo3gp1p6os34c356osjipj66kq62dr46hi32p1j6gsj2835cdni0pr9epii09bgdhgnipbi4kg34c1g60o300000400agrfeln78080
+      Ignored_For_Permissions: []
+    smithing_template:
+      Name: Smithing Template
+      Chance: 15.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip005hmmirj5cdp62pjk79pn0qbiclfm2sjddtp5ut3id5mlusrdd5q6gqbectfn8pbde1m62t350400agrfeln78g00
+      Commands: []
+      Items:
+      - 5000080016ip005hmmirj5cdp62pjk79pn0qbiclfm2sjddtp5ut3id5mlusrdd5q6gqbectfn8pbde1m62t350400agrfeln78g00
+      Ignored_For_Permissions: []
+    smithing_template1:
+      Name: Smithing Template
+      Chance: 15.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg02krb9dpim6sj1cpq3kpbpclfm2sjddtp5ut3id5mlusrdd5q6gqbectfn8pbde1m62t350400agrfeln78g00
+      Commands: []
+      Items:
+      - 2g0004000j9cg02krb9dpim6sj1cpq3kpbpclfm2sjddtp5ut3id5mlusrdd5q6gqbectfn8pbde1m62t350400agrfeln78g00
+      Ignored_For_Permissions: []
+    smithing_template2:
+      Name: Smithing Template
+      Chance: 15.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg02krb9dpim6sj1cpq3ksj9c9fm2sjddtp5ut3id5mlusrdd5q6gqbectfn8pbde1m62t350400agrfeln78g00
+      Commands: []
+      Items:
+      - 2g0004000j9cg02krb9dpim6sj1cpq3ksj9c9fm2sjddtp5ut3id5mlusrdd5q6gqbectfn8pbde1m62t350400agrfeln78g00
+      Ignored_For_Permissions: []
+    smithing_template3:
+      Name: Smithing Template
+      Chance: 15.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip005hmmirj5cdp62pjk79pmsrrlehfm2sjddtp5ut3id5mlusrdd5q6gqbectfn8pbde1m62t350400agrfeln78g00
+      Commands: []
+      Items:
+      - 5000080016ip005hmmirj5cdp62pjk79pmsrrlehfm2sjddtp5ut3id5mlusrdd5q6gqbectfn8pbde1m62t350400agrfeln78g00
+      Ignored_For_Permissions: []
+    tnt:
+      Name: TNT
+      Chance: 15.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb4006mqqbeclhn4ob6egt78rjk0400agrfeln78g00
+      Commands: []
+      Items:
+      - k00010004qb4006mqqbeclhn4ob6egt78rjk0400agrfeln78g00
+      Ignored_For_Permissions: []
+    end_crystal:
+      Name: End Crystal
+      Chance: 15.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005bdd5n6aoric5j78ej5dpi5uorif5pn8obc0400agrfeln78g00
+      Commands: []
+      Items:
+      - a0000g002d5i005bdd5n6aoric5j78ej5dpi5uorif5pn8obc0400agrfeln78g00
+      Ignored_For_Permissions: []
+    villager_spawn_egg:
+      Name: Villager Spawn Egg
+      Chance: 15.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt7cqbcdhgmepbibtpn0obndpfmapr70400agrfeln78g00
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt7cqbcdhgmepbibtpn0obndpfmapr70400agrfeln78g00
+      Ignored_For_Permissions: []
+    block_of_netherite:
+      Name: Block of Netherite
+      Chance: 15.0
+      Rarity: legendary
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qdpin8q35e9kn8pavc9m6uorb0400agrfeln78800
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qdpin8q35e9kn8pavc9m6uorb0400agrfeln78800
+      Ignored_For_Permissions: []
+    block_of_diamond:
+      Name: Block of Diamond
+      Chance: 15.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt68qb1dlnmsp2vc9m6uorb0400agrfeln78g00
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt68qb1dlnmsp2vc9m6uorb0400agrfeln78g00
+      Ignored_For_Permissions: []
+    block_of_emerald:
+      Name: Block of Emerald
+      Chance: 15.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt6arb5e9gmop2vc9m6uorb0400agrfeln78g00
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt6arb5e9gmop2vc9m6uorb0400agrfeln78g00
+      Ignored_For_Permissions: []
+    golden_apple:
+      Name: Golden Apple
+      Chance: 15.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kprfdhi6arivc5o70r350400agrfeln78g00
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3kprfdhi6arivc5o70r350400agrfeln78g00
+      Ignored_For_Permissions: []
+    enchanted_golden_apple:
+      Name: Enchanted Golden Apple
+      Chance: 10.0
+      Rarity: legendary
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg020rb9dpim6sj1cpq3kpbecdk62rjkcli5uprfdhi6arivc5o70r350400agrfeln78g00
+      Commands: []
+      Items:
+      - 2g0004000j9cg020rb9dpim6sj1cpq3kpbecdk62rjkcli5uprfdhi6arivc5o70r350400agrfeln78g00
+      Ignored_For_Permissions: []
+    elytra:
+      Name: Elytra
+      Chance: 10.0
+      Rarity: legendary
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0043dd5n6aoric5j78ej5dhsn8sj118006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000o80016ip0025mmirj5cdp62pjk79mmarj4d5n6e0g00dm7cr000400g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc002g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00a0000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0043dd5n6aoric5j78ej5dhsn8sj118006t31cs1g01i4c5mm2pr5000000090064arj3d1gmst3dcln78soa000000o80016ip0025mmirj5cdp62pjk79mmarj4d5n6e0g00dm7cr000400g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc002g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg00a0000400agrfeln78080
+      Ignored_For_Permissions: []
+    firework_rocket:
+      Name: Firework Rocket
+      Chance: 5.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qcpkn4pbndtp6mnridthmmpbk18006t31cs5002a6d5p6atrfe9ln60800p36oqb7d1q060000400agrfeln78g00
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qcpkn4pbndtp6mnridthmmpbk18006t31cs5002a6d5p6atrfe9ln60800p36oqb7d1q060000400agrfeln78g00
+      Ignored_For_Permissions: []
+    bucket_of_axolotl:
+      Name: Bucket of Axolotl
+      Chance: 5.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79gngrrcdtq6onr2elhmmpbk0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79gngrrcdtq6onr2elhmmpbk0400agrfeln78080
+      Ignored_For_Permissions: []
+    mining_shulker:
+      Name: '&b&lMining Shulker'
+      Chance: 10.0
+      Rarity: legendary
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01qrb9dpim6sj1cpq3krb1ctimst31btpmgtbcddin4nr2dts0k003ehgme2g00ti6isrgdhgni2000h762rb502anm8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j1e5qm28hc49q6au3k48t24jb9dpkmspp0adk7ar3bclp24vat5gh78pboegh3k8h2fk00k00e89m6uorb8ln78qbkf5a62po80016ip002lmmirj5cdp62pjk79pmgtbcddin4nr2dts0i00595q6arbj1800000r04008krcdtq0020009km800mdlkmspb3e9gmct1qcdnn0s35e9fmirj7dtq020058dnnarjk80002004adm6ut0110004qb400b6qqbeclhn4ob6egt66rrge1in4nr9dpjmut01002k6rrldpq4000100256r3feg10g002d5i005jdd5n6aoric5j78ej3dto70pbibtkmsprfeg0g01a3dtqmst20000g012jdhnn80o80016ip002hmmirj5cdp62pjk79kn4rrebtkmsprfeg0g01a3dtqmst20000g012jdhnn81080016ip002hmmirj5cdp62pjk79kn4rrebtkmsprfeg0g01a3dtqmst20000g012jdhnn81880016ip002hmmirj5cdp62pjk79kn4rrebtkmsprfeg0g01a3dtqmst20000g012jdhnn81g80016ip002hmmirj5cdp62pjk79jmur34btkmsprfeg0g01a3dtqmst20000g012jdhnn81o80016ip002hmmirj5cdp62pjk79jmur34btkmsprfeg0g01a3dtqmst20000g012jdhnn82080016ip002hmmirj5cdp62pjk79jmur34btkmsprfeg0g01a3dtqmst20000g012jdhnn82880016ip002pmmirj5cdp62pjk79hmus3gclp5uqbectnn80800l1mutbeeh0000800h9morrk184000j9cg01crb9dpim6sj1cpq3korfe1o6asivd5n6errk0400agrfeln78g0004008krcdtq0m20009km800mdlkmspb3e9gmct1qcdnn0s35e9fmirj7dtq020058dnnarjk80002004adm6ut0c10004qb400a6qqbeclhn4ob6egt6isjfdpfmirj7dtq020058dnnarjk80002004adm6ut0d10004qb400a6qqbeclhn4ob6egt6isjfdpfmirj7dtq020058dnnarjk80002004adm6ut0e10004qb400a6qqbeclhn4ob6egt6isjfdpfmirj7dtq020058dnnarjk80002004adm6ut0f10004qb400a6qqbeclhn4ob6egt6errcchfmirj7dtq020058dnnarjk80002004adm6ut0g10004qb400a6qqbeclhn4ob6egt6errcchfmirj7dtq020058dnnarjk80002004adm6ut0h10004qb400a6qqbeclhn4ob6egt6errcchfmirj7dtq020058dnnarjk80002004adm6ut0i10004qb400b6qqbeclhn4ob6egt66rrge1in4nr9dpjmut01002k6rrldpq4000100256r3feg9gg002d5i005jdd5n6aoric5j78ej3dto70pbibtkmsprfeg0g01a3dtqmst20000g012jdhnn85080016ip002pmmirj5cdp62pjk79hmus3gclp5uqbectnn80800l1mutbeeh0000800h9morrk2k4000j9cg018rb9dpim6sj1cpq3kqbidtn5uqbectnn80800l1mutbeeh0000800h9morrk2o4000j9cg018rb9dpim6sj1cpq3kqbidtn5uqbectnn80800l1mutbeeh0000800h9morrk2s4000j9cg018rb9dpim6sj1cpq3kqbidtn5uqbectnn80800l1mutbeeh0000800h9morrk304000j9cg018rb9dpim6sj1cpq3kprfdhi5uqbectnn80800l1mutbeeh0000800h9morrk344000j9cg018rb9dpim6sj1cpq3kprfdhi5uqbectnn80800l1mutbeeh0000800h9morrk384000j9cg018rb9dpim6sj1cpq3kprfdhi5uqbectnn80800l1mutbeeh0000000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01qrb9dpim6sj1cpq3krb1ctimst31btpmgtbcddin4nr2dts0k003ehgme2g00ti6isrgdhgni2000h762rb502anm8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j1e5qm28hc49q6au3k48t24jb9dpkmspp0adk7ar3bclp24vat5gh78pboegh3k8h2fk00k00e89m6uorb8ln78qbkf5a62po80016ip002lmmirj5cdp62pjk79pmgtbcddin4nr2dts0i00595q6arbj1800000r04008krcdtq0020009km800mdlkmspb3e9gmct1qcdnn0s35e9fmirj7dtq020058dnnarjk80002004adm6ut0110004qb400b6qqbeclhn4ob6egt66rrge1in4nr9dpjmut01002k6rrldpq4000100256r3feg10g002d5i005jdd5n6aoric5j78ej3dto70pbibtkmsprfeg0g01a3dtqmst20000g012jdhnn80o80016ip002hmmirj5cdp62pjk79kn4rrebtkmsprfeg0g01a3dtqmst20000g012jdhnn81080016ip002hmmirj5cdp62pjk79kn4rrebtkmsprfeg0g01a3dtqmst20000g012jdhnn81880016ip002hmmirj5cdp62pjk79kn4rrebtkmsprfeg0g01a3dtqmst20000g012jdhnn81g80016ip002hmmirj5cdp62pjk79jmur34btkmsprfeg0g01a3dtqmst20000g012jdhnn81o80016ip002hmmirj5cdp62pjk79jmur34btkmsprfeg0g01a3dtqmst20000g012jdhnn82080016ip002hmmirj5cdp62pjk79jmur34btkmsprfeg0g01a3dtqmst20000g012jdhnn82880016ip002pmmirj5cdp62pjk79hmus3gclp5uqbectnn80800l1mutbeeh0000800h9morrk184000j9cg01crb9dpim6sj1cpq3korfe1o6asivd5n6errk0400agrfeln78g0004008krcdtq0m20009km800mdlkmspb3e9gmct1qcdnn0s35e9fmirj7dtq020058dnnarjk80002004adm6ut0c10004qb400a6qqbeclhn4ob6egt6isjfdpfmirj7dtq020058dnnarjk80002004adm6ut0d10004qb400a6qqbeclhn4ob6egt6isjfdpfmirj7dtq020058dnnarjk80002004adm6ut0e10004qb400a6qqbeclhn4ob6egt6isjfdpfmirj7dtq020058dnnarjk80002004adm6ut0f10004qb400a6qqbeclhn4ob6egt6errcchfmirj7dtq020058dnnarjk80002004adm6ut0g10004qb400a6qqbeclhn4ob6egt6errcchfmirj7dtq020058dnnarjk80002004adm6ut0h10004qb400a6qqbeclhn4ob6egt6errcchfmirj7dtq020058dnnarjk80002004adm6ut0i10004qb400b6qqbeclhn4ob6egt66rrge1in4nr9dpjmut01002k6rrldpq4000100256r3feg9gg002d5i005jdd5n6aoric5j78ej3dto70pbibtkmsprfeg0g01a3dtqmst20000g012jdhnn85080016ip002pmmirj5cdp62pjk79hmus3gclp5uqbectnn80800l1mutbeeh0000800h9morrk2k4000j9cg018rb9dpim6sj1cpq3kqbidtn5uqbectnn80800l1mutbeeh0000800h9morrk2o4000j9cg018rb9dpim6sj1cpq3kqbidtn5uqbectnn80800l1mutbeeh0000800h9morrk2s4000j9cg018rb9dpim6sj1cpq3kqbidtn5uqbectnn80800l1mutbeeh0000800h9morrk304000j9cg018rb9dpim6sj1cpq3kprfdhi5uqbectnn80800l1mutbeeh0000800h9morrk344000j9cg018rb9dpim6sj1cpq3kprfdhi5uqbectnn80800l1mutbeeh0000800h9morrk384000j9cg018rb9dpim6sj1cpq3kprfdhi5uqbectnn80800l1mutbeeh0000000400agrfeln78080
+      Ignored_For_Permissions: []
+    supreme_effects:
+      Name: '&5&lSupreme Effects'
+      Chance: 1.0
+      Rarity: mystic
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01krb9dpim6sj1cpq3kq35c5p78nrfcpfn8q35btpmao8a001n8ob718014k3lc9m6ioq2ellmmqbkapgmotb5ec4003r9ehimqt31cst62orkd5nmsso3cppmasjmclp66rrddlgmsp154kt2a99de1kmschhc8qmadj4ccpjae9h60o34d1h75hjcdj56dimcd1o6himcdpo60qjacpnccrjcp9o6cp34e1ocoo3co9l6lh30c1l68rjior46spi0pb6cpim6t10ctkncp904lo6oobpclp2a83dd5n6aoric5j78ejicljmarj5e9gn8qbfdog6irj6d5n6it3540qia99r4kin6pbiepin4orfdlmm2rj44kijk9955lo6irj268o3cc9kcgpjgp356som6dhmccqm4ob66dh30e9gc4p62cb5c8sj6e3169gj0chlcco38cho6co38e1k60rjcdpl6gom4e3261j3i835cpj6aork41jmitj540in0r31f5in4990dlkmspb3e9gmct1qe9in6qbjehgmsor541kmspj9dpkn8p906kiiaep54lpmasjmclp66rrddlgmsp154kt2a99de1kmsopjcor3iphkcks68c32cos3cd9pcpi38cr3ccs68cpi6gr62p9j6co34cr16soj0or3cgo36cj5clj34ohhcpj6ad1m74r62eb1c4qi0pb6cpim6t10ctkncp904lo6oobpclp2a83dd5n6aoric5j78ejed5jmgt2vepkn6qbfdog6irj6d5n6it3540qia99r4kin6pbiepin4orfdlmm2rj44kijk9955lo6irho6csm8pj460p64c1ncpimadhp6oqjaopk6orj8pj1ccsm8chmcgpjiob164s64p1g6gsm2phn65h6adr2c5h66dj66gs38p336csj8835cpj6aork41jmitj540in0r31f5in4990dlkmspb3e9gmct1qd1in4rqvdtj5ut38clfncqbcdhgmep90d5n6cqbed5q6a81l4kijm995edin4tj5e9hmurbdc5n6899578iiabbgd5n6copg69gm8pb36gs3gd1g6dhj4or16hij0dhhc9i6achg68q38dj3c8qm6cph74o3aob66hj3ie1i6kpj4e9i6hgmaob6cdgjgc31c4g6apj6clhn8837d5r6a815e1m62ub5e8ii0rb9dpim6sj1cpq3ksr1ehqn4obkd5nms839dpj6irj9ehii0d954ktia9bjclp7cpbicdnmqrb1dpi2a99q4kiiqs39doq3acb46kqj0c9o60o64d1o65j38db470r6cc316gq3gdpm6oq6cdhoc8s6aohm6kq32pb5ckq3cphoclij6eb66pi3ed1jcoo3gpj441imcpj5cdq20pr9epii09bgdhgnipbi4kg6qqbeclhn4ob6egt76t3icln6et3841kmspj9dpkn8p906k00i00c8ln66q31dpq6qpbeehpgk000000gg002d5i004bdd5n6aoric5j78ejdcln68qbecs1000rcepm000801800ep39edo6oobp10008jj1dlig17br49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49i62sjbbto7asjgdhii4b12ehingt1278h56tbge9imqp908lj6cpb3ehpi4vat5gh78pboegh3k8h2fk4g012cdtp6a2000000800bfch78pboegh3k8h2fk0d8up2cls78sj148t5mup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2ctp62u925gh78pboegh3k8js412mcpb3ehnn6eh049uioup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24orfdhnn48hq49p6ap125gh78pboegh3k8i4clpm6rredthmip3fech7qn9c49q6au3k48t248jt03a7m8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j7e9gni8hc49q6au3k48t24v10alq6ir39chgm8eh049uioup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24orfdhnn48hq49p6ap125gh78pboegh3k8i4clpm6rredthmip3149ulqb12ehingt1278h24v801dti4t35f1q24eh249ug00o01546ip358pm62prjvvvvvvo00400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01krb9dpim6sj1cpq3kq35c5p78nrfcpfn8q35btpmao8a001n8ob718014k3lc9m6ioq2ellmmqbkapgmotb5ec4003r9ehimqt31cst62orkd5nmsso3cppmasjmclp66rrddlgmsp154kt2a99de1kmschhc8qmadj4ccpjae9h60o34d1h75hjcdj56dimcd1o6himcdpo60qjacpnccrjcp9o6cp34e1ocoo3co9l6lh30c1l68rjior46spi0pb6cpim6t10ctkncp904lo6oobpclp2a83dd5n6aoric5j78ejicljmarj5e9gn8qbfdog6irj6d5n6it3540qia99r4kin6pbiepin4orfdlmm2rj44kijk9955lo6irj268o3cc9kcgpjgp356som6dhmccqm4ob66dh30e9gc4p62cb5c8sj6e3169gj0chlcco38cho6co38e1k60rjcdpl6gom4e3261j3i835cpj6aork41jmitj540in0r31f5in4990dlkmspb3e9gmct1qe9in6qbjehgmsor541kmspj9dpkn8p906kiiaep54lpmasjmclp66rrddlgmsp154kt2a99de1kmsopjcor3iphkcks68c32cos3cd9pcpi38cr3ccs68cpi6gr62p9j6co34cr16soj0or3cgo36cj5clj34ohhcpj6ad1m74r62eb1c4qi0pb6cpim6t10ctkncp904lo6oobpclp2a83dd5n6aoric5j78ejed5jmgt2vepkn6qbfdog6irj6d5n6it3540qia99r4kin6pbiepin4orfdlmm2rj44kijk9955lo6irho6csm8pj460p64c1ncpimadhp6oqjaopk6orj8pj1ccsm8chmcgpjiob164s64p1g6gsm2phn65h6adr2c5h66dj66gs38p336csj8835cpj6aork41jmitj540in0r31f5in4990dlkmspb3e9gmct1qd1in4rqvdtj5ut38clfncqbcdhgmep90d5n6cqbed5q6a81l4kijm995edin4tj5e9hmurbdc5n6899578iiabbgd5n6copg69gm8pb36gs3gd1g6dhj4or16hij0dhhc9i6achg68q38dj3c8qm6cph74o3aob66hj3ie1i6kpj4e9i6hgmaob6cdgjgc31c4g6apj6clhn8837d5r6a815e1m62ub5e8ii0rb9dpim6sj1cpq3ksr1ehqn4obkd5nms839dpj6irj9ehii0d954ktia9bjclp7cpbicdnmqrb1dpi2a99q4kiiqs39doq3acb46kqj0c9o60o64d1o65j38db470r6cc316gq3gdpm6oq6cdhoc8s6aohm6kq32pb5ckq3cphoclij6eb66pi3ed1jcoo3gpj441imcpj5cdq20pr9epii09bgdhgnipbi4kg6qqbeclhn4ob6egt76t3icln6et3841kmspj9dpkn8p906k00i00c8ln66q31dpq6qpbeehpgk000000gg002d5i004bdd5n6aoric5j78ejdcln68qbecs1000rcepm000801800ep39edo6oobp10008jj1dlig17br49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49i62sjbbto7asjgdhii4b12ehingt1278h56tbge9imqp908lj6cpb3ehpi4vat5gh78pboegh3k8h2fk4g012cdtp6a2000000800bfch78pboegh3k8h2fk0d8up2cls78sj148t5mup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2ctp62u925gh78pboegh3k8js412mcpb3ehnn6eh049uioup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24orfdhnn48hq49p6ap125gh78pboegh3k8i4clpm6rredthmip3fech7qn9c49q6au3k48t248jt03a7m8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j7e9gni8hc49q6au3k48t24v10alq6ir39chgm8eh049uioup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24orfdhnn48hq49p6ap125gh78pboegh3k8i4clpm6rredthmip3149ulqb12ehingt1278h24v801dti4t35f1q24eh249ug00o01546ip358pm62prjvvvvvvo00400agrfeln78080
+      Ignored_For_Permissions: []
+Milestones:
+  Repeatable: false
+Last_Opener: '&4DasVicgeta&r'
+Last_Reward: Smithing Template
+Item:
+  Material: PLAYER_HEAD
+  Head_Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGViZjZiZTgyZTgyM2U1ODJmZjhmNDVlMDFjZjUxNzUxNzM0ZDlhNzc2Y2ZmNTE0ZTg4ZWEyNmQ0OTczYmJmMCJ9fX0=
+  Name: '#08DDFB&lC#35E1F8&le#61E6F6&ll#8EEAF3&le#B4F1F7&ls#D9F8FB&lt#FFFFFF&ly &f&lBox'
+  Lore:
+  - '#E8F2F2Click izquierdo#AAA8A8para previsualizar'
+  - '#E8F2F2Click Derecho#AAA8A8para abrir'

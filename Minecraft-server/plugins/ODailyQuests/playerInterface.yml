@@ -1,0 +1,157 @@
+# ======================================================
+# Aquí puedes crear tu propia interfaz de misiones para el jugador.
+#
+# NUNCA ELIMINES UNA %variable%
+# %progress% es reemplazado por el progreso de la misión.
+# %required% es reemplazado por la cantidad requerida para completar la misión.
+# %achieved% es reemplazado por el número de misiones completadas.
+# %drawIn% es reemplazado por el tiempo restante antes del próximo sorteo de misiones.
+# ======================================================
+player_interface:
+  disable_status: false
+  size: 45
+  inventory_name: '           &8ᴍɪsɪᴏɴᴇs ᴅɪᴀʀɪᴀs'
+  progress: '#FBEEAC▪ #75C2F6En Progreso - (#F4D160%progress%#75C2F6/#FBEEAC%required%#75C2F6)'
+  status: '#F4D160&lEstado:'
+  achieved: '#FBEEAC▪ #75C2F6¡Completado!'
+  glowing_if_achieved: true
+  complete_get_type: '#FBEEAC¡Haz clic para completar esta misión!'
+  player_head:
+    enabled: true
+    slot: 10
+    use_placeholders: true
+    item_name: '#F4D160¡Hola, %player_name%!'
+    item_description:
+    - '#F4D160&lEstadísticas:'
+    - '#F4D160&l▪ #75C2F6Misiones Completadas: #F4D160%odailyquests_total%'
+    - ''
+    - '#F4D160&lEstado:'
+    - '#F4D160&l▪ #75C2F6Misiones Diarias: #F4D160%achieved%#FBEEAC/#F4D1603'
+    - '#F4D160&l▪ #75C2F6Próximo sorteo en: #F4D160%drawIn%'
+  # ========================================================
+  # Tipos disponibles: FILL, PLAYER_COMMAND, CONSOLE_COMMAND
+  # Marcadores de posición: %player%
+  # Más información en el Wiki.
+  # ========================================================
+  quests: # establecer la posición de los elementos de misiones
+    '1': 21
+    '2': 23
+    '3': 25
+  items:
+    leaderboards:
+      type: PLAYER_COMMAND
+      item:
+        material: CUSTOM_HEAD
+        name: '#F4D160&lCLASIFICACIONES'
+        texture: b1dd4fe4a429abd665dfdb3e21321d6efa6a6b5e7b956db9c5d59c9efab25
+        lore:
+        - '#F4D160&l| #75C2F6Completa todas tus misiones'
+        - '#F4D160&l| #75C2F6y aparece en la'
+        - '#F4D160&l| #75C2F6tabla de clasificación de misiones'
+        - ''
+        - '&8Abrir menú de clasificaciones'
+        slot: 19
+      commands:
+      - quests-leaderboard
+    information:
+      type: PLAYER_COMMAND
+      item:
+        material: CUSTOM_HEAD
+        name: '#F4D160&lINFORMACIÓN'
+        texture: cdcdee6d06df234b8e603328b96c57f3a312e79aabfc3be72a8b421878ed68cf
+        lore:
+        - '#F4D160&l| #75C2F6Nuevas misiones diarias,'
+        - '#F4D160&l| #75C2F6completa todas y'
+        - '#F4D160&l| #75C2F6¡obtén 100 monedas como recompensa!'
+        slot: 28
+      commands:
+      - ''
+    close:
+      type: CLOSE
+      item:
+        material: CUSTOM_HEAD
+        name: '&c&lCERRAR'
+        texture: 5a6787ba32564e7c2f3a0ce64498ecbb23b89845e5a66b5cec7736f729ed37
+        lore:
+        - '&8Cerrar el menú.'
+        slot: 27
+    easy1:
+      type: PLAYER_COMMAND
+      item:
+        name: '&eMisión Fácil'
+        material: YELLOW_STAINED_GLASS_PANE
+        lore:
+        - ''
+        slot: 12
+    easy2:
+      type: PLAYER_COMMAND
+      item:
+        name: '&eMisión Fácil'
+        material: YELLOW_STAINED_GLASS_PANE
+        lore:
+        - ''
+        slot: 30
+    medium1:
+      type: PLAYER_COMMAND
+      item:
+        name: '#90d8d8Misión Media'
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        lore:
+        - ''
+        slot: 14
+    medium2:
+      type: PLAYER_COMMAND
+      item:
+        name: '#90d8d8Misión Media'
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        lore:
+        - ''
+        slot: 32
+    hard1:
+      type: PLAYER_COMMAND
+      item:
+        name: '#f07818Misión Difícil'
+        material: ORANGE_STAINED_GLASS_PANE
+        lore:
+        - ''
+        slot: 16
+    hard2:
+      type: PLAYER_COMMAND
+      item:
+        name: '#f07818Misión Difícil'
+        material: ORANGE_STAINED_GLASS_PANE
+        lore:
+        - ''
+        slot: 34
+    fillers:
+      type: FILL
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        slot:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 17
+        - 18
+        - 20
+        - 26
+        - 29
+        - 35
+        - 37
+        - 36
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45

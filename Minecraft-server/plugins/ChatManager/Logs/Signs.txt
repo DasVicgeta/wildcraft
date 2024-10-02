@@ -1,0 +1,208 @@
+[Tue Jul 23 19:32:33 VET 2024] DasVicgeta | Location: X: -16 Y: 67 Z: -30 | Line: 0 | CREAR RANKING
+[Tue Jul 23 19:32:33 VET 2024] DasVicgeta | Location: X: -16 Y: 67 Z: -30 | Line: 1 | 
+[Tue Jul 23 19:32:33 VET 2024] DasVicgeta | Location: X: -16 Y: 67 Z: -30 | Line: 2 | 
+[Tue Jul 23 19:32:33 VET 2024] DasVicgeta | Location: X: -16 Y: 67 Z: -30 | Line: 3 | 
+[Tue Jul 30 16:18:59 VET 2024] DasVicgeta | Location: X: 70 Y: 64 Z: 229 | Line: 0 | celesty
+[Tue Jul 30 16:18:59 VET 2024] DasVicgeta | Location: X: 70 Y: 64 Z: 229 | Line: 1 | 
+[Tue Jul 30 16:18:59 VET 2024] DasVicgeta | Location: X: 70 Y: 64 Z: 229 | Line: 2 | 
+[Tue Jul 30 16:18:59 VET 2024] DasVicgeta | Location: X: 70 Y: 64 Z: 229 | Line: 3 | 
+[Tue Jul 30 16:19:02 VET 2024] DasVicgeta | Location: X: 68 Y: 64 Z: 229 | Line: 0 | infenrus
+[Tue Jul 30 16:19:02 VET 2024] DasVicgeta | Location: X: 68 Y: 64 Z: 229 | Line: 1 | 
+[Tue Jul 30 16:19:02 VET 2024] DasVicgeta | Location: X: 68 Y: 64 Z: 229 | Line: 2 | 
+[Tue Jul 30 16:19:02 VET 2024] DasVicgeta | Location: X: 68 Y: 64 Z: 229 | Line: 3 | 
+[Tue Jul 30 16:19:09 VET 2024] DasVicgeta | Location: X: 68 Y: 64 Z: 229 | Line: 0 | infernus
+[Tue Jul 30 16:19:09 VET 2024] DasVicgeta | Location: X: 68 Y: 64 Z: 229 | Line: 1 | 
+[Tue Jul 30 16:19:09 VET 2024] DasVicgeta | Location: X: 68 Y: 64 Z: 229 | Line: 2 | 
+[Tue Jul 30 16:19:09 VET 2024] DasVicgeta | Location: X: 68 Y: 64 Z: 229 | Line: 3 | 
+[Tue Jul 30 16:30:51 VET 2024] DasVicgeta | Location: X: 55 Y: 39 Z: 29 | Line: 0 | KIT pilgrim
+[Tue Jul 30 16:30:51 VET 2024] DasVicgeta | Location: X: 55 Y: 39 Z: 29 | Line: 1 | 
+[Tue Jul 30 16:30:51 VET 2024] DasVicgeta | Location: X: 55 Y: 39 Z: 29 | Line: 2 | 
+[Tue Jul 30 16:30:51 VET 2024] DasVicgeta | Location: X: 55 Y: 39 Z: 29 | Line: 3 | 
+[Tue Jul 30 16:30:57 VET 2024] DasVicgeta | Location: X: 55 Y: 39 Z: 27 | Line: 0 | KIT paladin
+[Tue Jul 30 16:30:57 VET 2024] DasVicgeta | Location: X: 55 Y: 39 Z: 27 | Line: 1 | 
+[Tue Jul 30 16:30:57 VET 2024] DasVicgeta | Location: X: 55 Y: 39 Z: 27 | Line: 2 | 
+[Tue Jul 30 16:30:57 VET 2024] DasVicgeta | Location: X: 55 Y: 39 Z: 27 | Line: 3 | 
+[Tue Jul 30 16:31:09 VET 2024] DasVicgeta | Location: X: 55 Y: 39 Z: 25 | Line: 0 | KIT guardian
+[Tue Jul 30 16:31:09 VET 2024] DasVicgeta | Location: X: 55 Y: 39 Z: 25 | Line: 1 | 
+[Tue Jul 30 16:31:09 VET 2024] DasVicgeta | Location: X: 55 Y: 39 Z: 25 | Line: 2 | 
+[Tue Jul 30 16:31:09 VET 2024] DasVicgeta | Location: X: 55 Y: 39 Z: 25 | Line: 3 | 
+[Tue Jul 30 16:31:22 VET 2024] DasVicgeta | Location: X: 57 Y: 39 Z: 29 | Line: 0 | KIT ARCHANGEL
+[Tue Jul 30 16:31:22 VET 2024] DasVicgeta | Location: X: 57 Y: 39 Z: 29 | Line: 1 | 
+[Tue Jul 30 16:31:22 VET 2024] DasVicgeta | Location: X: 57 Y: 39 Z: 29 | Line: 2 | 
+[Tue Jul 30 16:31:22 VET 2024] DasVicgeta | Location: X: 57 Y: 39 Z: 29 | Line: 3 | 
+[Tue Jul 30 16:31:33 VET 2024] DasVicgeta | Location: X: 59 Y: 39 Z: 29 | Line: 0 | KIT SAINT
+[Tue Jul 30 16:31:33 VET 2024] DasVicgeta | Location: X: 59 Y: 39 Z: 29 | Line: 1 | 
+[Tue Jul 30 16:31:33 VET 2024] DasVicgeta | Location: X: 59 Y: 39 Z: 29 | Line: 2 | 
+[Tue Jul 30 16:31:33 VET 2024] DasVicgeta | Location: X: 59 Y: 39 Z: 29 | Line: 3 | 
+[Tue Jul 30 16:31:39 VET 2024] DasVicgeta | Location: X: 58 Y: 38 Z: 26 | Line: 0 | kit seeker
+[Tue Jul 30 16:31:39 VET 2024] DasVicgeta | Location: X: 58 Y: 38 Z: 26 | Line: 1 | 
+[Tue Jul 30 16:31:39 VET 2024] DasVicgeta | Location: X: 58 Y: 38 Z: 26 | Line: 2 | 
+[Tue Jul 30 16:31:39 VET 2024] DasVicgeta | Location: X: 58 Y: 38 Z: 26 | Line: 3 | 
+[Sat Sep 14 18:48:55 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: 10 | Line: 0 | &aSURVIVAL
+[Sat Sep 14 18:48:55 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: 10 | Line: 1 | 
+[Sat Sep 14 18:48:55 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: 10 | Line: 2 | 
+[Sat Sep 14 18:48:55 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: 10 | Line: 3 | 
+[Sat Sep 14 18:49:23 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: 10 | Line: 0 | &a---------------
+[Sat Sep 14 18:49:23 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: 10 | Line: 1 | &aSURVIVAL
+[Sat Sep 14 18:49:23 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: 10 | Line: 2 | &eClick para Ir
+[Sat Sep 14 18:49:23 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: 10 | Line: 3 | ---------------
+[Sat Sep 14 18:49:54 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: 10 | Line: 0 | &a&8-------------
+[Sat Sep 14 18:49:54 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: 10 | Line: 1 | &a&aSURVIVAL
+[Sat Sep 14 18:49:54 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: 10 | Line: 2 | &e&eClick para Ir
+[Sat Sep 14 18:49:54 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: 10 | Line: 3 | &8-------------
+[Sat Sep 14 18:50:25 UTC 2024] DasVicgeta | Location: X: 2 Y: 88 Z: 10 | Line: 0 | &8&8-------------
+[Sat Sep 14 18:50:25 UTC 2024] DasVicgeta | Location: X: 2 Y: 88 Z: 10 | Line: 1 | &a&CCRATES
+[Sat Sep 14 18:50:25 UTC 2024] DasVicgeta | Location: X: 2 Y: 88 Z: 10 | Line: 2 | &e&EClick para Ir
+[Sat Sep 14 18:50:25 UTC 2024] DasVicgeta | Location: X: 2 Y: 88 Z: 10 | Line: 3 | &8&8-------------
+[Sat Sep 14 18:52:23 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: -10 | Line: 0 | &8&8-------------
+[Sat Sep 14 18:52:23 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: -10 | Line: 1 | &a&BRANKING
+[Sat Sep 14 18:52:23 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: -10 | Line: 2 | &e&CClick para Ir
+[Sat Sep 14 18:52:23 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: -10 | Line: 3 | &8&8-------------
+[Sat Sep 14 18:52:37 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: -10 | Line: 0 | &8-------------
+[Sat Sep 14 18:52:37 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: -10 | Line: 1 | &aRANKING
+[Sat Sep 14 18:52:37 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: -10 | Line: 2 | &e&EClick para Ir
+[Sat Sep 14 18:52:37 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: -10 | Line: 3 | &8-------------
+[Sat Sep 14 18:52:47 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: -10 | Line: 0 | &8-------------
+[Sat Sep 14 18:52:47 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: -10 | Line: 1 | &a&BRANKING
+[Sat Sep 14 18:52:47 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: -10 | Line: 2 | &eClick para Ir
+[Sat Sep 14 18:52:47 UTC 2024] DasVicgeta | Location: X: -6 Y: 88 Z: -10 | Line: 3 | &8-------------
+[Sat Sep 14 18:53:43 UTC 2024] DasVicgeta | Location: X: 2 Y: 88 Z: -10 | Line: 0 | &8-------------
+[Sat Sep 14 18:53:43 UTC 2024] DasVicgeta | Location: X: 2 Y: 88 Z: -10 | Line: 1 | &a&5DISCORD
+[Sat Sep 14 18:53:43 UTC 2024] DasVicgeta | Location: X: 2 Y: 88 Z: -10 | Line: 2 | &e&eClick para Ver
+[Sat Sep 14 18:53:43 UTC 2024] DasVicgeta | Location: X: 2 Y: 88 Z: -10 | Line: 3 | &8-------------
+[Sun Sep 29 21:30:03 UTC 2024] DasVicgeta | Location: X: -49 Y: 122 Z: -7 | Line: 0 | 
+[Sun Sep 29 21:30:03 UTC 2024] DasVicgeta | Location: X: -49 Y: 122 Z: -7 | Line: 1 | MATERIALES
+[Sun Sep 29 21:30:03 UTC 2024] DasVicgeta | Location: X: -49 Y: 122 Z: -7 | Line: 2 | ----->
+[Sun Sep 29 21:30:03 UTC 2024] DasVicgeta | Location: X: -49 Y: 122 Z: -7 | Line: 3 | 
+[Sun Sep 29 21:30:26 UTC 2024] DasVicgeta | Location: X: -49 Y: 122 Z: -7 | Line: 0 | 
+[Sun Sep 29 21:30:26 UTC 2024] DasVicgeta | Location: X: -49 Y: 122 Z: -7 | Line: 1 | MATERIALES
+[Sun Sep 29 21:30:26 UTC 2024] DasVicgeta | Location: X: -49 Y: 122 Z: -7 | Line: 2 | ---->
+[Sun Sep 29 21:30:26 UTC 2024] DasVicgeta | Location: X: -49 Y: 122 Z: -7 | Line: 3 | 
+[Sun Sep 29 21:53:22 UTC 2024] DasVicgeta | Location: X: -438 Y: -23 Z: 199 | Line: 0 | 
+[Sun Sep 29 21:53:22 UTC 2024] DasVicgeta | Location: X: -438 Y: -23 Z: 199 | Line: 1 | 
+[Sun Sep 29 21:53:22 UTC 2024] DasVicgeta | Location: X: -438 Y: -23 Z: 199 | Line: 2 | 
+[Sun Sep 29 21:53:22 UTC 2024] DasVicgeta | Location: X: -438 Y: -23 Z: 199 | Line: 3 | 
+[Sun Sep 29 21:53:24 UTC 2024] DasVicgeta | Location: X: -438 Y: -23 Z: 198 | Line: 0 | 
+[Sun Sep 29 21:53:24 UTC 2024] DasVicgeta | Location: X: -438 Y: -23 Z: 198 | Line: 1 | 
+[Sun Sep 29 21:53:24 UTC 2024] DasVicgeta | Location: X: -438 Y: -23 Z: 198 | Line: 2 | 
+[Sun Sep 29 21:53:24 UTC 2024] DasVicgeta | Location: X: -438 Y: -23 Z: 198 | Line: 3 | 
+[Sun Sep 29 21:53:26 UTC 2024] DasVicgeta | Location: X: -438 Y: -23 Z: 198 | Line: 0 | 
+[Sun Sep 29 21:53:26 UTC 2024] DasVicgeta | Location: X: -438 Y: -23 Z: 198 | Line: 1 | 
+[Sun Sep 29 21:53:26 UTC 2024] DasVicgeta | Location: X: -438 Y: -23 Z: 198 | Line: 2 | 
+[Sun Sep 29 21:53:26 UTC 2024] DasVicgeta | Location: X: -438 Y: -23 Z: 198 | Line: 3 | 
+[Sun Sep 29 21:53:29 UTC 2024] DasVicgeta | Location: X: -439 Y: -23 Z: 198 | Line: 0 | 
+[Sun Sep 29 21:53:29 UTC 2024] DasVicgeta | Location: X: -439 Y: -23 Z: 198 | Line: 1 | 
+[Sun Sep 29 21:53:29 UTC 2024] DasVicgeta | Location: X: -439 Y: -23 Z: 198 | Line: 2 | 
+[Sun Sep 29 21:53:29 UTC 2024] DasVicgeta | Location: X: -439 Y: -23 Z: 198 | Line: 3 | 
+[Sun Sep 29 21:53:30 UTC 2024] DasVicgeta | Location: X: -440 Y: -23 Z: 198 | Line: 0 | 
+[Sun Sep 29 21:53:30 UTC 2024] DasVicgeta | Location: X: -440 Y: -23 Z: 198 | Line: 1 | 
+[Sun Sep 29 21:53:30 UTC 2024] DasVicgeta | Location: X: -440 Y: -23 Z: 198 | Line: 2 | 
+[Sun Sep 29 21:53:30 UTC 2024] DasVicgeta | Location: X: -440 Y: -23 Z: 198 | Line: 3 | 
+[Sun Sep 29 21:53:31 UTC 2024] DasVicgeta | Location: X: -441 Y: -23 Z: 198 | Line: 0 | 
+[Sun Sep 29 21:53:31 UTC 2024] DasVicgeta | Location: X: -441 Y: -23 Z: 198 | Line: 1 | 
+[Sun Sep 29 21:53:31 UTC 2024] DasVicgeta | Location: X: -441 Y: -23 Z: 198 | Line: 2 | 
+[Sun Sep 29 21:53:31 UTC 2024] DasVicgeta | Location: X: -441 Y: -23 Z: 198 | Line: 3 | 
+[Sun Sep 29 21:53:32 UTC 2024] DasVicgeta | Location: X: -442 Y: -23 Z: 198 | Line: 0 | 
+[Sun Sep 29 21:53:32 UTC 2024] DasVicgeta | Location: X: -442 Y: -23 Z: 198 | Line: 1 | 
+[Sun Sep 29 21:53:32 UTC 2024] DasVicgeta | Location: X: -442 Y: -23 Z: 198 | Line: 2 | 
+[Sun Sep 29 21:53:32 UTC 2024] DasVicgeta | Location: X: -442 Y: -23 Z: 198 | Line: 3 | 
+[Sun Sep 29 21:53:34 UTC 2024] DasVicgeta | Location: X: -443 Y: -23 Z: 198 | Line: 0 | 
+[Sun Sep 29 21:53:34 UTC 2024] DasVicgeta | Location: X: -443 Y: -23 Z: 198 | Line: 1 | 
+[Sun Sep 29 21:53:34 UTC 2024] DasVicgeta | Location: X: -443 Y: -23 Z: 198 | Line: 2 | 
+[Sun Sep 29 21:53:34 UTC 2024] DasVicgeta | Location: X: -443 Y: -23 Z: 198 | Line: 3 | 
+[Sun Sep 29 21:53:35 UTC 2024] DasVicgeta | Location: X: -444 Y: -23 Z: 198 | Line: 0 | 
+[Sun Sep 29 21:53:35 UTC 2024] DasVicgeta | Location: X: -444 Y: -23 Z: 198 | Line: 1 | 
+[Sun Sep 29 21:53:35 UTC 2024] DasVicgeta | Location: X: -444 Y: -23 Z: 198 | Line: 2 | 
+[Sun Sep 29 21:53:35 UTC 2024] DasVicgeta | Location: X: -444 Y: -23 Z: 198 | Line: 3 | 
+[Sun Sep 29 21:53:36 UTC 2024] DasVicgeta | Location: X: -445 Y: -23 Z: 198 | Line: 0 | 
+[Sun Sep 29 21:53:36 UTC 2024] DasVicgeta | Location: X: -445 Y: -23 Z: 198 | Line: 1 | 
+[Sun Sep 29 21:53:36 UTC 2024] DasVicgeta | Location: X: -445 Y: -23 Z: 198 | Line: 2 | 
+[Sun Sep 29 21:53:36 UTC 2024] DasVicgeta | Location: X: -445 Y: -23 Z: 198 | Line: 3 | 
+[Sun Sep 29 21:53:37 UTC 2024] DasVicgeta | Location: X: -446 Y: -23 Z: 198 | Line: 0 | 
+[Sun Sep 29 21:53:37 UTC 2024] DasVicgeta | Location: X: -446 Y: -23 Z: 198 | Line: 1 | 
+[Sun Sep 29 21:53:37 UTC 2024] DasVicgeta | Location: X: -446 Y: -23 Z: 198 | Line: 2 | 
+[Sun Sep 29 21:53:37 UTC 2024] DasVicgeta | Location: X: -446 Y: -23 Z: 198 | Line: 3 | 
+[Sun Sep 29 21:53:40 UTC 2024] DasVicgeta | Location: X: -438 Y: -23 Z: 198 | Line: 0 | 
+[Sun Sep 29 21:53:40 UTC 2024] DasVicgeta | Location: X: -438 Y: -23 Z: 198 | Line: 1 | 
+[Sun Sep 29 21:53:40 UTC 2024] DasVicgeta | Location: X: -438 Y: -23 Z: 198 | Line: 2 | 
+[Sun Sep 29 21:53:40 UTC 2024] DasVicgeta | Location: X: -438 Y: -23 Z: 198 | Line: 3 | 
+[Sun Sep 29 22:10:46 UTC 2024] DasVicgeta | Location: X: -49 Y: 122 Z: -2 | Line: 0 | 
+[Sun Sep 29 22:10:46 UTC 2024] DasVicgeta | Location: X: -49 Y: 122 Z: -2 | Line: 1 | 
+[Sun Sep 29 22:10:46 UTC 2024] DasVicgeta | Location: X: -49 Y: 122 Z: -2 | Line: 2 | 
+[Sun Sep 29 22:10:46 UTC 2024] DasVicgeta | Location: X: -49 Y: 122 Z: -2 | Line: 3 | 
+[Sun Sep 29 23:00:33 UTC 2024] saquiador3000 | Location: X: -449 Y: -18 Z: 201 | Line: 0 | que quieres por  
+[Sun Sep 29 23:00:33 UTC 2024] saquiador3000 | Location: X: -449 Y: -18 Z: 201 | Line: 1 | 
+[Sun Sep 29 23:00:33 UTC 2024] saquiador3000 | Location: X: -449 Y: -18 Z: 201 | Line: 2 | 
+[Sun Sep 29 23:00:33 UTC 2024] saquiador3000 | Location: X: -449 Y: -18 Z: 201 | Line: 3 | 
+[Mon Sep 30 19:39:50 UTC 2024] Tinaa97 | Location: X: -6 Y: 88 Z: 10 | Line: 0 | &8-------------
+[Mon Sep 30 19:39:50 UTC 2024] Tinaa97 | Location: X: -6 Y: 88 Z: 10 | Line: 1 | &aSURVIVAL
+[Mon Sep 30 19:39:50 UTC 2024] Tinaa97 | Location: X: -6 Y: 88 Z: 10 | Line: 2 | &eClick para Ir
+[Mon Sep 30 19:39:50 UTC 2024] Tinaa97 | Location: X: -6 Y: 88 Z: 10 | Line: 3 | &8-------------
+[Mon Sep 30 20:58:10 UTC 2024] karlito101 | Location: X: -1333 Y: 71 Z: 128 | Line: 0 | PARA
+[Mon Sep 30 20:58:10 UTC 2024] karlito101 | Location: X: -1333 Y: 71 Z: 128 | Line: 1 | SAQUIADOR3000
+[Mon Sep 30 20:58:10 UTC 2024] karlito101 | Location: X: -1333 Y: 71 Z: 128 | Line: 2 | 
+[Mon Sep 30 20:58:10 UTC 2024] karlito101 | Location: X: -1333 Y: 71 Z: 128 | Line: 3 | 
+[Mon Sep 30 20:58:12 UTC 2024] Tinaa97 | Location: X: -706 Y: 120 Z: 93 | Line: 0 | CASA
+[Mon Sep 30 20:58:12 UTC 2024] Tinaa97 | Location: X: -706 Y: 120 Z: 93 | Line: 1 | DE
+[Mon Sep 30 20:58:12 UTC 2024] Tinaa97 | Location: X: -706 Y: 120 Z: 93 | Line: 2 | TINA
+[Mon Sep 30 20:58:12 UTC 2024] Tinaa97 | Location: X: -706 Y: 120 Z: 93 | Line: 3 | 
+[Tue Oct 01 22:04:17 UTC 2024] DasVicgeta | Location: X: -22 Y: 139 Z: 16 | Line: 0 | ZONA
+[Tue Oct 01 22:04:17 UTC 2024] DasVicgeta | Location: X: -22 Y: 139 Z: 16 | Line: 1 | STAFF
+[Tue Oct 01 22:04:17 UTC 2024] DasVicgeta | Location: X: -22 Y: 139 Z: 16 | Line: 2 | NO JODER
+[Tue Oct 01 22:04:17 UTC 2024] DasVicgeta | Location: X: -22 Y: 139 Z: 16 | Line: 3 | 
+[Tue Oct 01 22:05:52 UTC 2024] ffassola87s1s4s | Location: X: -196 Y: 94 Z: 459 | Line: 0 | un trato
+[Tue Oct 01 22:05:52 UTC 2024] ffassola87s1s4s | Location: X: -196 Y: 94 Z: 459 | Line: 1 | 
+[Tue Oct 01 22:05:52 UTC 2024] ffassola87s1s4s | Location: X: -196 Y: 94 Z: 459 | Line: 2 | 
+[Tue Oct 01 22:05:52 UTC 2024] ffassola87s1s4s | Location: X: -196 Y: 94 Z: 459 | Line: 3 | 
+[Tue Oct 01 22:06:03 UTC 2024] DasVicgeta | Location: X: -196 Y: 94 Z: 459 | Line: 0 | cual;
+[Tue Oct 01 22:06:03 UTC 2024] DasVicgeta | Location: X: -196 Y: 94 Z: 459 | Line: 1 | 
+[Tue Oct 01 22:06:03 UTC 2024] DasVicgeta | Location: X: -196 Y: 94 Z: 459 | Line: 2 | 
+[Tue Oct 01 22:06:03 UTC 2024] DasVicgeta | Location: X: -196 Y: 94 Z: 459 | Line: 3 | 
+[Tue Oct 01 22:06:32 UTC 2024] ffassola87s1s4s | Location: X: -196 Y: 94 Z: 459 | Line: 0 | yo te trabajo td 
+[Tue Oct 01 22:06:32 UTC 2024] ffassola87s1s4s | Location: X: -196 Y: 94 Z: 459 | Line: 1 | lo que quieras
+[Tue Oct 01 22:06:32 UTC 2024] ffassola87s1s4s | Location: X: -196 Y: 94 Z: 459 | Line: 2 | 
+[Tue Oct 01 22:06:32 UTC 2024] ffassola87s1s4s | Location: X: -196 Y: 94 Z: 459 | Line: 3 | 
+[Tue Oct 01 22:06:47 UTC 2024] ffassola87s1s4s | Location: X: -197 Y: 94 Z: 459 | Line: 0 | per
+[Tue Oct 01 22:06:47 UTC 2024] ffassola87s1s4s | Location: X: -197 Y: 94 Z: 459 | Line: 1 | o
+[Tue Oct 01 22:06:47 UTC 2024] ffassola87s1s4s | Location: X: -197 Y: 94 Z: 459 | Line: 2 | 
+[Tue Oct 01 22:06:47 UTC 2024] ffassola87s1s4s | Location: X: -197 Y: 94 Z: 459 | Line: 3 | 
+[Tue Oct 01 22:06:50 UTC 2024] DasVicgeta | Location: X: -196 Y: 94 Z: 459 | Line: 0 | 
+[Tue Oct 01 22:06:50 UTC 2024] DasVicgeta | Location: X: -196 Y: 94 Z: 459 | Line: 1 | para si no 
+[Tue Oct 01 22:06:50 UTC 2024] DasVicgeta | Location: X: -196 Y: 94 Z: 459 | Line: 2 | necesito a nadien
+[Tue Oct 01 22:06:50 UTC 2024] DasVicgeta | Location: X: -196 Y: 94 Z: 459 | Line: 3 | 
+[Tue Oct 01 22:07:12 UTC 2024] ffassola87s1s4s | Location: X: -196 Y: 94 Z: 456 | Line: 0 | me pagas con kits
+[Tue Oct 01 22:07:12 UTC 2024] ffassola87s1s4s | Location: X: -196 Y: 94 Z: 456 | Line: 1 | buenos
+[Tue Oct 01 22:07:12 UTC 2024] ffassola87s1s4s | Location: X: -196 Y: 94 Z: 456 | Line: 2 | 
+[Tue Oct 01 22:07:12 UTC 2024] ffassola87s1s4s | Location: X: -196 Y: 94 Z: 456 | Line: 3 | 
+[Tue Oct 01 22:07:21 UTC 2024] ffassola87s1s4s | Location: X: -195 Y: 94 Z: 455 | Line: 0 | trabajo muy duro
+[Tue Oct 01 22:07:21 UTC 2024] ffassola87s1s4s | Location: X: -195 Y: 94 Z: 455 | Line: 1 | 
+[Tue Oct 01 22:07:21 UTC 2024] ffassola87s1s4s | Location: X: -195 Y: 94 Z: 455 | Line: 2 | 
+[Tue Oct 01 22:07:21 UTC 2024] ffassola87s1s4s | Location: X: -195 Y: 94 Z: 455 | Line: 3 | 
+[Tue Oct 01 22:07:25 UTC 2024] DasVicgeta | Location: X: -196 Y: 94 Z: 456 | Line: 0 | sorry
+[Tue Oct 01 22:07:25 UTC 2024] DasVicgeta | Location: X: -196 Y: 94 Z: 456 | Line: 1 | la unica
+[Tue Oct 01 22:07:25 UTC 2024] DasVicgeta | Location: X: -196 Y: 94 Z: 456 | Line: 2 | seria que fueras
+[Tue Oct 01 22:07:25 UTC 2024] DasVicgeta | Location: X: -196 Y: 94 Z: 456 | Line: 3 | youtuber
+[Tue Oct 01 22:07:29 UTC 2024] lacomesandi11 | Location: X: -440 Y: -23 Z: 198 | Line: 0 |  
+[Tue Oct 01 22:07:29 UTC 2024] lacomesandi11 | Location: X: -440 Y: -23 Z: 198 | Line: 1 | 
+[Tue Oct 01 22:07:29 UTC 2024] lacomesandi11 | Location: X: -440 Y: -23 Z: 198 | Line: 2 | 
+[Tue Oct 01 22:07:29 UTC 2024] lacomesandi11 | Location: X: -440 Y: -23 Z: 198 | Line: 3 | 
+[Tue Oct 01 22:07:30 UTC 2024] DasVicgeta | Location: X: -195 Y: 94 Z: 456 | Line: 0 | o streamer
+[Tue Oct 01 22:07:30 UTC 2024] DasVicgeta | Location: X: -195 Y: 94 Z: 456 | Line: 1 | 
+[Tue Oct 01 22:07:30 UTC 2024] DasVicgeta | Location: X: -195 Y: 94 Z: 456 | Line: 2 | 
+[Tue Oct 01 22:07:30 UTC 2024] DasVicgeta | Location: X: -195 Y: 94 Z: 456 | Line: 3 | 
+[Tue Oct 01 22:07:53 UTC 2024] DasVicgeta | Location: X: -195 Y: 94 Z: 456 | Line: 0 | masalo
+[Tue Oct 01 22:07:53 UTC 2024] DasVicgeta | Location: X: -195 Y: 94 Z: 456 | Line: 1 | pasalo
+[Tue Oct 01 22:07:53 UTC 2024] DasVicgeta | Location: X: -195 Y: 94 Z: 456 | Line: 2 | 
+[Tue Oct 01 22:07:53 UTC 2024] DasVicgeta | Location: X: -195 Y: 94 Z: 456 | Line: 3 | 
+[Tue Oct 01 22:09:21 UTC 2024] DasVicgeta | Location: X: -195 Y: 94 Z: 456 | Line: 0 | 
+[Tue Oct 01 22:09:21 UTC 2024] DasVicgeta | Location: X: -195 Y: 94 Z: 456 | Line: 1 | ya reviso
+[Tue Oct 01 22:09:21 UTC 2024] DasVicgeta | Location: X: -195 Y: 94 Z: 456 | Line: 2 | 
+[Tue Oct 01 22:09:21 UTC 2024] DasVicgeta | Location: X: -195 Y: 94 Z: 456 | Line: 3 | 
+[Tue Oct 01 22:09:59 UTC 2024] DasVicgeta | Location: X: -201 Y: 94 Z: 456 | Line: 0 | entra
+[Tue Oct 01 22:09:59 UTC 2024] DasVicgeta | Location: X: -201 Y: 94 Z: 456 | Line: 1 | en discord
+[Tue Oct 01 22:09:59 UTC 2024] DasVicgeta | Location: X: -201 Y: 94 Z: 456 | Line: 2 | y llamame por
+[Tue Oct 01 22:09:59 UTC 2024] DasVicgeta | Location: X: -201 Y: 94 Z: 456 | Line: 3 | privado
+[Tue Oct 01 22:10:02 UTC 2024] DasVicgeta | Location: X: -200 Y: 94 Z: 456 | Line: 0 | soy gameblaze
+[Tue Oct 01 22:10:02 UTC 2024] DasVicgeta | Location: X: -200 Y: 94 Z: 456 | Line: 1 | 
+[Tue Oct 01 22:10:02 UTC 2024] DasVicgeta | Location: X: -200 Y: 94 Z: 456 | Line: 2 | 
+[Tue Oct 01 22:10:02 UTC 2024] DasVicgeta | Location: X: -200 Y: 94 Z: 456 | Line: 3 | 

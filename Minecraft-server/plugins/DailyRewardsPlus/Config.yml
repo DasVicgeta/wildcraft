@@ -1,0 +1,273 @@
+
+MySQL-Enabled: false
+
+
+MySQL-Login:
+  Host: ""
+  Port: ""
+  Database: ""
+  Username: ""
+  Password: ""
+
+PrintErrorsToConsole: true
+
+PluginPrefix: "&5&lRECOMPENSAS &7| &f"
+
+
+PluginGuiTitle: "&0Recompensas &e&lWILD&6&lCRAFT"
+
+CheckForUpdates: false
+
+
+CleanUnusedData: true
+
+
+#################################################################
+####################### Claiming Rewards ########################
+#################################################################
+###  NOTE: This section contains some EXPERIMENTAL FEATURES!  ###
+###  Should you happen to experience any bugs when enabling;  ###
+###        Please make us aware on our support discord:       ###
+###              https://discord.gg/9jyHhUepaG                ###
+#################################################################
+
+# When a player reaches the day limit, should it reset their Daily Reward streak?
+# If set to false the user will repeatedly be able to claim the maximum day reward until the streak is lost
+ResetWhenStreakCompleted: true
+
+# [EXPERIMENTAL FEATURE]: When set to true EVERYONE'S streak becomes available at midnight (relevant to the region your server is hosted in)
+# When set to false a players streak becomes available 24 hours after claiming
+AvailableOnNewDay: false
+
+# When set to true, if a player misses a day, the streak will be preserved until they return
+# NOTE: If 'PauseStreakWhenMissed' is set to true as well as 'SkipMissedDays' then 'SkipMissedDays' will automatically be made false ~ Only one or the other can be true!
+PauseStreakWhenMissed: false
+
+# [EXPERIMENTAL FEATURE]: When set to true, if a player misses a day the streak will ignore that day and skip over it when the player returns
+# NOTE: If 'PauseStreakWhenMissed' is set to true as well as 'SkipMissedDays' then 'SkipMissedDays' will automatically be made false ~ Only one or the other can be true!
+SkipMissedDays: false
+
+# You may specify a sound effect that you wish to be played for the user when they claim a Daily Reward (through the GUI only)
+# A full list of eligible sounds may be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+# All sounds play through the players MASTER channel in minecraft. Set to "none" to disable the sounds
+SoundEffect:
+  Type: "NONE"
+  Volume: 1 # Value should be >= 0
+  Pitch: 1 # Value should be 0.0 - 2.0
+
+#################################################################
+###################### Daily Reward Chests ######################
+#################################################################
+
+# The effect of revealing the daily reward, available options: PopOut, GUI, Lightning, Christmas, None
+DailyRewardAnimation: "PopOut"
+
+# Make smoke pop out of the crate when opening
+RedeemParticleEffects: true
+
+# Whether there should be floating text above daily reward chests
+FloatingTextAbove: true
+
+# The text above daily reward chests if "FloatingTextAbove" is set to true, This field does not support placeholders as it is visible to everyone!
+# To use placeholders in holograms above a chest we suggest switching 'FloatingTextAbove' to false and utilising the powerful plugin: HolographicDisplays
+FloatingText: "Daily Rewards"
+
+# The format of the day used on the hologram for the Daily Reward chest
+DayFormat: "[Day <day>]"
+
+
+#################################################################
+####################### Player Join Event #######################
+#################################################################
+
+# Whether a reward should automatically claim when a player joins (if available)
+RewardAutoClaim: false
+
+# When a player joins should the reward claim GUI pop up instantly?
+RewardInstantPopup: false
+
+# Whether players should receive a chat message reminder to claim their Daily Reward (When Available)
+DailyRewardReminderEnabled: true
+
+# How often the server should remind a player that they have a Daily Reward waiting to be claimed (In Seconds)
+DailyRewardClaimReminder: 1200
+
+# Whether players should be able to click the reward reminder message to bring up the DailyRewards+ GUI
+DailyRewardReminderClickable: true
+
+# Worlds where the daily reward reminder will NOT be sent
+DailyRewardReminderBlacklistedWorlds:
+  - ''
+
+#################################################################
+##################### Playtime Requirements #####################
+#################################################################
+
+# Should users be required to have a certain amount of playtime before they can start claiming rewards?
+# Please note that playtime values only begin recording once this is set to true, old play-times will not be counted.
+PlaytimeRequirement: false
+
+# The playtime required (in minutes) to claim rewards
+PlaytimeRequired: 20
+
+
+#################################################################
+####################### Daily Rewards GUI #######################
+#################################################################
+
+# The amount of rows to be within the DailyRewards+ Claim GUI (Number 1-6)
+# If the BottomBar setting is enabled, the bottom row will be entirely consumed by the statistics and page maneuver panel
+InventoryRows: 6
+
+# GUI reward line indent
+LineIndent: "&f- "
+
+# If set to true, Daily Reward icons within the GUI will show a quantity relating to the day of their reward (i.e., Day 5 will be an icon with quantity 5)
+# If the total number of days is greater than 64, this feature is automatically disabled. Items can only stack up to 64.
+ShowDayQuantity: true
+
+# Whether the GUI should automatically close when a reward is claimed
+CloseOnClaim: false
+
+# Whether the GUI stats timer (if enabled) should live-update the time until the next reward.
+# For particularly low-spec servers, it may be advisable to disable this.
+LiveUpdateTimer: true
+
+#* Placeholders that can be used in the following section:
+#* <daysReward> - The daily reward name for that day
+#* <dayNum> - The rewards day number
+#* <timeUntilNextReward> - The time until the next reward can be claimed
+#* <playerName> - The name of the player
+#* <playerStreak> - The players daily reward streak
+#*
+#* <rewardicon> - Can be used in Icon fields to show the Rewards.yml icon for that day instead
+# This section also supports minecraft color codes and HEX color codes! (https://bit.ly/MinecraftCC)
+
+UnclaimedReward:
+  Title: "&5&lRECOMPENSA &8(&e<dayNum>&8)"
+  Lore:
+    - ""
+    - "&fRecompensa disponible del dia &a<dayNum>"
+    - "&fque esperas para reclamarla!"
+    - " "
+    - "&6Recompensas:"
+    - "<daysReward>"
+    - " "
+    - "&aClic &e&n&lIZQ&a para reclamar!"
+    - ""
+
+
+RewardNotReady: 
+  Title: "&5&lRECOMPENSA &8(&e<dayNum>&8)"
+  Icon: "TNT_MINECART"
+  Lore:
+    - ""
+    - "&fEsta recompensa no esta disponible"
+    - "&fpasate por aqui en:" 
+    - ""
+    - " &a<timeUntilNextReward>"
+    - " "
+    - "&6Recompensas:"
+    - "<daysReward>"
+    - " "
+    - "&a ¡Vuelve mas tarde para reclamarla!"
+    - ""
+
+ClaimedReward:
+  Title: "&5&lRECOMPENSA &8(&e<dayNum>&8)"
+  Icon: "MINECART"
+  Lore:
+    - ""
+    - "&fYa reclamaste esta recompensa"
+    - "&fve a por las siguientes" 
+    - ""
+    - "&6Recompensas:"
+    - "<daysReward>"
+    - " "
+    - "&a ¡Recompensa reclamada!"
+    - ""
+
+FutureReward:
+  Title: "&5&lRECOMPENSA &8(&e<dayNum>&8)"
+  Icon: "CHEST_MINECART"
+  Lore:
+    - ""
+    - "&fReclama las recompensas anteriores"
+    - "&fpara poder reclamar esta" 
+    - ""
+    - "&6Recompensas:"
+    - "<daysReward>"
+    - " "
+    - "&a ¡Vuelve cuando tengas las demas!"
+
+# This is the standard item that will fill the empty slots in the primary area of the GUI
+# The title " " should be used to represent no text.
+Placeholder:
+  Title: " "
+  Icon: "GRAY_STAINED_GLASS_PANE"   # Set to "AIR" for no background
+
+# This is the item that is used by players to visit the previous page. It will only be showed if there is a previous page available
+# The text placeholder <pg> is used to represent the previous page number. The placeholder <tot> is used to represent the total number of pages.
+PreviousPage:
+  Active: true
+  GUI Position: 45
+  Title: "&3Página Anterior &f[<pg>/<tot>]"
+  Icon: "ARROW"
+
+# This is the item used to show the users streak and time until next reward.
+# This can be disabled if not required for your server.
+Statistics:
+  Active: true
+  GUI Position: 49
+  Icon: "<phead>"
+  Title: "&fEstadisticas &8(&d<playerName>&8)"
+  Lore:
+    - ''
+    - "&b Racha: &f<playerStreak> Dia(s)"
+    - ''
+    - "&e Proxima Recompensa:"
+    - ''
+    - " &f<timeUntilNextReward>"
+    - ''
+
+
+# This is the item that is used by players to visit the next page. It will only be showed if there is a next page available
+# The text placeholder <pg> is used to represent the next page number. The placeholder <tot> is used to represent the total number of pages.
+NextPage:
+  Active: true
+  GUI Position: 53
+  Title: "&3Siguiente Página &f[<pg>/<tot>]"
+  Icon: "ARROW"
+
+
+# This is an additional (unnecessary) field that allows you to insert additional items into the GUI
+# These items will have no lore, and no name, the format is as follows:
+# - '[GUI Position]:[GUI Page - or # for all pages]:[Material Name]:[Quantity]:[true/false enchanted]:[Custom Model Number - if applicable]'
+# For example:    - '0:#:DIAMOND:1:true'    This would put 1 regular enchanted diamond in the top left of all pages
+# Or:             - '0:1:DIAMOND:5:false:1043'    This would put 5 diamonds with custom model 1043 in the top left of the first page
+Additional GUI Items:
+  - '45:#:BLACK_STAINED_GLASS_PANE:1:false'
+  - '46:#:BLACK_STAINED_GLASS_PANE:1:false'
+  - '47:#:BLACK_STAINED_GLASS_PANE:1:false'
+  - '48:#:BLACK_STAINED_GLASS_PANE:1:false'
+  - '49:#:BLACK_STAINED_GLASS_PANE:1:false'
+  - '50:#:BLACK_STAINED_GLASS_PANE:1:false'
+  - '51:#:BLACK_STAINED_GLASS_PANE:1:false'
+  - '52:#:BLACK_STAINED_GLASS_PANE:1:false'
+  - '53:#:BLACK_STAINED_GLASS_PANE:1:false'
+
+
+
+
+
+#################################################################
+##################### Other (Misc) Settings #####################
+#################################################################
+
+# This setting directly determines whether the LeaderBoard PAPI placeholders are enabled.
+# This is generally set to false unless needed, as large servers may use large amounts of memory to cache all users Streak data.
+# NOTE: Changing this setting requires a server-restart to take effect.
+LeaderBoardPAPI-Placeholders: false
+
+# The text used for the player name if there is no player in that position of the leaderboard
+NoPlayer-NameText: "No-One"

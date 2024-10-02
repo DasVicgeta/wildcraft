@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1721949262231
+  login: 1721949232549
+money: '1000'
+last-account-name: Cheet7064
+lastlocation:
+  world: 6a21d3f3-fb0c-47a3-9108-e4560f54ae53
+  world-name: Spanw
+  x: 0.5
+  y: 67.0
+  z: 0.5
+  yaw: -90.4000015258789
+  pitch: -2.3499982357025146
+logoutlocation:
+  world: 6a21d3f3-fb0c-47a3-9108-e4560f54ae53
+  world-name: Spanw
+  x: 0.5
+  y: 67.0
+  z: 0.5
+  yaw: -78.6986083984375
+  pitch: 14.399958610534668

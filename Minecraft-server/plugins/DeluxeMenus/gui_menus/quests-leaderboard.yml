@@ -1,0 +1,112 @@
+menu_title: "       &7ǫᴜᴇsᴛs ʟᴇᴀᴅᴇʀʙᴏᴀʀᴅ"
+size: 46
+open_command: quests-leaderboard
+update_interval: 1
+register_command: true
+items:
+  border:
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 35
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 41
+      - 42
+      - 43
+      - 44
+    display_name: "&7"
+  border-red:
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    slots:
+      - 10
+      - 16
+      - 19
+      - 25
+      - 28
+      - 34
+    display_name: "&7"
+  border-yellow:
+    material: YELLOW_STAINED_GLASS_PANE
+    slots:
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+    display_name: "&7"
+  player-info:
+    material: head-%player_name%
+    display_name: "&6&lPLAYER INFO"
+    slot: 4
+    lore:
+      - "&#F4D160&lSTATISTICS:"
+      - "&#F4D160&l▪ &#75C2F6Nombre: &#F4D160%player_name%"
+      - "&#F4D160&l▪ &#75C2F6Posicion del Ranking: &#F4D160%ajlb_position_odailyquests_total_alltime%"
+      - "&#F4D160&l▪ &#75C2F6Tareas Completas: &#F4D160%odailyquests_total%"
+    click_commands:
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+  back:
+    material: >-
+      basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE2Nzg3YmEzMjU2NGU3YzJmM2EwY2U2NDQ5OGVjYmIyM2I4OTg0NWU1YTY2YjVjZWM3NzM2ZjcyOWVkMzcifX19
+    display_name: "&6&lBACK TO QUESTS"
+    slot: 40
+    lore:
+      - "&#FF9EAA&l| &#FFD0D0Volver al menú de misiones"
+    click_commands:
+      - "[player] quests"
+  1st:
+    material: head-%ajlb_lb_odailyquests_total_1_alltime_name%
+    display_name: "&6&l1ST PLACE"
+    slot: 24
+    lore:
+      - "&#F4D160&l▪ &#75C2F6Player Name: &#F4D160%ajlb_lb_odailyquests_total_1_alltime_name%"
+      - "&#F4D160&l▪ &#75C2F6Completed Quests: &#F4D160%ajlb_lb_odailyquests_total_1_alltime_value%"
+  2st:
+    material: head-%ajlb_lb_odailyquests_total_2_alltime_name%
+    display_name: "&6&l2ND PLACE"
+    slot: 23
+    lore:
+      - "&#F4D160&l▪ &#75C2F6Player Name: &#F4D160%ajlb_lb_odailyquests_total_2_alltime_name%"
+      - "&#F4D160&l▪ &#75C2F6Completed Quests: &#F4D160%ajlb_lb_odailyquests_total_2_alltime_value%"
+  3rd:
+    material: head-%ajlb_lb_odailyquests_total_3_alltime_name%
+    display_name: "&6&l3RD PLACE"
+    slot: 22
+    lore:
+      - "&#F4D160&l▪ &#75C2F6Player Name: &#F4D160%ajlb_lb_odailyquests_total_3_alltime_name%"
+      - "&#F4D160&l▪ &#75C2F6Completed Quests: &#F4D160%ajlb_lb_odailyquests_total_3_alltime_value%"
+  4th:
+    material: head-%ajlb_lb_odailyquests_total_4_alltime_name%
+    display_name: "&6&l4TH PLACE"
+    slot: 21
+    lore:
+      - "&#F4D160&l▪ &#75C2F6Player Name: &#F4D160%ajlb_lb_odailyquests_total_4_alltime_name%"
+      - "&#F4D160&l▪ &#75C2F6Completed Quests: &#F4D160%ajlb_lb_odailyquests_total_4_alltime_value%"
+  5th:
+    material: head-%ajlb_lb_odailyquests_total_5_alltime_name%
+    display_name: "&6&l5TH PLACE"
+    slot: 20
+    lore:
+      - "&#F4D160&l▪ &#75C2F6Player Name: &#F4D160%ajlb_lb_odailyquests_total_5_alltime_name%"
+      - "&#F4D160&l▪ &#75C2F6Completed Quests: &#F4D160%ajlb_lb_odailyquests_total_5_alltime_value%"

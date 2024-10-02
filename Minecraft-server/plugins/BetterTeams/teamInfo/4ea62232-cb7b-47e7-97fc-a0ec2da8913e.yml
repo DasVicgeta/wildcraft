@@ -1,0 +1,13 @@
+name: SIGMA
+description: ''
+open: false
+pvp: false
+home: ''
+color: m
+chests: []
+players:
+- 0fc226d0-0754-340b-a2c2-59159dd1c18d,OWNER
+- dc7a394b-4c43-3f0e-bce6-54ecd5514be2,DEFAULT
+level: 1
+tag: ''
+score: 5

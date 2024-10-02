@@ -1,0 +1,221 @@
+cooldown: 864000
+permission_required: true
+requirements:
+  one_time_requirements: false
+  price: 0.0
+  message:
+  - ''
+  - '&7&l〡 &r&7Estatus: &aActivo'
+  - '&7&l〡 &r&7Rango: &x&F&A&0&2&0&2&lI&x&E&2&0&2&0&2&lN&x&C&A&0&1&0&1&lF&x&B&1&0&1&0&1&lE&x&9&9&0&0&0&0&lR&x&8&7&0&2&0&2&lN&x&7&4&0&3&0&3&lU&x&6&2&0&5&0&5&lS
+    &f&lRank'
+  - ''
+  - '&7&l〡 &r&7Estatus: %status_symbol_requirement_1%'
+  extra_requirements: []
+  actions_on_buy: []
+display:
+  default:
+    id: ENDER_CHEST
+    name: '&x&F&A&0&2&0&2&lI&x&E&2&0&2&0&2&lN&x&C&A&0&1&0&1&lF&x&B&1&0&1&0&1&lE&x&9&9&0&0&0&0&lR&x&8&7&0&2&0&2&lN&x&7&4&0&3&0&3&lU&x&6&2&0&5&0&5&lS
+      &7&lKIT'
+    amount: 1
+    lore:
+    - '&dEste Kit Incluye:'
+    - ''
+    - '&d>> &7x1 Espada de Netherithe'
+    - '&d>> &7x1 Arco Encantado'
+    - '&d>> &7x1 Pico de Netherithe'
+    - '&d>> &7x1 Hacha de Netherithe Encantado'
+    - '&d>> &7x1 Pala de Netherithe Encantado'
+    - '&d>> &7x1 Casco de Netherithe Encantado'
+    - '&d>> &7x1 Pechera de Netherithe Encantado'
+    - '&d>> &7x1 Pantalones de Netherithe Encantado'
+    - '&d>> &7x1 Botas de Netherithe Encantado'
+    - '&d>> &7x2 Totems de la inmortalidad'
+    - '&d>> &7x32 Manzanas doradas encantada'
+    - '&d>> &7x32 Esneraldas'
+    - '&d>> &7x48 Diamantes'
+    - '&d>> &7x4 Lingotes de Netherite'
+    - '&d>> &7x1 Proteccion de 350x350'
+    - ''
+    - '&7Cooldown: &c12 hours'
+    - ''
+    - '&7(( &fClick Izquierdo &7para reclamar! ))'
+    - '&7(( &fClick Derecho &7para ver! ))'
+    item_flags:
+    - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&x&F&A&0&2&0&2&lI&x&E&2&0&2&0&2&lN&x&C&A&0&1&0&1&lF&x&B&1&0&1&0&1&lE&x&9&9&0&0&0&0&lR&x&8&7&0&2&0&2&lN&x&7&4&0&3&0&3&lU&x&6&2&0&5&0&5&lS
+      &7&lKIT'
+    amount: 1
+    lore:
+    - ''
+    - '&7&l〡 &r&7Estatus: &cSin Permiso'
+    - '&7&l〡 &r&7Requieres: &x&F&A&0&2&0&2&lI&x&E&2&0&2&0&2&lN&x&C&A&0&1&0&1&lF&x&B&1&0&1&0&1&lE&x&9&9&0&0&0&0&lR&x&8&7&0&2&0&2&lN&x&7&4&0&3&0&3&lU&x&6&2&0&5&0&5&lS
+      &7&lRank'
+    - ''
+    - '&8Compra el &x&F&A&0&2&0&2&lI&x&E&2&0&2&0&2&lN&x&C&A&0&1&0&1&lF&x&B&1&0&1&0&1&lE&x&9&9&0&0&0&0&lR&x&8&7&0&2&0&2&lN&x&7&4&0&3&0&3&lU&x&6&2&0&5&0&5&lS
+      &8rank para reclamar'
+    - ''
+    - '&7(( &fClick derecho &7para ver))'
+  cooldown:
+    id: CLOCK
+    name: '&x&F&A&0&2&0&2&lI&x&E&2&0&2&0&2&lN&x&C&A&0&1&0&1&lF&x&B&1&0&1&0&1&lE&x&9&9&0&0&0&0&lR&x&8&7&0&2&0&2&lN&x&7&4&0&3&0&3&lU&x&6&2&0&5&0&5&lS &f&lKIT'
+    amount: 1
+    lore:
+        - ''
+        - '&7┃ Estatus: &cCooldown Activo'
+        - '&7┃ Tiempo: &f%time%'
+        - ''
+        - '&7(( &f&oClick-Derecho &7&opara ver &r&7))'
+    item_flags:
+    - HIDE_ATTRIBUTES
+one_time: false
+auto_armor: false
+save_original_items: false
+items:
+  '1':
+    id: DIAMOND
+    amount: 24
+    preview_slot: 2
+  '2':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+    preview_slot: 3
+  '3':
+    id: NETHERITE_HELMET
+    amount: 1
+    enchants:
+    - PROTECTION_ENVIRONMENTAL;10
+    - DURABILITY;10
+    preview_slot: 4
+  '4':
+    id: GOLDEN_CARROT
+    amount: 64
+    preview_slot: 5
+  '5':
+    id: DIAMOND
+    amount: 24
+    preview_slot: 6
+  '6':
+    id: BOW
+    amount: 1
+    enchants:
+    - ARROW_FIRE;5
+    - ARROW_DAMAGE;10
+    - ARROW_KNOCKBACK;10
+    preview_slot: 11
+  '7':
+    id: NETHERITE_SWORD
+    amount: 1
+    enchants:
+    - DAMAGE_ARTHROPODS;10
+    - FIRE_ASPECT;10
+    - LOOT_BONUS_MOBS;5
+    - DAMAGE_ALL;10
+    - DURABILITY;5
+    preview_slot: 12
+  '8':
+    id: NETHERITE_CHESTPLATE
+    amount: 1
+    enchants:
+    - PROTECTION_ENVIRONMENTAL;15
+    - THORNS;10
+    - DURABILITY;10
+    preview_slot: 13
+  '9':
+    id: NETHERITE_PICKAXE
+    amount: 1
+    enchants:
+    - DIG_SPEED;10
+    - LOOT_BONUS_BLOCKS;10
+    - DURABILITY;5
+    preview_slot: 14
+  '10':
+    id: GOLDEN_CARROT
+    amount: 64
+    preview_slot: 15
+  '11':
+    id: DIAMOND_ORE
+    name: '&bᴘʀᴏᴛᴇᴄᴄɪᴏɴ 350x350'
+    amount: 1
+    lore:
+    - ''
+    - ​&7Protege tu area​
+    - '&7de intrusos y ladrones'
+    - ''
+    - '&6Radio&f:'
+    - '&7X: 350'
+    - '&7Y: -1'
+    - '&7Z: 350'
+    enchants:
+    - LURE;0
+    item_flags:
+    - HIDE_ENCHANTS
+    nbt:
+    - PublicBukkitValues|{"protectionstones:ispsblock":1b}|compound
+    preview_slot: 16
+  '12':
+    id: EMERALD
+    amount: 16
+    preview_slot: 20
+  '13':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+    preview_slot: 21
+  '14':
+    id: NETHERITE_LEGGINGS
+    amount: 1
+    enchants:
+    - MENDING;1
+    - PROTECTION_ENVIRONMENTAL;10
+    - SWIFT_SNEAK;5
+    - DURABILITY;10
+    preview_slot: 22
+  '15':
+    id: ENCHANTED_GOLDEN_APPLE
+    amount: 32
+    preview_slot: 23
+  '16':
+    id: EMERALD
+    amount: 16
+    preview_slot: 24
+  '17':
+    id: NETHERITE_INGOT
+    amount: 2
+    preview_slot: 29
+  '18':
+    id: NETHERITE_SHOVEL
+    amount: 1
+    enchants:
+    - DIG_SPEED;10
+    - SILK_TOUCH;1
+    - DURABILITY;10
+    nbt:
+    - PublicBukkitValues|{"itemtag:enchantable":0}|compound
+    preview_slot: 30
+  '19':
+    id: NETHERITE_BOOTS
+    amount: 1
+    enchants:
+    - DEPTH_STRIDER;5
+    - MENDING;1
+    - PROTECTION_ENVIRONMENTAL;10
+    - SOUL_SPEED;3
+    - DURABILITY;10
+    preview_slot: 31
+  '20':
+    id: NETHERITE_AXE
+    amount: 1
+    enchants:
+    - DIG_SPEED;10
+    - ARROW_KNOCKBACK;5
+    - SILK_TOUCH;1
+    - DURABILITY;10
+    nbt:
+    - PublicBukkitValues|{"itemtag:enchantable":0}|compound
+    preview_slot: 32
+  '21':
+    id: NETHERITE_INGOT
+    amount: 2
+    preview_slot: 33

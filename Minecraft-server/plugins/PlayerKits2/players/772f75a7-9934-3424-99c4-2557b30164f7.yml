@@ -1,0 +1,14 @@
+name: saquiador3000
+kits:
+  default:
+    cooldown: 1727875281496
+    one_time: false
+    bought: false
+  guardian++:
+    cooldown: 1727788532285
+    one_time: false
+    bought: false
+  paladin:
+    cooldown: 1727718243981
+    one_time: false
+    bought: false

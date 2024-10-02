@@ -1,0 +1,254 @@
+cooldown: 144000
+one_time: false
+auto_armor: true
+permission_required: false
+save_original_items: true
+display:
+  default:
+    id: PINK_CANDLE
+    name: '&x&e&3&0&0&f&f&lG&x&e&7&2&3&f&f&lu&x&e&b&4&6&f&f&la&x&e&f&6&9&f&f&lr&x&f&2&8&d&f&f&ld&x&f&6&b&0&f&f&li&x&f&a&d&3&f&f&la&x&f&e&f&6&f&f&ln &f&lKIT'
+    amount: 1
+    lore:
+    - '&dEste Kit Incluye:'
+    - ''
+    - '&d>> &7x1 Espada de Hierro'
+    - '&d>> &7x1 Pico de Hierro'
+    - '&d>> &7x1 Hacha de Hierro'
+    - '&d>> &7x1 Casco de Hierro'
+    - '&d>> &7x1 Pechera de Hierro'
+    - '&d>> &7x1 Pantalones de Hierro'
+    - '&d>> &7x1 Botas de Hierro'
+    - '&d>> &7x1 Arco'
+    - '&d>> &7x64 Flechas'
+    - '&d>> &7x4 Ender Pearl'
+    - '&d>> &7x1 Cubo de Ajolote'
+    - '&d>> &7x1 Escudo'
+    - '&d>> &7x128 Filetes Asados'
+    - '&d>> &7x1 Proteccion de 50x50'
+    - '&d>> &7x1 Mejora de Rango'
+    - ''
+    - '&7Precio: &a$11000'
+    - '&7Cooldown: &c2 hours'
+    - ''
+    - '&7(( &fClick Izquierdo &7para reclamar! ))'
+    - '&7(( &fClick Derecho &7para ver! ))'
+    item_flags:
+    - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&x&e&3&0&0&f&f&lG&x&e&7&2&3&f&f&lu&x&e&b&4&6&f&f&la&x&e&f&6&9&f&f&lr&x&f&2&8&d&f&f&ld&x&f&6&b&0&f&f&li&x&f&a&d&3&f&f&la&x&f&e&f&6&f&f&ln &f&lKIT'
+    amount: 1
+    lore:
+    - ''
+    - '&7┃ Estatus: &cSin Permisos'
+    - '&7┃ Requieres: [] &f&lRank'
+    - ''
+    - '&8Compra el [] &8rank para reclamar'
+    - ''
+    - '&7(( &fClick derecho &7para ver))'
+  cooldown:
+    id: CLOCK
+    name: '&x&e&3&0&0&f&f&lG&x&e&7&2&3&f&f&lu&x&e&b&4&6&f&f&la&x&e&f&6&9&f&f&lr&x&f&2&8&d&f&f&ld&x&f&6&b&0&f&f&li&x&f&a&d&3&f&f&la&x&f&e&f&6&f&f&ln &f&lKIT'
+    amount: 1
+    lore:
+    - ''
+    - '&7┃ Estatus: &cCooldown Activo'
+    - '&7┃ Tiempo: &f%time%'
+    - ''
+    - '&7(( &f&oClick-Derecho &7&opara ver &r&7))'
+    item_flags:
+    - HIDE_ATTRIBUTES
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: ENDER_PEARL
+      amount: 4
+    preview_slot: 2
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: COOKED_BEEF
+      amount: 64
+    preview_slot: 3
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: IRON_HELMET
+    preview_slot: 4
+  '4':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: COOKED_BEEF
+      amount: 64
+    preview_slot: 5
+  '5':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: IRON_ORE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"ᴘʀᴏᴛᴇᴄᴄɪᴏɴ
+          50x50"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"text":"​"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Protege
+          tu area​"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"de
+          intrusos y ladrones"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Radio"},{"italic":false,"color":"white","text":":"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"X:
+          50"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Y:
+          -1"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Z:
+          50"}],"text":""}'
+        enchants:
+          LURE: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        PublicBukkitValues:
+          protectionstones:ispsblock: 1b
+    preview_slot: 6
+  '6':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Mejora
+          de Rango"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"|
+          "},{"bold":false,"italic":false,"color":"gray","text":"Mejora de Rango"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"|
+          "},{"bold":false,"italic":false,"color":"gray","text":"Obtienes: "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E300FF","text":"G"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E723FF","text":"u"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#EB46FF","text":"a"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#EF69FF","text":"r"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F28DFF","text":"d"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F6B0FF","text":"i"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FAD3FF","text":"a"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEF6FF","text":"n
+          "},{"bold":true,"italic":false,"color":"white","text":"RANK"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"((
+          "},{"italic":true,"color":"white","text":"Click-Derecho "},{"italic":true,"color":"gray","text":"para
+          usar "},{"italic":false,"color":"gray","text":"))"}],"text":""}'
+        enchants:
+          MENDING: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        - HIDE_ARMOR_TRIM
+        PublicBukkitValues:
+          itemtag:actions: servercommand%%:%%-pin5ec9788aa786f6325e27e143612378d30ea2f5766a19f8309d878a866864e7da
+            lp user %player% parent set guardian
+    preview_slot: 11
+  '7':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 1
+    preview_slot: 12
+  '8':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+    preview_slot: 13
+  '9':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: IRON_AXE
+    preview_slot: 14
+  '10':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: AXOLOTL_BUCKET
+    preview_slot: 15
+  '11':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: BOW
+    preview_slot: 20
+  '12':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: IRON_PICKAXE
+    preview_slot: 21
+  '13':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+    preview_slot: 22
+  '14':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: SHIELD
+    preview_slot: 23
+  '15':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: ARROW
+      amount: 64
+    preview_slot: 24
+  '16':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: IRON_BOOTS
+    preview_slot: 31
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false
+requirements:
+  one_time_requirements: false
+  extra_requirements: []
+  message:
+  - ''
+  - '&7&l| &7Precio: &a$11000'
+  - '&7&l| &7Balance: &a$%vault_eco_balance%'
+  - ''
+  - '&7&l| &7Verificacion: &r%status_symbol_price%'
+  - ''
+  actions_on_buy: []
+  price: 11000.0

@@ -1,0 +1,109 @@
+Config:
+  update_notification: true
+  data_save_time: 5
+  debug_actions: true
+  register_commands:
+  - menu
+  - protecciones
+  - trabajos
+  - vote
+  to_condition_groups:
+    group1:
+    - '%player_has_permission_conditionalevents.somepermission% == yes'
+  experimental:
+    variable_replacement: false
+Messages:
+  prefix: '&4[&bConditionalEvents&4] '
+  commandReload: '&aConfig Reloaded.'
+  commandNoPermissions: '&cYou don''t have permissions to use this command.'
+  commandResetError: '&cUse &7/ce reset <player> <event>/all'
+  eventDoesNotExists: '&cThat event doesn''t exists on the config.'
+  eventDataReset: '&aData reset for player &e%player% &aon event &e%event%&a!'
+  eventDataResetAll: '&aAll data reset for player &e%player%&a!'
+  eventDataResetForAllPlayers: '&aData reset for &eall players &aon event &e%event%&a!'
+  eventDataResetAllForAllPlayers: '&aAll player data reset.'
+  eventEnableError: '&cUse &7/ce enable <event>'
+  eventDisableError: '&cUse &7/ce disable <event>'
+  eventEnabled: '&aEvent &7%event% &aenabled.'
+  eventDisabled: '&aEvent &7%event% &adisabled.'
+  commandDebugError: '&cUse &7/ce debug <event>'
+  debugEnabled: '&aDebug now enabled for event &7%event%&a!'
+  debugDisabled: '&aDebug disabled for event &7%event%&a!'
+  debugEnabledPlayer: '&aDebug now enabled for event &7%event% &aand player &7%player%&a!'
+  debugDisabledPlayer: '&aDebug disabled for event &7%event% &aand player &7%player%&a!'
+  onlyPlayerCommand: '&cThis command can be only used by a player.'
+  playerDoesNotExists: '&cThat player doesn''t have any data.'
+  seconds: s
+  minutes: m
+  hours: h
+  days: d
+  placeholderAPICooldownReady: Ready!
+  placeholderAPICooldownNameError: No event with that name!
+  commandCallError: '&cUse &7/ce call <event> (optional)%variable1%=<value1>;%variableN%=<valueN>
+    (optional)player:<player>'
+  commandCallInvalidEvent: '&cYou can only execute a CALL event.'
+  commandCallCorrect: '&aEvent &7%event% &asuccessfully executed.'
+  commandCallCorrectPlayer: '&aEvent &7%event% &asuccessfully executed for player
+    &7%player%&a.'
+  commandCallFailed: '&cEvent &7%event% &ccould not be executed. Maybe a format error?'
+  playerNotOnline: '&cThat player is not online.'
+  commandItemError: '&cUse &7/ce item <save/remove> <name>'
+  savedItemDoesNotExists: '&cThat saved item doesn''t exists.'
+  savedItemRemoved: '&aItem &7%name% &aremoved.'
+  mustHaveItemInHand: '&cYou must have an item on your hand.'
+  savedItemAlreadyExists: '&cA saved item with that name already exists.'
+  savedItemAdded: '&aItem &7%name% &asaved.'
+Events:
+  vote:
+    type: player_command
+    conditions:
+    - '%main_command% == /vote'
+    actions:
+      default:
+      - 'message: &7[&b&lLINK&7] &fVota en el siguiente link!'
+      - 'message: &7&l->  &bhttps://minecraft-serverlist.com/server/1741  &7&l<-'
+      - 'to_target: give_potion_effect: SPEED;120;1'
+  help_command:
+    type: player_command
+    conditions:
+    - '%main_command% == /help'
+    actions:
+      default:
+      - 'message: &7[&b&lHELP MENU&7]'
+      - 'message: '
+      - 'message: &e/menu &fAbre el menu donde esta todo'
+      - 'message: &e/protecciones &fAbre un menu para comprar protec'
+      - 'message: &e/tpa &fEnvia una peticion de teletransporte a un jugador'
+      - 'message: &e/home &fVe a tu casa'
+      - 'message: &e/trabajos &fUnete a un trabajo unico'
+      - 'cancel_event: true'
+  recompensa:
+    type: repetitive
+    repetitive_time: 36000
+    actions:
+      default:
+      - 'message: &7[&bRECOMPENSA&7] Disfrutala tu recompensa por tiempo jugado'
+      - 'console_command: eco give %player% 100'
+    enabled: true
+  server_on:
+    type: server_start
+    actions:
+      default:
+      - 'console_command: ce enable recompensa'
+  server_off:
+    type: server_stop
+    actions:
+      default:
+      - 'to_all: message: &c&lCerrar servidor, hasta otra.'
+# lluvia_acida:
+#  type: repetitive
+#  repetitive_time: 20
+#  conditions:
+#  - "%world_is_raining% == true"
+#  - "%player_is_outside% == true"
+#  - "%player_biome% !contains SAVANNA"
+#  - "%player_biome% !contains DESERT"
+#  actions:
+#    default:
+#    - "damage: 1"
+#    - "title: 5;20;5;&aLLUVIA ACIDA;&e!Busca Refugio o Moriras!"

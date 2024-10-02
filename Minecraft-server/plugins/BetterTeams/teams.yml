@@ -1,0 +1,8 @@
+storageType: YAML
+teamNameLookup:
+- sigma:4ea62232-cb7b-47e7-97fc-a0ec2da8913e
+playerLookup:
+- dc7a394b-4c43-3f0e-bce6-54ecd5514be2:4ea62232-cb7b-47e7-97fc-a0ec2da8913e
+- 0fc226d0-0754-340b-a2c2-59159dd1c18d:4ea62232-cb7b-47e7-97fc-a0ec2da8913e
+chestClaims: []
+holos: []

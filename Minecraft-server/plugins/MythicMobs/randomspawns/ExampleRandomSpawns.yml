@@ -1,0 +1,7 @@
+RamdonSpawnEliteMobs:
+  MobType: SkeletalDarkKnight
+  Wolrds: world
+  Chance: .01
+  Biomes:  PLAINS
+  Position:Type: LANE
+  Action: ADD

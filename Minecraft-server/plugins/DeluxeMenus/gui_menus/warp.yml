@@ -1,0 +1,287 @@
+menu_title: '&7| WARPS'
+size: 54
+open_command:
+- testing
+items:
+  '0':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 0
+    display_name: '&7'
+  '1':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 1
+    display_name: '&7'
+  '2':
+    material: PURPLE_STAINED_GLASS_PANE
+    slot: 2
+    display_name: '&7'
+  '3':
+    material: PURPLE_STAINED_GLASS_PANE
+    slot: 3
+    display_name: '&7'
+  '4':
+    material: PURPLE_STAINED_GLASS_PANE
+    slot: 4
+    display_name: '&7'
+  '5':
+    material: PURPLE_STAINED_GLASS_PANE
+    slot: 5
+    display_name: '&7'
+  '6':
+    material: PURPLE_STAINED_GLASS_PANE
+    slot: 6
+    display_name: '&7'
+  '7':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 7
+    display_name: '&7'
+  '8':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 8
+    display_name: '&7'
+  '9':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 9
+    display_name: '&7'
+  '10':
+    material: PURPLE_STAINED_GLASS_PANE
+    slot: 10
+    display_name: '&7'
+  '11':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 11
+    display_name: '&7'
+  '12':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 12
+    display_name: '&7'
+  '13':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 13
+    display_name: '&7'
+  '14':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 14
+    display_name: '&7'
+  '15':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 15
+    display_name: '&7'
+  '16':
+    material: PURPLE_STAINED_GLASS_PANE
+    slot: 16
+    display_name: '&7'
+  '17':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 17
+    display_name: '&7'
+  '18':
+    material: PURPLE_STAINED_GLASS_PANE
+    slot: 18
+    display_name: '&7'
+  '19':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 19
+    display_name: '&7'
+  '20':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTViMGNmMDg3Yzg3MTUzODhlMzkyZjQ2ZjEyZTNiNmMwYWJjNGJlNzJkNGU0MjU3ZGYzOGExOTViYWVhOWVkNCJ9fX0=
+    data: 3
+    slot: 20
+    display_name: '&d&l✦ &d&lWARP SURVIVAL &d&l✦'
+    lore:
+    - '&d'
+    - '&5&l┏╍╍ &5&lDescripción:'
+    - '&5&l┇ '
+    - '&5&l┇   &fViaja ya al warp survival '
+    - '&5&l┇   &fpara conseguir recursos'
+    - '&5&l┇ '
+    - '&5&l┇ &d&l◆ &a¿Listo? &fClickea este boton. '
+    - '&5&l┇ '
+    - '&5&l┣╍╍ &5&lInformacion:'
+    - '&5&l┇ '
+    - '&5&l┇   &fEn este warp puedes viajar por el mundo '
+    - '&5&l┇   &fcrear tu base y conseguir mascotas.'
+    - '&5&l┇ '
+    - '&5&l┇ &d&l◆ &fCooldown: &d3 seconds '
+    - '&5&l┗╍╍ '
+    - '&d'
+    left_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    - '[player] warp survival'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    - '[player] warp survival'
+    - '[close]'
+  '22':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTViMGNmMDg3Yzg3MTUzODhlMzkyZjQ2ZjEyZTNiNmMwYWJjNGJlNzJkNGU0MjU3ZGYzOGExOTViYWVhOWVkNCJ9fX0=
+    data: 3
+    slot: 22
+    display_name: '&d&l✦ &d&lWARP CRATE &d&l✦'
+    lore:
+    - '&d'
+    - '&5&l┏╍╍ &5&lDescripción:'
+    - '&5&l┇ '
+    - '&5&l┇   &fViaja al warp crate  '
+    - '&5&l┇   &fDonde podras conseguir recompensas'
+    - '&5&l┇ '
+    - '&5&l┇ &d&l◆ &a¿Listo? &fClickea este boton. '
+    - '&5&l┇ '
+    - '&5&l┣╍╍ &5&lInformacion:'
+    - '&5&l┇ '
+    - '&5&l┇   &fEn el warp crates podras canjear '
+    - '&5&l┇   &ftodas las llaves que tengas.'
+    - '&5&l┇ '
+    - '&5&l┇ &d&l◆ &fCooldown: &d3 seconds '
+    - '&5&l┗╍╍ '
+    - '&d'
+    left_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    - '[player] warp crate'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    - '[player] warp crate'
+    - '[close]'
+  '24':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTViMGNmMDg3Yzg3MTUzODhlMzkyZjQ2ZjEyZTNiNmMwYWJjNGJlNzJkNGU0MjU3ZGYzOGExOTViYWVhOWVkNCJ9fX0=
+    data: 3
+    slot: 24
+    display_name: '&d&l✦ &d&lWARP RANKING &d&l✦'
+    lore:
+    - '&d'
+    - '&5&l┏╍╍ &5&lDescripción:'
+    - '&5&l┇ '
+    - '&5&l┇   &fViaja ya al ranking del server'
+    - '&5&l┇   &faqui podras ver a los mejores del server.'
+    - '&5&l┇ '
+    - '&5&l┇ &d&l◆ &a¿Listo? &fClickea este boton. '
+    - '&5&l┇ '
+    - '&5&l┣╍╍ &5&lInformacion:'
+    - '&5&l┇ '
+    - '&5&l┇   &fEn este warp veras a los mejores del server '
+    - '&5&l┇   &fen varias categorias como, dinero o tiempo jugado'
+    - '&5&l┇ '
+    - '&5&l┇ &d&l◆ &fCooldown: &d3 seconds '
+    - '&5&l┗╍╍ '
+    - '&d'
+    left_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    - '[player] warp ranking'
+    - '[close]'
+    right_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_PLING 1 2'
+    - '[player] warp ranking'
+    - '[close]'
+  '25':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 25
+    display_name: '&7'
+  '26':
+    material: PURPLE_STAINED_GLASS_PANE
+    slot: 26
+    display_name: '&7'
+  '27':
+    material: PURPLE_STAINED_GLASS_PANE
+    slot: 27
+    display_name: '&7'
+  '28':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 28
+    display_name: '&7'
+
+  '34':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 34
+    display_name: '&7'
+  '35':
+    material: PURPLE_STAINED_GLASS_PANE
+    slot: 35
+    display_name: '&7'
+  '36':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 36
+    display_name: '&7'
+  '37':
+    material: PURPLE_STAINED_GLASS_PANE
+    slot: 37
+    display_name: '&7'
+  '38':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 38
+    display_name: '&7'
+  '39':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 39
+    display_name: '&7'
+  '40':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 40
+    display_name: '&7'
+  '41':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 41
+    display_name: '&7'
+  '42':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 42
+    display_name: '&7'
+  '43':
+    material: PURPLE_STAINED_GLASS_PANE
+    slot: 43
+    display_name: '&7'
+  '44':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 44
+    display_name: '&7'
+  '45':
+    material: BARRIER
+    slot: 45
+    display_name: '&d&l✦ &d&lGO BACK &d&l✦'
+    enchantments:
+    - 'DURABILITY;1'
+    hide_enchantments: true
+    lore:
+    - '&d'
+    - '&5&l┏╍╍ &5&lDescripción:'
+    - '&5&l┇ '
+    - '&5&l┇   &fVuelve al menú principal. '
+    - '&5&l┇ '
+    - '&5&l┗╍╍ '
+    - '&d'
+    right_click_commands:
+    - '[openguimenu] menu'
+    left_click_commands:
+    - '[openguimenu] menu'
+  '46':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 46
+    display_name: '&7'
+  '47':
+    material: PURPLE_STAINED_GLASS_PANE
+    slot: 47
+    display_name: '&7'
+  '48':
+    material: PURPLE_STAINED_GLASS_PANE
+    slot: 48
+    display_name: '&7'
+  '49':
+    material: PURPLE_STAINED_GLASS_PANE
+    slot: 49
+    display_name: '&7'
+  '50':
+    material: PURPLE_STAINED_GLASS_PANE
+    slot: 50
+    display_name: '&7'
+  '51':
+    material: PURPLE_STAINED_GLASS_PANE
+    slot: 51
+    display_name: '&7'
+  '52':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 52
+    display_name: '&7'
+  '53':
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 53
+    display_name: '&7'

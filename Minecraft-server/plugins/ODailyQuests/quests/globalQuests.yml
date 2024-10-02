@@ -1,0 +1,68 @@
+# ==============================================================
+#                       ARCHIVO DE MISIONES GLOBALES
+# ==============================================================
+# Las misiones deben estar numeradas e incrementarse de 1 en 1.
+# Por favor, preste atención a la sangría y respete el esquema.
+# Esto podría causar varios errores.
+# ==============================================================
+# TIPOS DE MISIONES DISPONIBLES:
+# https://ordwenplugins.gitbook.io/odailyquests/quests/quests-types
+# ==============================================================
+# TIPOS DE RECOMPENSAS DISPONIBLES :
+# https://ordwenplugins.gitbook.io/odailyquests/quests/rewards-types
+# ==============================================================
+# Más consejos disponibles en Wiki :
+# https://ordwenplugins.gitbook.io/odailyquests/
+# ¿Necesitas ayuda? https://discord.gg/Q8sw5KFvqg
+# Para más objetos o tipos afectados, por favor haga sugerencias.
+# ==============================================================
+# Por favor, tenga al menos 3 misiones para el modo global.
+quests:
+  1:
+    name: "#f8f38dPeligro.."
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Caza Piglins Zombificados del nether"
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#FBEEAC▪  #75C2F6Matar #F4D16020 #75C2F6piglins zombificados."
+      - "#FBEEAC▪  #75C2F6Recompensa #F4D1602000 #75C2F6XPs."
+      - ""
+    quest_type: KILL
+    required_entity: ZOMBIFIED_PIGLIN
+    required_amount: 20
+    reward:
+      reward_type: EXP_POINTS
+      amount: 2000
+  2:
+    name: "#f8f38dLos cerdos pueden pelear"
+    menu_item: GOLDEN_SWORD
+    description:
+      - "&8Caza Brutos Piglin del nether."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#FBEEAC▪  #75C2F6Matar #F4D16010 #75C2F6brutos piglin."
+      - "#FBEEAC▪  #75C2F6Recompensa #F4D1602000 #75C2F6XPs."
+      - ""
+    quest_type: KILL
+    required_entity: PIGLIN_BRUTE
+    required_amount: 10
+    reward:
+      reward_type: EXP_POINTS
+      amount: 2000
+  3:
+    name: "#f8f38dVarita Caliente"
+    menu_item: BLAZE_POWDER
+    description:
+      - "&8Caza Blazes del nether."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#FBEEAC▪  #75C2F6Matar #F4D16020 #75C2F6blazes."
+      - "#FBEEAC▪  #75C2F6Recompensa #F4D1602000 #75C2F6XPs."
+      - ""
+    quest_type: KILL
+    required_entity: BLAZE
+    required_amount: 20
+    reward:
+      reward_type: EXP_POINTS
+      amount: 2000

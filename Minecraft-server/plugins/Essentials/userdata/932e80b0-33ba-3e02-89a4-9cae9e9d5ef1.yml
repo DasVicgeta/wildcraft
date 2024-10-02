@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1727722114031
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1727723386104
+  login: 1727721039688
+money: '4000'
+last-account-name: Arcrond
+lastlocation:
+  world: 33c20ce9-2ab2-4130-8336-a42456721a34
+  world-name: world
+  x: -1.7632744304037842
+  y: 95.0
+  z: -28.204048351830867
+  yaw: -137.85614013671875
+  pitch: 7.800027370452881
+logoutlocation:
+  world: 33c20ce9-2ab2-4130-8336-a42456721a34
+  world-name: world
+  x: 158.32211948258552
+  y: 63.0
+  z: -316.04386744268646
+  yaw: -71.1932373046875
+  pitch: 90.0

@@ -1,0 +1,265 @@
+#---------------------------------------------------------------- EXAMPLE REWARD---------------------------------------------------------------------------------#
+Day Example:
+  # The name of the reward
+  RewardName: "Daily Reward!"
+
+  # The icon for the reward, Input a Minecraft NameSpaced ID, ![IT HAS TO BE A NAMESPACED ID]! {NameSpaced ID Examples: DIAMOND_SWORD, OAK_PLANKS, STONE_HOE etc} ~ A quick google search can help find the NameSpaced ID that you need!
+  RewardIcon: "SUNFLOWER"
+
+  # The commands used to issue the reward, <playername> can be used as a placeholder to specify the users name who claimed
+  # To add more commands just create another line and include - ""
+  # (As shown below)
+  RewardCommands:
+    - "eco give <playerName> 50"
+    - "give <playerName> Diamond 1"
+
+  # This is an [OPTIONAL] field. If you include this within any day, it will override the original Messages.yml RewardClaim message
+  RewardMessage: "¡Has reclamado una recompensa especial!"
+
+  # This is for extra information
+  Extras:
+    # Enchanted represents whether the GUI item should appear enchanted or not
+    Enchanted: false
+    # GUI position relates to the position in the GUI (0 = Top Left, 53 = bottom right) numbers increase across and down the rows
+    # We recommend leaving these to preserve the original GUI shape, causing errors here can stop the plugin from working correctly!
+    GUI Position: 1
+    # The page that the icon is located on, this must be within the range of the total number of GUI pages (declared in the Config.yml)
+    # If the Page number is not within the pre-determined range, the icon will not be visible at all.
+    # If this field is not included, the reward day will default to Page 1
+    GUI Page: 1
+
+
+# This config file contains a default of 30 days of rewards. You may copy/delete fields to ensure that your server has more or less rewards.
+# Not filling out days will not remove the day, but instead default the day to not giving out any reward
+# The built-in placeholder <playerName> can be used in the RewardCommand section of the day to specify the player who redeems the rewards in game name
+
+# If you have any questions you can always get support at: https://discord.gg/9jyHhUepaG
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------#
+
+
+
+Day 1:
+  RewardName: "&fDinero &8(&e1000$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 1000"
+    - "excellentcrates key give <playerName> daily 1"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 0
+    GUI Page: 1
+
+Day 2:
+  RewardName: "&fDinero &8(&e1500$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 1500"
+    - "excellentcrates key give <playerName> daily 1"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 1
+    GUI Page: 1
+
+Day 3:
+  RewardName: "&fDinero &8(&e2000$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 2000"
+    - "excellentcrates key give <playerName> daily 2"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 2
+    GUI Page: 1
+
+Day 4:
+  RewardName: "&fDinero &8(&e2500$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 2500"
+    - "excellentcrates key give <playerName> daily 2"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 3
+    GUI Page: 1
+
+Day 5:
+  RewardName: "&fDinero &8(&e3000$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 3000"
+    - "excellentcrates key give <playerName> daily 3"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 4
+    GUI Page: 1
+
+Day 6:
+  RewardName: "&fDinero &8(&e3500$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 3500"
+    - "excellentcrates key give <playerName> daily 3"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 5
+    GUI Page: 1
+
+Day 7:
+  RewardName: "&fDinero &8(&e4000$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 4000"
+    - "excellentcrates key give <playerName> daily 4"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 6
+    GUI Page: 1
+
+Day 8:
+  RewardName: "&fDinero &8(&e4500$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 4500"
+    - "excellentcrates key give <playerName> daily 4"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 7
+    GUI Page: 1
+
+Day 9:
+  RewardName: "&fDinero &8(&e5000$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 5000"
+    - "excellentcrates key give <playerName> daily 5"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 8
+    GUI Page: 1
+
+Day 10:
+  RewardName: "&fDinero &8(&e5500$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 5500"
+    - "excellentcrates key give <playerName> daily 5"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 9
+    GUI Page: 1
+
+Day 11:
+  RewardName: "&fDinero &8(&e6000$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 6000"
+    - "excellentcrates key give <playerName> daily 6"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 10
+    GUI Page: 1
+
+Day 12:
+  RewardName: "&fDinero &8(&e6500$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 6500"
+    - "excellentcrates key give <playerName> daily 6"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 11
+    GUI Page: 1
+
+Day 13:
+  RewardName: "&fDinero &8(&e7000$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 7000"
+    - "excellentcrates key give <playerName> daily 7"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 12
+    GUI Page: 1
+
+Day 14:
+  RewardName: "&fDinero &8(&e7500$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 7500"
+    - "excellentcrates key give <playerName> daily 7"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 13
+    GUI Page: 1
+
+Day 15:
+  RewardName: "&fDinero &8(&e8000$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 8000"
+    - "excellentcrates key give <playerName> daily 8"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 14
+    GUI Page: 1
+
+Day 16:
+  RewardName: "&fDinero &8(&e8500$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 8500"
+    - "excellentcrates key give <playerName> daily 8"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 15
+    GUI Page: 1
+
+Day 17:
+  RewardName: "&fDinero &8(&e9000$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 9000"
+    - "excellentcrates key give <playerName> daily 9"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 16
+    GUI Page: 1
+
+Day 18:
+  RewardName: "&fDinero &8(&e9500$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 9500"
+    - "excellentcrates key give <playerName> daily 9"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 17
+    GUI Page: 1
+
+Day 19:
+  RewardName: "&fDinero &8(&e10000$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 10000"
+    - "excellentcrates key give <playerName> daily 10"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 19
+    GUI Page: 1
+
+Day 20:
+  RewardName: "&fDinero &8(&e10500$&8) - &fLlave &2&lDaily "  
+  RewardCommands:
+    - "eco give <playerName> 10500"
+    - "excellentcrates key give <playerName> daily 10"
+  RewardIcon: "SUNFLOWER"
+  Extras:
+    Enchanted: true
+    GUI Position: 20
+    GUI Page: 1
+
+
+
+# Need more rewards? No problem!
+# Just Copy-Paste one of the previous reward fields and adjust the Day [Number] to the subsequent day.
+# If you need any support with this, reach out in our Discord Support Server! (https://discord.gg/9jyHhUepaG)

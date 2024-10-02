@@ -1,0 +1,86 @@
+# DeluxeTags messages.yml
+# Edit the plugin messages to your liking!
+
+# DeluxeTags messages.yml
+# Edit the plugin messages to your liking!
+cmd:
+  tag_list_fail: '&cYou don''t have any tags loaded.'
+  tag_list_fail_target: '&c{0} has no tags loaded.'
+  help_admin_setorder: '&f&oChange the order for a tag'
+  help_admin_setdisplay: '&f&oChange a tag''s display'
+  admin_set_order_incorrect_usage: '&cIncorrect usage! &7/tags setorder <identifier>
+    <order>'
+  admin_set_order_success: '&aOrder &f{0}&a set for &7: &f{1}'
+  admin_set_order_fail: '&f{0} &cis not a loaded tag name!'
+  admin_set_order_not_a_number: '&f{0} &cis not a valid order! It should be a number.'
+  admin_set_order_already_exists: '&cOrder &f{0}&c is already in use.'
+  admin_set_display_incorrect_usage: '&cIncorrect usage! &7/tags setdisplay <identifier>
+    <display>'
+  admin_set_display_success: '{0} &adisplay set to &7: &f{1}'
+  admin_set_display_fail: '&f{0} &cis not a loaded tag name!'
+  no_permission: '&3▪ &bTags &3▪ &8» &7No tienes &a{0} &7para realizar eso!'
+  target_not_online: '&7El jugador &a{0} &7no esta en linea!'
+  no_tags_loaded: '&3▪ &bTags &3▪ &8» &7No hay tags disponibles!'
+  no_tags_available: '&3▪ &bTags &3▪ &8» &7No tienes tags disponibles!'
+  no_tags_available_target: '&3▪ &bTags &3▪ &8» &7El jugador &a{0} &7no tiene tags
+    disponibles!'
+  tags_list: '&3▪ &bTags &3▪ &8» &7Hay &a{0} &7tags disponibles &7► &8{1}'
+  tags_list_all: '&3▪ &bTags &3▪ &8» &7Hay &a{0} &7tags disponibles &7► &8{1}'
+  tags_list_others: '&3▪ &bTags &3▪ &8» &7El jugador &a{0} &7tiene &a{1} &7tags disponibles
+    &7► &8{2}'
+  tag_select_incorrect_usage: '&3▪ &bTags &3▪ &8» &7Uso incorrecto! Debes utilizar
+    &7► &8/tags select <nombre>'
+  tag_select_success: '&3▪ &bTags &3▪ &8» &7Tu tag ha sido establecido como &7► &8{1}'
+  tag_select_invalid_name: '&3▪ &bTags &3▪ &8» &7No puedes seleccionar el tag &a{0}'
+  tag_select_already_set: '&3▪ &bTags &3▪ &8» &7El tag &a{0} &cya se encuentra como
+    tu tag actual!'
+  help_title: '&5&lDeluxeTags &f&oHelp'
+  help_color: '&8> &d&l'
+  help_tags: '&f&oOpen your tags GUI'
+  help_list: '&f&oView tags available to you'
+  help_select: '&f&oSelect a tag as your active tag'
+  help_admin_set: '&f&oSet a players tag'
+  help_admin_clear: '&f&oClear a players tag'
+  help_admin_create: '&f&oCreate a new tag'
+  help_admin_delete: '&f&oDelete an existing tag'
+  help_admin_setdesc: '&f&oSet a description for a tag'
+  help_version: '&f&oView DeluxeTags version and author information'
+  help_reload: '&f&oReload the tags config'
+  admin_set_incorrect_usage: '&3▪ &bTags &3▪ &8» &7Uso incorrecto! Debes utilizar
+    &7► &8/tags set <jugador> <tag>'
+  admin_set_no_tags_avail: '&3▪ &bTags &3▪ &8» &7El jugador &a{0} &7no tiene tags
+    disponibles!'
+  admin_set_success: '&3▪ &bTags &3▪ &8» &7El tag del jugador &a{0} &7ha sido establecido
+    como &a{1} &8({2}&8)'
+  admin_set_success_to_target: '&3▪ &bTags &3▪ &8» &7Tu tag ha sid establecido como
+    &a{1}'
+  admin_set_success_fail: '&3▪ &bTags &3▪ &8» &7El tag &a{0} &7no es valido para &a{1}&7!'
+  admin_clear_incorrect_usage: '&3▪ &bTags &3▪ &8» &7Uso incorrecto! Debes utilizar
+    &7► &8/tags clear <jugador>'
+  admin_clear_no_tag_set: '&3▪ &bTags &3▪ &8» &7El jugador &a{0} &7no tiene un tag
+    establecido!'
+  admin_clear_success: '&3▪ &bTags &3▪ &8» &7El tag del jugador &a{0} &7ha sido removido!'
+  admin_clear_success_to_target: '&3▪ &bTags &3▪ &8» &7Tu tag ha sido removido correctamente!'
+  admin_create_tag_incorrect_usage: '&cIncorrect usage! &7/tags create <identifier>
+    <tag>'
+  admin_create_tag_success: '&aTag created&7: &f{0}&7:&f{1}'
+  admin_create_tag_fail: '&f{0} &cis already a loaded tag name!'
+  admin_delete_tag_incorrect_usage: '&cIncorrect usage! &7/tags delete <identifier>'
+  admin_delete_tag_success: '&7Tag &f{0} &7has been deleted!'
+  admin_delete_tag_fail: '&f{0} &cis not a loaded tag name!'
+  admin_set_description_incorrect_usage: '&cIncorrect usage! &7/tags setdesc <identifier>
+    <description>'
+  admin_set_description_success: '{0} &adescription set to &7: &f{2}'
+  admin_set_description_fail: '&f{0} &cis not a loaded tag name!'
+  admin_reload: '&3▪ &bTags &3▪ &8» &7Configuracion actualizada. Hay &a{0} &7tags
+    disponibles!'
+  incorrect_usage: '&3▪ &bTags &3▪ &8» &7Uso incorrecto! Debes utilizar &7► &8/tags
+    help'
+gui:
+  placeholders:
+    tag:
+      available: '&aAvailable'
+      unavailable: '&cUnavailable'
+  tag_selected: '&3▪ &bTags &3▪ &8» &7Tu tag ha sido establecido como &a{1}'
+  tag_disabled: '&3▪ &bTags &3▪ &8» &7Tu tag ha sido deshabilitado!'
+  page_error: '&cThere was a problem getting the previous page number!'

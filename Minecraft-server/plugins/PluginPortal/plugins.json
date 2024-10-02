@@ -1,0 +1,119 @@
+[
+  {
+    "platformId": "5qkQnnWO",
+    "name": "PluginPortal",
+    "version": "2.0.4",
+    "platform": "MODRINTH",
+    "sha256": "d20005a2d712b5180dd39edd059425edc7b49abcfa64a33a887955c76d1bd25a",
+    "sha512": "f6b0596a5481966b2eed7797f2792d26e1328402ed506e23cd52240e7bd563859de9e3c19f256f4f1b1afadfc6a2c9191105e309261b767e622096c39cd4127b",
+    "installedAt": 1722200827312
+  },
+  {
+    "platformId": "87610",
+    "name": "CMILib",
+    "version": "1.5.0.4",
+    "platform": "SPIGOTMC",
+    "sha256": "1d9e8e37e115e34c67fc2e3e14e32b2154a526046869072ddb986cd0c3450755",
+    "sha512": "7f95fae22b2512a0ef3dd67eb0f396d7c9c87dee84c9b88ef6124f9a7a282e08b2ae688c616ec5fbeb0b98087196734149cfdc5033215b9e0c4846f2431af8e2",
+    "installedAt": 1722451740744
+  },
+  {
+    "platformId": "2124",
+    "name": "SkinsRestorer",
+    "version": "15.0.15",
+    "platform": "SPIGOTMC",
+    "sha256": "b8411a8da3c127eaeefa0956f6479c2ead182c00005defb37019da3816c88328",
+    "sha512": "0428a2383dcf1ccffdcf5c074c4a074fce397900eb9692882e98f62c1a2cca74914d13ce13d7067efb300fb5ee1fbc88a2efff25810bbd4cf001bb5e5201ee83",
+    "installedAt": 1722452729570
+  },
+  {
+    "platformId": "25391",
+    "name": "VoidGen",
+    "version": "2.2.1",
+    "platform": "SPIGOTMC",
+    "sha256": "9ce130123dc67025d600f765bdb2fdf1cea7193bf8920e3e0216c5f8fc082c3e",
+    "sha512": "a82597a8ab946f297182b66f6738b21574626aaeb413d1f073c0e5d3f674f53c7c1a9cda297c2b57a93515766a801a2c01bfc01b93d88940b9d1636e90e509e0",
+    "installedAt": 1722794903414
+  },
+  {
+    "platformId": "qmTmOySQ",
+    "name": "CustomCrafting",
+    "version": "4.16.9",
+    "platform": "MODRINTH",
+    "sha256": "d4f1164b270883c978ead58b2ef8aa19c388b47f125ee9a84bce47f5ecb868a5",
+    "sha512": "fb644995719a9ad61ae5eb9de9458db594dada63c7ca8cb54c2d3f38eeaa85ef9dcbfd8345b22983df6fc915d778d0fcabea186c74ede6625e4adec22e0983d4",
+    "installedAt": 1726342601746
+  },
+  {
+    "platformId": "81069",
+    "name": "AuraSkills",
+    "version": "2.2.3",
+    "platform": "SPIGOTMC",
+    "sha256": "097e74c079894ebc694edd47f5e63aa57f726db0715fbd75e3c39a99a62763cc",
+    "sha512": "6c8a28c68d208b3a062bba4d6fd3148d985361d28a74fbcb62fac1ea3e75f49cdb50a2ffd3f23949079582ad81f5e9768a78c112eed9561d33429bade9f64706",
+    "installedAt": 1726342752515
+  },
+  {
+    "platformId": "19254",
+    "name": "ViaVersion",
+    "version": "5.0.3",
+    "platform": "SPIGOTMC",
+    "sha256": "201a8d9572f9095aab022e1d4430a6736113d359e12546833287c3e3ce397273",
+    "sha512": "4904abaff47d0b2a7e561912e2dc8e2745cfb69e070985bd6c371fc1c756369dc89f531dccf7e3ee8b5feca3b21bd284869e7544771c3d96ceee0d61b478650c",
+    "installedAt": 1726342761286
+  },
+  {
+    "platformId": "l1d4bZ1h",
+    "name": "WolfyUtils",
+    "version": "4.16.15",
+    "platform": "MODRINTH",
+    "sha256": "5ff7617d76ca95c5bbcac483648b2254b8880ca54efee32be71d1a59ca4c0c0a",
+    "sha512": "9ff43968a59553cb12e204f3719a2f45612439061aec2539872ecb2a1e8dc8c655dc60d85c6de46b3e2085a9b540c8cf453c3a1672f6225456e74305ea614afb",
+    "installedAt": 1726342823614
+  },
+  {
+    "platformId": "8390",
+    "name": "MOTD",
+    "version": "2.3.11",
+    "platform": "SPIGOTMC",
+    "sha256": "3cf8ee2bee7e60bcbd4c086197e04ba7b0e2c7ccbc23793965841d3f86507946",
+    "sha512": "24d3039236b01ba3361f73b5d79b625f9b2fae0fdcb36d04dbe87348d1bc947435e46d55e3aaffc72b2935427f909284603a87ad8c1ab2b4e139ceb82718cef6",
+    "installedAt": 1727558490480
+  },
+  {
+    "platformId": "88709",
+    "name": "Yamipa",
+    "version": "v1.3.1",
+    "platform": "SPIGOTMC",
+    "sha256": "19fead7dcae2cbffcc81281151c86ec1bbf76332e5987ec6d06133fc565574b6",
+    "sha512": "3064e80cea8bfa020c07f30d2f09f6340ae778f9336a33861b2ce180fbc59c8e226192f2eff004939fa8db2a0c0faf66bd489b51ae1d3e8c0034c04475af7db0",
+    "installedAt": 1727629705114
+  },
+  {
+    "platformId": "33829",
+    "name": "AnswerAndWin | Answer Questions, Win Coins, Buy Rewards!",
+    "version": "2.1.2",
+    "platform": "SPIGOTMC",
+    "sha256": "eff51e0829a55613e0b373d651a692de9c74a4568bdf67e63d5d1b7624123ccf",
+    "sha512": "3ad829dd39b4848c03c9a2187e3f47b6f0a2bdbfaa2723e748e3c074c692e3b83b760549e18be8f6c434c6da5943f07ce5a1abbce47b2b034e80e7910511a0c7",
+    "installedAt": 1727733649192
+  },
+  {
+    "platformId": "4216",
+    "name": "Jobs Reborn",
+    "version": "5.2.4.2",
+    "platform": "SPIGOTMC",
+    "sha256": "359cab8ca99a6d478f9b3f2f8500d788c974de59b2b8c66dd5ce46de0fd9d525",
+    "sha512": "e457b3a243a143c2cf8585f719a808d9038de4c67f58d0ac23d57c3f0bf66927268f254f6d4ef7ae7a3317416e9521190ca10768c9353f10d727b1664a5e6b0e",
+    "installedAt": 1727734952821
+  },
+  {
+    "platformId": "61693",
+    "name": "ExcellentEnchants 75+ Vanilla-like Enchantments",
+    "version": "4.2.1",
+    "platform": "SPIGOTMC",
+    "sha256": "4c9cae8269f64179b6314c818dc610756bb8cabf096b8e6974217194605ece92",
+    "sha512": "1b992285338ab1a910dc4dcc65aeb2438584f8a614e28cf0f8c5a751fbb8be55e212a996c0bce90a68fa6f6070cd88654cb4071d74d208be8e74c1cc5e28081e",
+    "installedAt": 1727892371621
+  }
+]

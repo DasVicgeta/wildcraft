@@ -1,0 +1,22 @@
+Name: '#6f1e1e&lI#841a1a&ln#981515&lf#ad1111&le#c10d0d&lr#d60909&ln#ea0404&lu#ff0000&ls &f&lKey'
+Virtual: false
+Item:
+  Material: RED_CANDLE
+  Name: '#6f1e1e&lI#841a1a&ln#981515&lf#ad1111&le#c10d0d&lr#d60909&ln#ea0404&lu#ff0000&ls &f&lKey'
+  Lore:
+  - '&7&l&m------------------------'
+  - '&7&l | &r&7Usalo en el warp crate'
+  - '&7&l | &r&7esta key se puede conseguir'
+  - '&7&l | &r&7en los kits o en la tienda'
+  - '&7&l&m------------------------'
+  Enchants:
+    aqua_affinity: 1
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  - HIDE_DESTROYS
+  - HIDE_PLACED_ON
+  - HIDE_POTION_EFFECTS
+  - HIDE_DYE
+  - HIDE_ARMOR_TRIM

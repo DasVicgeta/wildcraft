@@ -1,0 +1,34 @@
+World:
+  world:
+    # Oportunidad de la ubicación de la mitad de neg (predeterminado: 20% -> 0.2)
+    Half_Neg_location: 0.2
+    # chance to neg location (default: 50% -> 0.5)
+    Neg_location: 0.5
+    # set max range of the treasure (default: 30000 -> 0-30000)
+    Treasure_X_lower: 0
+    Treasure_X: 5000
+    Treasure_Z_lower: 0
+    Treasure_Z: 5000
+    # Detección del tesoro y
+    # Treasure Y Max significa si verifica el bloque Treasure_y a Treasure_y_max todavía tiene espacio
+    # Si no, cambiará otra posición para generar tesoro
+    Treasure_Y: 5
+    Treasure_Y_Max: 100
+    # send players information of the treasure setting (neg and pos)
+    # It means the message for players is random -30 to 30 range of the treasure real location
+    Range_X: 1
+    Range_Z: 1
+    # version 4.19
+    # (optional) override the chance of treasure
+    Treasure:
+      # whether override the chance
+      # if this set to true, must contain
+      # all the treasure type in below chance
+      override: true
+      # the chance list
+      chance:
+        common: 1.0
+        normal: 0.75
+        better: 0.5
+        perfect: 0.05
+        mystery: 0.01

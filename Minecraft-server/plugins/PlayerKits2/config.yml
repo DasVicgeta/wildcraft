@@ -1,0 +1,74 @@
+drop_items_if_full_inventory: false
+claim_kit_short_command: false
+close_inventory_on_claim: false
+kit_preview: true
+kit_preview_requires_kit_permission: false
+first_join_kit: none
+new_kit_default_save_mode_original: true
+new_kit_default_inventory: "main_inventory"
+new_kit_default_values:
+  cooldown: 43200
+  permission_required: false
+  actions:
+    claim:
+      1:
+        action: "playsound: BLOCK_NOTE_BLOCK_PLING;10;2"
+    error:
+      1:
+        action: "playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1"
+  display:
+    default:
+      id: ENDER_CHEST
+      name: "() &f&lKIT"
+      lore:
+        - '&dEste Kit Incluye:'
+        - ''
+        - '&d>> &7x1 Espada de Piedra'
+        - '&d>> &7x1 Pico de Piedra'
+        - '&d>> &7x1 Hacha de Piedra'
+        - '&d>> &7x1 Casco de Cuero'
+        - '&d>> &7x1 Pechera de Cuero'
+        - '&d>> &7x1 Pantalones de Cuero'
+        - '&d>> &7x1 Botas de Cuero'
+        - '&d>> &7x1 Escudo'
+        - '&d>> &7x32 Filetes Asados'
+        - '&d>> &7x1 Proteccion de 25x25'
+        - ''
+        - '&7Cooldown: &c1 hours'
+        - ''
+        - '&7(( &fClick Izquierdo &7para reclamar! ))'
+        - '&7(( &fClick Derecho &7para ver! ))'
+      item_flags:
+        - HIDE_ATTRIBUTES
+    no_permission:
+      id: BARRIER
+      name: "() &f&lKIT"
+      lore:
+      - ''
+      - '&7┃ Estatus: &cSin Permisos'
+      - '&7┃ Requieres: [] &f&lRank'
+      - ''
+      - '&8Compra el [] &8rank para reclamar'
+      - ''
+      - '&7(( &fClick derecho &7para ver))'
+    cooldown:
+      id: CLOCK
+      name: "() &f&lKIT"
+      lore:
+        - ''
+        - '&7┃ Estatus: &cCooldown Activo'
+        - '&7┃ Tiempo: &f%time%'
+        - ''
+        - '&7(( &f&oClick-Derecho &7&opara ver &r&7))'
+      item_flags:
+        - HIDE_ATTRIBUTES
+    
+player_data_save_time: 300
+update_notify: true
+mysql_database:
+  enabled: false
+  host: localhost
+  port: 3306
+  username: root
+  password: root
+  database: database

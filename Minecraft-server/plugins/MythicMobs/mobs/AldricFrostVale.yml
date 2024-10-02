@@ -1,0 +1,175 @@
+AldricFrostValeWarrior:
+  Type: IRON_GOLEM
+  Health: 1000
+  Damage: 0
+  Display: '&b&lAldric Frostvale'
+  Disguise: player tim21175152 setCustomName "&l&o&bAldric Frostvale" setSkin tim21175152 setCapeEnabled false
+  BossBar:
+    Enabled: true
+    Title: "&1&l――――――⥼ &b&lAldric Frostvale [Warrior Of Ice] &1&l⥽――――――" 
+    Color: BLUE
+    Style: SEGMENTED_12
+  Options:
+    PreventVanillaDamage: true
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    PreventSunburn: true
+    Silent: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 1
+  Equipment:
+  - trident HAND
+  - diamond_sword OFFHAND
+  DamageModifiers:
+  - ENTITY_ATTACK 0.75
+  - PROJECTILE 0.75
+  - MAGIC 0.75
+  - FIRE 0.0
+  - FIRE_TICK 0.0
+  - FALL 0.0
+  - LAVA 0.0
+  - HOT_FLOOR 0.0
+  Skills:
+  - remove @MobsInRadius{r=50;types=AldricSpawnAnimation2} ~onSpawn
+  - skill{s=AldricPhase2First} @self =10%-50% ~onTimer:20
+  - randomskill{skills=TridentThrow,CircleSlash,DaggerThrow} @self ~onTimer:40
+  - randomskill{skills=AldricAttack1,AldricAttack2,AldricAttack3,AldricAttackMain} @self ~onAttack
+  - sound{s=entity.wither.hurt;cd=5} @Self ~onDamaged
+  - effect:particles{particle=block;m=nether_wart_block;amount=20;hS=0.2;vS=1;y=1} @self ~onDamaged
+AldricFrostValeMage:
+  Type: IRON_GOLEM
+  Health: 1000
+  Damage: 0
+  Display: '&b&lAldric Frostvale'
+  Disguise: player tim21175152 setCustomName "&l&o&bAldric Frostvale" setSkin tim21175152 setCapeEnabled false
+  BossBar:
+    Enabled: true
+    Title: "&1&l――――――⥼ &b&lAldric Frostvale [The Ice Mage] &1&l⥽――――――" 
+    Color: BLUE
+    Style: SEGMENTED_12
+  Options:
+    PreventVanillaDamage: true
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    PreventSunburn: true
+    Silent: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 1
+  Equipment:
+  - nether_star HAND
+  DamageModifiers:
+  - ENTITY_ATTACK 0.75
+  - PROJECTILE 0.75
+  - MAGIC 0.75
+  - FIRE 0.0
+  - FIRE_TICK 0.0
+  - FALL 0.0
+  - LAVA 0.0
+  - HOT_FLOOR 0.0
+  Skills:
+  - skill{s=AldricDeath} @self ~onDeath
+  - barRemove{name="AldricBossBar"} @self ~onSpawn
+  - skill{s=AldricSpellAttack} @self ~onAttack
+  - randomskill{skills=AldricSpell1,AldricSpell2,AldricSpell3,AldricSpell4,AldricSpell5,AldricSpell6} @self ~onTimer:40
+  - damage{a=500} @self ~onSpawn
+  - sound{s=entity.wither.hurt;cd=5} @Self ~onDamaged
+  - effect:particles{particle=block;m=nether_wart_block;amount=20;hS=0.2;vS=1;y=1} @self ~onDamaged
+DaggerThrow:
+  Type: ARMOR_STAND
+  Equipment:
+  - diamond_sword HAND
+  Options:
+    Invincible: true
+    Invisible: true
+    Interactable: false
+    HasArms: true
+  Skills:
+AldricFrostVale:
+  Type: Zombie
+  Display: "&l&o&bCrystal Shard"
+  Disguise: Armor_stand
+  Equipment:
+  - PLAYER_HEAD{skullTexture=eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E1YTA3MTVjNjIxMjJkZWQ2NWFmNGVhZTA5NjlmMjNmNTcxYjBhZmE1MGNmOTNmYzllZTJhZjRjN2IzNGUxMiJ9fX0=} HEAD
+  Health: 40
+  Damage: 0
+  Armor: 2
+  Options:
+    PreventRandomEquipment: true
+    Invisible: true
+    PreventOtherDrops: true
+    Small: true
+    PreventItemPickup: true
+    PreventSunburn: true
+    Silent: true
+    MovementSpeed: 0
+    KnockbackResistance: 1
+    Collidable: false
+    Despawn: false
+    RepeatAllSkills: false
+    HealOnReload: true
+  DamageModifiers:
+  - SUFFOCATION 0  
+  Skills:
+  - effect:blockmask{m=lodestone;r=0.5;na=false;oa=true} @self ~onSpawn
+  - orbital{onTick=WintersAura-Tick;points=30;interval=1;duration=100;charges=1;oy=1;r=1;vy=6;rx=4} @self ~onSpawn
+  - effect:spin{duration=100;velocity=20} @self ~onSpawn
+  - orbital{onTick=WintersAura-Tick;points=30;interval=1;duration=100;charges=1;oy=1;r=1;vy=6;rx=4} @self ~onTimer:100
+  - effect:spin{duration=100;velocity=20} @self ~onTimer:100
+  - skill{s=AldricSpawn} @self ~onDamaged
+AldricSpawnAnimation:
+  Type: ARMOR_STAND
+  Equipment:
+  Options:
+    Invisible: true
+    Interactable: false
+    HasArms: true
+  Skills:
+  - skill{s=AldricSpawn2} @self ~onSpawn
+AldricSpawnAnimation2:
+  Type: RABBIT
+  Health: 100
+  BossBar:
+    Enabled: true
+    Title: "&1&l――――――⥼ &b&lAldric Frostvale [Warrior Of Ice] &1&l⥽――――――" 
+    Color: BLUE
+    Style: SEGMENTED_12
+  Equipment:
+  Options:
+    MovementSpeed: 0
+    Invisible: true
+    Interactable: false
+    HasArms: true
+  Skills:
+  - damage{a=99} @self ~onSpawn
+  - heal{amount=1;repeat=100;repeatinterval=1} @self ~onSpawn
+AldricSpawnAnimation3:
+  Type: ARMOR_STAND
+  Disguise: player tim21175152 setCustomName "&l&o&bAldric Frostvale" setSkin tim21175152 setCapeEnabled false
+  Equipment:
+  Options:
+    Invincible: true
+    Interactable: false
+    HasArms: true
+  Skills:
+AldricPhase2Animation:
+  Type: ARMOR_STAND
+  Disguise: player tim21175152 setCustomName "&l&o&bAldric Frostvale" setSkin tim21175152 setCapeEnabled false
+  Equipment:
+  Options:
+    Invincible: true
+    Interactable: false
+    HasArms: true
+  Skills:
+  - skill{s=AldricPhase2Second} @self ~onSpawn
+AldricDeath:
+  Type: ARMOR_STAND
+  Disguise: player tim21175152 setCustomName "&l&o&bAldric Frostvale" setSkin tim21175152 setCapeEnabled false
+  Equipment:
+  Options:
+    Invincible: true
+    Interactable: false
+    HasArms: true
+  Skills:
+  - skill{s=AldricDeath2} @self ~onSpawn

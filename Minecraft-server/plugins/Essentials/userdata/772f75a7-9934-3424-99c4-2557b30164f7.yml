@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1727827684840
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1727828840735
+  login: 1727828042016
+money: '1120.27185000000020276'
+last-account-name: saquiador3000
+lastlocation:
+  world: d5faa8ea-a405-4370-a41e-399ab3c3851e
+  world-name: spawn
+  x: 325.3144985444401
+  y: 101.0
+  z: -5.993152223674288
+  yaw: 99.18096923828125
+  pitch: 3.046985149383545
+logoutlocation:
+  world: d5faa8ea-a405-4370-a41e-399ab3c3851e
+  world-name: spawn
+  x: 368.74726752921055
+  y: 102.1959188364883
+  z: -21.855587696960008
+  yaw: 34.1142578125
+  pitch: 7.675246715545654
+homes:
+  home:
+    world: 33c20ce9-2ab2-4130-8336-a42456721a34
+    world-name: world
+    x: -447.4275047859459
+    y: -21.0
+    z: 200.36538726715173
+    yaw: 2.19964599609375
+    pitch: 29.282594680786133

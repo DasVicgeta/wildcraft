@@ -1,0 +1,221 @@
+quests:
+  1:
+    name: "#f07818Hora de Mejorar"
+    menu_item: NETHERITE_PICKAXE
+    description:
+      - "&8Adéntrate en las profundidades y extrae"
+      - "&83 escombros ancestrales"
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#F4D160&l▪ #75C2F6Extraer #F4D1603 #75C2F6escombros ancestrales."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D1601000 #75C2F6XPs"
+      - "#FBEEAC▪ #F4D1601000 #75C2F6Dinero"
+      - "#FBEEAC▪ #F4D16010 #75C2F6Monedas"
+      - ""
+    quest_type: BREAK
+    required_item: ANCIENT_DEBRIS
+    required_amount: 3
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1000 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "coins give %player_name% 10"
+  2:
+    name: "#f07818Los Caballeros Oscuros"
+    menu_item: NETHERITE_SWORD
+    description:
+      - "&8Participa en la batalla y derrota a 5 esqueletos wither,"
+      - "&8demostrando tu destreza como guerrero."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#F4D160&l▪ #75C2F6Matar #F4D1605 #75C2F6esqueletos wither."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D1601250 #75C2F6XPs"
+      - "#FBEEAC▪ #F4D1605000 #75C2F6Dinero"
+      - "#FBEEAC▪ #F4D16010 #75C2F6Monedas"
+      - ""
+    quest_type: KILL
+    required_entity: WITHER_SKELETON
+    required_amount: 5
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1250 %player_name% -s"
+        - "eco give %player_name% 5000"
+        - "coins give %player_name% 10"
+  3:
+    name: "#f07818Los Gritos y el Horror"
+    menu_item: NETHERITE_SWORD
+    description:
+      - "&8Enfréntate y derrota a 5 endermans,"
+      - "&8enfrentándote a estas criaturas espeluznantes con valentía."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#F4D160&l▪ #75C2F6Matar #F4D1605 #75C2F6endermans."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D160500 #75C2F6XPs"
+      - "#FBEEAC▪ #F4D1601000 #75C2F6Dinero"
+      - "#FBEEAC▪ #F4D16010 #75C2F6Monedas"
+      - ""
+    quest_type: KILL
+    required_entity: ENDERMAN
+    required_amount: 5
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 500 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "coins give %player_name% 10"
+  4:
+    name: "#f07818Aquaman"
+    menu_item: NETHERITE_SWORD
+    description:
+      - "&8Sumérgete en las profundidades y elimina"
+      - "&83 guardianes ancianos, demostrando tus habilidades"
+      - "&8de combate bajo el agua."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#F4D160&l▪ #75C2F6Matar #F4D1603 #75C2F6guardianes ancianos."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D1601500 #75C2F6XPs"
+      - "#FBEEAC▪ #F4D1605000 #75C2F6Dinero"
+      - "#FBEEAC▪ #F4D16010 #75C2F6Monedas"
+      - ""
+    quest_type: KILL
+    required_entity: ELDER_GUARDIAN
+    required_amount: 3
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1500 %player_name% -s"
+        - "eco give %player_name% 5000"
+        - "coins give %player_name% 10"
+  5:
+    name: "#f07818El Destructor"
+    menu_item: NETHERITE_SWORD
+    description:
+      - "&8Enfréntate al temible wither y emerge victorioso,"
+      - "&8demostrando tu fuerza y coraje."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#F4D160&l▪ #75C2F6Matar #F4D1601 #75C2F6Wither."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D1601000 #75C2F6XPs para TODOS."
+      - "#FBEEAC▪ #F4D1605000 #75C2F6Dinero"
+      - "#FBEEAC▪ #F4D16010 #75C2F6Monedas"
+      - ""
+    quest_type: KILL
+    required_entity: WITHER
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "eco give %player_name% 1000"
+        - "xp add @a 1000"
+        - "title @a title \"%player% ha derrotado al Wither!\""
+        - "coins give %player_name% 10"
+  6:
+    name: "#f07818Calamardo"
+    menu_item: NETHERITE_SWORD
+    description:
+      - "&8Desafía y derrota a un evocador,"
+      - "&8demostrando tu habilidad en combate"
+      - "&8contra adversarios místicos."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#F4D160&l▪ #75C2F6Matar #F4D1601 #75C2F6evocador."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D1601000 #75C2F6XPs"
+      - "#FBEEAC▪ #F4D1601000 #75C2F6Dinero"
+      - "#FBEEAC▪ #F4D16010 #75C2F6Monedas"
+      - ""
+    quest_type: KILL
+    required_entity: EVOKER
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1000 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "coins give %player_name% 10"
+  7:
+    name: "#f07818Cazando al Rinoceronte"
+    menu_item: NETHERITE_SWORD
+    description:
+      - "&8Participa en una feroz batalla y derrota a un devastador,"
+      - "&8demostrando tu habilidad para vencer a enemigos poderosos."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#F4D160&l▪ #75C2F6Matar #F4D1601 #75C2F6devastador."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D1601500 #75C2F6XPs"
+      - "#FBEEAC▪ #F4D1605000 #75C2F6Dinero"
+      - "#FBEEAC▪ #F4D16010 #75C2F6Monedas"
+      - ""
+    quest_type: KILL
+    required_entity: RAVAGER
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1500 %player_name% -s"
+        - "eco give %player_name% 5000"
+        - "coins give %player_name% 10"
+  8:
+    name: "#f07818Demasiado Frío"
+    menu_item: BLUE_ICE
+    description:
+      - "&8Domina el arte de la elaboración creando"
+      - "&8un trozo de hielo azul, demostrando"
+      - "&8tu ingenio y conocimiento."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#F4D160&l▪ #75C2F6Crear #F4D1601 #75C2F6hielo azul."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D160250 #75C2F6XPs"
+      - "#FBEEAC▪ #F4D1601000 #75C2F6Dinero"
+      - "#FBEEAC▪ #F4D16010 #75C2F6Monedas"
+      - ""
+    quest_type: CRAFT
+    required_item: BLUE_ICE
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 250 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "coins give %player_name% 10"
+  9:
+    name: "#f07818Pesca Milagrosa"
+    menu_item: FISHING_ROD
+    description:
+      - "&8Demuestra tu habilidad en la pesca capturando"
+      - "&8un pez tropical, exhibiendo tu destreza."
+      - ""
+      - "#F4D160&lObjetivos:"
+      - "#F4D160&l▪ #75C2F6Atrapar #F4D1601 #75C2F6pez tropical."
+      - ""
+      - "#F4D160&lRecompensas:"
+      - "#FBEEAC▪ #F4D1601000 #75C2F6XPs"
+      - "#FBEEAC▪ #F4D1601000 #75C2F6Dinero"
+      - "#FBEEAC▪ #F4D16010 #75C2F6Monedas"
+      - ""
+    quest_type: FISH
+    required_item: TROPICAL_FISH
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "xp add 1000 %player_name% -s"
+        - "eco give %player_name% 1000"
+        - "coins give %player_name% 10"

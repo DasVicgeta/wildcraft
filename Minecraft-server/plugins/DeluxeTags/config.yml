@@ -1,0 +1,451 @@
+# DeluxeTags version: 1.8.2-Release Main Configuration
+#
+# Create your tags using the following format:
+#
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+#
+# Placeholders for your chat plugin that supports PlaceholderAPI (Including DeluxeChat)
+#
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+#
+# Placeholders for your essentials/chat handling formats config:
+#
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+
+legacy_hex: false
+papi_chat: true
+# DeluxeTags version: 1.8.1 Main Configuration
+#
+# Create your tags using the following format:
+#
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+#
+# Placeholders for your DeluxeChat formats config:
+#
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+#
+# Placeholders for your essentials/chat handling formats config:
+#
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+force_tags: false
+check_updates: true
+deluxe_chat: false
+format_chat:
+  enabled: false
+  format: '{deluxetags_tag} <%1$s> %2$s'
+load_tag_on_join: true
+gui:
+  next_page:
+    material: PAPER
+    data: 0
+    displayname: '&6Next page: %page%'
+    lore:
+    - '&7Move to the next page'
+  previous_page:
+    material: PAPER
+    data: 0
+    displayname: '&6Previous page: %page%'
+    lore:
+    - '&7Move to the previous page'
+  name: '&8▪ %deluxetags_amount% tags disponibles'
+  tag_select_item:
+    material: NAME_TAG
+    data: 0
+    displayname: '&8▪ &7Tag &8►► &7%deluxetags_tag%'
+    lore:
+    - ''
+    - ' &f¿Quieres verte mas genial? Selecciona un tag!'
+    - ' &fAl usar este tag, automaticamente se mostrara'
+    - '&fcada vez que escribas en el &a&lCHAT&f del servidor.'
+    - ''
+    - '&3▪ &b¡Click izquierdo para seleccionar! &3▪'
+  divider_item:
+    material: STAINED_GLASS_PANE
+    data: 15
+    displayname: ''
+    lore: []
+  has_tag_item:
+    material: EMERALD
+    data: 0
+    displayname: '&8▪ &7Tag &8►► %deluxetags_tag%'
+    lore:
+    - '&7▪ &f¡Click para remover tu tag! &7▪'
+  no_tag_item:
+    material: EMERALD
+    data: 0
+    displayname: '&8▪ &7Tag &8►► &aNinguno!'
+    lore:
+    - '&7▪ &f¡Selecciona algun tag! &7▪'
+  exit_item:
+    material: FEATHER
+    data: 0
+    displayname: '&8'
+    lore:
+    - '&8▪ &7¡Click para salir del menu! &8▪'
+    - '&8'
+deluxetags:
+  '1':
+    order: 1
+    tag: '&6&ki&8(&e&6♛&8)&6&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.1
+  '2':
+    order: 2
+    tag: '&e&ki&8(&e&e☆&8)&e&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.2
+  '3':
+    order: 3
+    tag: '&7&ki&8(&e&7●&8)&7&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.3
+  '4':
+    order: 4
+    tag: '&d&ki&8(&e&d❤&8)&d&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.4
+  '5':
+    order: 5
+    tag: '&a&ki&8(&e&a✦&8)&a&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.5
+  '6':
+    order: 6
+    tag: '&b&ki&8(&e&b❦&8)&b&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.6
+  '7':
+    order: 7
+    tag: '&a&ki&8(&e&a☠&8)&a&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.7
+  '8':
+    order: 8
+    tag: '&f&ki&8(&e&f☃&8)&f&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.8
+  '9':
+    order: 9
+    tag: '&0&ki&8(&0☯&8)&0&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.9
+  '10':
+    order: 10
+    tag: '&c&ki&8(&e&c✪&8)&c&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.10
+  '11':
+    order: 11
+    tag: '&6&ki&8(&e&6✵&8)&6&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.11
+  '12':
+    order: 12
+    tag: '&7&ki&8(&e&7❖&8)&7&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.12
+  '13':
+    order: 13
+    tag: '&3&ki&8(&e&3✈&8)&3&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.13
+  '14':
+    order: 14
+    tag: '&2&ki&8(&e&2♠&8)&2&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.14
+  '15':
+    order: 15
+    tag: '&b&ki&8(&e&bツ&8)&b&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.15
+  '16':
+    order: 16
+    tag: '&d&ki&8(&d&d✿&8)&d&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.16
+  '17':
+    order: 17
+    tag: '&5&ki&8(&e&5✚&8)&5&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.17
+  '18':
+    order: 18
+    tag: '&c&ki&8(&e&c✘&8)&c&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.18
+  '19':
+    order: 19
+    tag: '&a&ki&8(&e&a✔&8)&a&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.19
+  '20':
+    order: 20
+    tag: '&9&ki&8(&e&9✇&8)&9&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.20
+  '21':
+    order: 21
+    tag: '&e&ki&8(&e&e✡&8)&e&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.21
+  '22':
+    order: 22
+    tag: '&d&ki&8(&e&d❥&8)&d&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.22
+  '23':
+    order: 23
+    tag: '&f&ki&8(&e&f➲&8)&f&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.23
+  '24':
+    order: 24
+    tag: '&3&ki&8(&e&3☽&8)&3&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.24
+  '25':
+    order: 25
+    tag: '&a&ki&8(&a&lGG&8)&a&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.25
+  '26':
+    order: 26
+    tag: '&b&ki&8(&e&b&l69&8)&b&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.26
+  '27':
+    order: 27
+    tag: '&d&ki&8(&e&d&lGOD&8)&d&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.27
+  '28':
+    order: 28
+    tag: '&3&ki&8(&3&leZ&8)&3&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.28
+  '29':
+    order: 29
+    tag: '&f&ki&8(&e&f&lTOP&8)&f&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.29
+  Media:
+    order: 30
+    tag: '&f&ki&8(&e&f&lMEDIA&8)&f&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.media
+  Multi:
+    order: 31
+    tag: '&d&ki&8(&e&d&lMULTI&8)&d&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.multi
+  '120':
+    order: 32
+    tag: '&b&ki&8(&e&b&l+120&8)&b&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.mas120
+  '400':
+    order: 33
+    tag: '&3&ki&8(&3&3&l+400&8)&3&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.mas400
+  '700':
+    order: 34
+    tag: '&a&ki&8(&3&a&l+700&8)&a&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.mas700
+  uwu:
+    order: 35
+    tag: '&5&ki&8(&d&d&luwu&8)&5&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.uwu
+  7u7:
+    order: 36
+    tag: '&7&ki&8(&d&f&l7u7&8)&7&ki&e'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.7u7
+  Snow:
+    order: 37
+    tag: '&b♛ &b&ki&8[&b&lS&f&lN&b&lOW&8]&b&ki&e &b♛'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.Snow
+  Lighter:
+    order: 38
+    tag: '&6★ &6&ki&8[&e&lLI&f&lGH&e&lTER&8]&6&ki&e &6★'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.Lighter
+  Iron:
+    order: 39
+    tag: '&5♛ &5&ki&8[&d&lI&f&lR&d&lON&8]&5&ki&e &5♛'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.Iron
+  Rock:
+    order: 40
+    tag: '&7♛ &f&ki&8[&a&l&7&lRO&f&lC&7&lK&8]&f&ki&f &7♛'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.Rock
+  Doradas:
+    order: 41
+    tag: '&6▴ &e&ki&8[&6&LDO&e&lRA&6&lDAS&8]&e&ki&e &6▴'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.Doradas
+  Khaleesi:
+    order: 42
+    tag: '&3♛ &3&ki&8[&b&lKHAL&f&lEE&b&lSI&8]&3&ki&e &3♛'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.Khaleesi
+  Ultimate:
+    order: 43
+    tag: '&a♆ &a&ki&8[&a&lULT&2&lIM&a&lATE&8]&a&ki&e &a♆'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.Ultimate
+  Power:
+    order: 44
+    tag: '&c♛ &c&ki&8[&c&lPOWER&8]&c&ki&e &c♛'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.Power
+  Eclipse:
+    order: 45
+    tag: '&d☸ &d&ki&8[&d&lECL&f&lIP&d&lSE&8]&d&ki&e &d☸'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.Eclipse
+  Day1:
+    order: 46
+    tag: '&f☸ &f&ki&8[&b&lD&f&lA&a&lY&e&l#&d&l1&8]&f&ki&e &f☸'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.day1
+  Hyper:
+    order: 47
+    tag: '&3▣ &3&ki&8[&b&lH&f&lY&b&lPER&8]&3&ki&e &3▣'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.hyper
+  Tryhard:
+    order: 48
+    tag: '&3♛ &3&ki&8[&b&lTR&f&lYH&3&lA&b&lRD&8]&3&ki&e &3♛'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.tryhard
+  '2021':
+    order: 49
+    tag: '&a♛ &a&ki&8[&a&l2021&8]&a&ki&e &a♛'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.2021
+  Buy:
+    order: 50
+    tag: '&b☸ &3&ki&8[&b&lBU&f&lY&8]&3&ki&e &b☸'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.buy
+  Star:
+    order: 51
+    tag: '&e♛ &e&ki&8[&f&lST&e&lAR&8]&e&ki&e &e♛'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.star
+  R3kt:
+    order: 52
+    tag: '&6♛ &6&ki&8[&e&lR&6&l3&e&lKT&8]&6&ki&e &6♛'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.r3kt
+  Glory:
+    order: 53
+    tag: '&2♛ &2&ki&8[&a&lG&f&lL&a&lO&f&lR&a&lY&8]&2&ki&e &2♛'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.Glory
+  Lucifer:
+    order: 54
+    tag: '&5♛ &5&ki&8[&d&lLUCI&f&lFER&8]&5&ki&e &5♛'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.lucifer
+  Moon:
+    order: 55
+    tag: '&3♆ &3&ki&8[&3&lMOON&8]&3&ki&e &3♆'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.Moon
+  Castle:
+    order: 56
+    tag: '&a♛ &a&ki&8[&2&l&a&lCA&2&lST&a&lLE&8]&a&ki&e &a♛'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.Castle
+  Universe:
+    order: 57
+    tag: '&5♛ &5&ki&8[&d&lUNIV&f&lER&d&lSE&8]&5&ki&e &5♛'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.Universe
+  boost:
+    order: 58
+    tag: '&5♛ &5&ki&8[&d&lBOOST&8]&5&ki&e &5♛'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.boost
+  mexico:
+    order: 59
+    tag: '&a￫ &a&ki&e&8[&a&lM&f&lE&c&lX&8]&a&ki&e &a￩'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.mexico
+  colombia:
+    order: 60
+    tag: '&6￫ &e&ki&e&8[&e&lC&b&lO&c&lL&8]&e&ki&e &6￩'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.colombia
+  venezuela:
+    order: 61
+    tag: '&6￫ &e&ki&e&8[&e&lV&b&lN&c&lZ&8]&e&ki&e &6￩'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.venezuela
+  peru:
+    order: 62
+    tag: '&4￫ &c&ki&e&8[&c&lP&f&lE&c&lR&8]&c&ki&e &4￩'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.peru
+  argentina:
+    order: 63
+    tag: '&3￫ &3&ki&e&8[&b&lA&f&lR&b&lG&8]&3&ki&e &3￩'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.argentina
+  esp:
+    order: 64
+    tag: '&c￫ &c&ki&e&8[&c&lE&e&lS&c&lP&8]&c&ki&e &c￩'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.esp
+  ecuador:
+    order: 65
+    tag: '&6￫ &e&ki&e&8[&e&lE&1&lC&4&lU&8]&e&ki&e &6￩'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.ecuador
+  chile:
+    order: 66
+    tag: '&3￫ &b&ki&e&8[&b&lC&f&lH&c&lL&8]&b&ki&e &3￩'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.chile
+  costarica:
+    order: 67
+    tag: '&b￫ &b&ki&e&8[&b&lC&f&lR&c&lI&8]&b&ki&e &b￩'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.costarica
+  puertorico:
+    order: 68
+    tag: '&3￫ &3&ki&e&8[&b&lP&f&lR&c&lI&8]&3&ki&e &3￩'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.puertorico
+  uruguay:
+    order: 69
+    tag: '&3￫ &3&ki&e&8[&f&lU&b&lR&f&lU&8]&3&ki&e &3￩'
+    description: '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.uruguay
